@@ -1,0 +1,53 @@
+pre code.hljs {
+  padding-top: 0em !important;
+  padding-right: 0em !important;
+  padding-bottom: 0em !important;
+}
+
+pre, code, .hljs {
+  overflow-y: hidden !important;
+  scrollbar-width: thin;
+  scrollbar-gutter: stable both-edges !important;
+}
+
+/* h1, h2 {
+  font-weight: bold !important;
+  color: #464a4c !important;
+} */
+.container, .entry-text {
+  min-height: 100vh !important;
+}
+
+.hljs {
+  background: unset !important;
+  /* font-size: 14px; */
+  /* color: black !important; */
+  color: #ad0008 !important;
+  font-size: unset !important;
+  /* font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important; */
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", "Noto Mono", monospace !important;
+  border-left: 4px solid #f9e2e2 !important;
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 3.5rem !important;
+  }
+
+  h2 {
+    font-size: 2.5rem !important;
+  }
+}
+
+code.hljs>span.hljs-string {
+  color: #008000 !important;
+}
+
+.linkable-title {
+  text-decoration: none !important;
+  color: unset !important;
+}
+
+h5 {
+  cursor: text !important;
+}

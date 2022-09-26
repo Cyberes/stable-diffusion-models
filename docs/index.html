@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>
+    Stable Diffusion Textual Inversion Models
+  </title>
+  <meta content="no-cache, no-store, must-revalidate" http-equiv="Cache-Control" />
+  <meta content="no-cache" http-equiv="Pragma" />
+  <meta content="0" http-equiv="Expires" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="assets/bootstrap-modified.css" />
+  <link rel="stylesheet" href="index.js" />
+
+  <script crossorigin="anonymous" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js">
+  </script>
+  <script crossorigin="anonymous" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+  <!-- <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" rel="stylesheet" /> -->
+
+  <link href="/stable-diffusion-models/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
+  <link href="/stable-diffusion-models/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" />
+  <link href="/stable-diffusion-models/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" />
+  <link href="/stable-diffusion-models/site.webmanifest" rel="manifest" />
+  <link color="#ee9321" href="/stable-diffusion-models/safari-pinned-tab.svg" rel="mask-icon" />
+  <link href="favicon.ico" rel="shortcut icon" />
+  <meta content="#ee9321" name="msapplication-TileColor" />
+  <meta content="/stable-diffusion-models/browserconfig.xml" name="msapplication-config" />
+  <meta content="#ee9321" name="theme-color" />
+
+  <!-- Matomo -->
+  <!-- Open-source, self hosted, private analytics. No third parties involved. -->
+  <script>
+    var _paq = window._paq = window._paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    _paq.push(['trackVisibleContentImpressions']);
+    _paq.push(['enableHeartBeatTimer']);
+    (function() {
+      var u = "https://mato.evulid.cc/";
+      _paq.push(['setTrackerUrl', u + 'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d = document,
+        g = d.createElement('script'),
+        s = d.getElementsByTagName('script')[0];
+      g.async = true;
+      g.src = u + 'matomo.js';
+      s.parentNode.insertBefore(g, s);
+    })();
+  </script>
+  <noscript>
+    <p><img src="https://mato.evulid.cc/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p>
+  </noscript>
+  </noscript>
+  <!-- End Matomo Code -->
+
+</head>
+
+<body class="m-0 p-0">
+  <div class="container container-smooth">
+    <div class="row no-gutters">
+      <div class="col-12">
+        <div class="row no-gutters">
+          <div class="col-12 long-words">
+            <div class="entry-text my-2 px-2 px-sm-4" style="min-height: 15rem; padding-top:0.1px; padding-bottom:0.1px">
+              <article>
+
+                <h1 id="stable-diffusion-models" class="md-center h-align">
+                  <span class="md-align md-center">
+                    <code>Stable Diffusion Models</code>
+                  </span>
+                </h1>
+
+                <h2 id="quick-easy-torrent-downloading" class="text-center" data-content-name="Quick & Easy Torrent Downloading" data-content-piece="Section" data-track-content>
+                  <a class="linkable-title" href="#quick-easy-torrent-downloading" title="Permanent link">Quick & Easy Torrent Downloading</a>
+                </h2>
+                <pre class="click-element" data-name="apt install -y aria2c"><code class="language-bash">apt update
+apt install -y aria2
+aria2c "&lt;magnet URL here&gt;"</code></pre>
+
+                <h2 id="models" class="text-center" data-content-name="Models" data-content-piece="Section" data-track-content>
+                  <a class="linkable-title" href="#models" title="Permanent link">Models</a>
+                </h2>
+
+                <h3 id="standard-model">
+                  <a class="linkable-title" href="#standard-model" title="Permanent link">Standard Model</a>
+                </h3>
+                <p>
+                  <strong>Torrent</strong>
+                </p>
+                <pre class="dl-link" data-name="Torrent sd-v1-4.ckpt"><code class="language-text">magnet:?xt=urn:btih:3A4A612D75ED088EA542ACAC52F9F45987488D1C&tr=udp://tracker.opentrackr.org:1337</code></pre>
+                <p>
+                  <strong>Web Download</strong>
+                </p>
+                <p>
+                  Download from HuggingFace. Fast, global CDN but you need to get access to the model repository and provide your user token.
+                </p>
+                <pre class="dl-link"
+                  data-name="HuggingFace sd-v1-4.ckpt"><code class="language-bash">wget --header="'Authorization: Bearer &lt;user_token&gt;'" https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt -O sd-v1-4.ckpt</code></pre>
+                <p>
+                  Alternatively, you could use this Google Drive link that the author of the WebUI shared:
+                </p>
+                <pre class="dl-link" data-name="Google Drive sd-v1-4.ckpt"><code class="language-text">https://drive.google.com/file/d/1wHFgl0ivCmIZv88hVZXkb8oy9qCuaBGA/view</code></pre>
+
+                <h3 id="waifu-diffusion">
+                  <a class="linkable-title" href="#waifu-diffusion" title="Permanent link">Waifu Diffusion</a>
+                </h3>
+                <p>
+                  Trained on Danbooru, slightly NSFW.
+                </p>
+                <p>
+                  <strong>Half-Size Model</strong>
+                </p>
+                <p>
+                  The full-size model was pruned to produce this model. Some people swear there's a minor shift of output vs EMA model but it really doesn't matter.
+                </p>
+                <pre class="dl-link"
+                  data-name="Torrent wd-v1-2-full-ema-pruned.ckpt"><code class="language-text">magnet:?xt=urn:btih:153590FD7E93EE11D8DB951451056C362E3A9150&dn=wd-v1-2-full-ema-pruned.ckpt&tr=udp://tracker.opentrackr.org:1337</code></pre>
+                <p>
+                  <strong>Full-Size Model</strong>
+                </p>
+                <pre class="dl-link" data-name="Torrent wd-v1-2-full-ema.ckpt"><code class="language-text">magnet:?xt=urn:btih:F45CECF4E9DE86DA83A78DD2CCCD7F27D5557A52&tr=udp://nyquist.localghost.org:6969</code></pre>
+                <p>
+                  <strong>Web Download</strong>
+                </p>
+                <p>
+                  Very slow.
+                </p>
+                <pre class="dl-link" data-name="WebDL wd-v1-2-full-ema.ckpt"><code class="language-text">https://thisanimedoesnotexist.ai/downloads/wd-v1-2-full-ema.ckpt</code></pre>
+
+                <h3 id="wd-v12-and-sd-v14-merged">
+                  <a class="linkable-title" href="#wd-v12-and-sd-v14-merged" title="Permanent link">WD v1.2 and SD v1.4 Merged</a>
+                </h3>
+                <p>
+                  WD merged back into SD. I don't know what the weights are.
+                </p>
+                <pre class="dl-link"
+                  data-name="Torrent wd1-2_sd1-4_merged.ckpt"><code class="language-text">magnet:?xt=urn:btih:UFIV4BI4MGWFLZSKPFQ5VFLNYL24ADUQ&dn=wd1-2_sd1-4_merged.ckpt&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce</code></pre>
+
+                <h3 id="trinart_stable_diffusion_v2">
+                  <a class="linkable-title" href="#trinart_stable_diffusion_v2" title="Permanent link">trinart_stable_diffusion_v2</a>
+                </h3>
+                <p>
+                  Another anime finetune.
+                </p>
+                <p>
+                  The 60,000 steps version is the original, the 115,000 and 95,000 versions is the 60,000 with additional training. Use the 60,000 step version if the style nudging is too much.
+                </p>
+                <p>
+                  <a href="#model-comparison" onclick="_paq.push(['trackEvent', 'Generic Click', 'Internal Link', '#model-comparison']);">See the comparison below.</a>
+                </p>
+                <h5>
+                  60,000 Steps
+                </h5>
+                <p>
+                  <strong>Torrent</strong>
+                </p>
+                <pre class="dl-link" data-name="Torrent trinart2_step60000.ckpt"><code class="language-text">coming soon</code></pre>
+                <p>
+                  <strong>Web Download</strong>
+                </p>
+                <pre class="dl-link" data-name="HuggingFace trinart2_step60000.ckpt"><code class="language-text">https://huggingface.co/naclbit/trinart_stable_diffusion_v2/resolve/main/trinart2_step60000.ckpt</code></pre>
+                <h5>
+                  95,000 Steps
+                </h5>
+                <p>
+                  <strong>Torrent</strong>
+                </p>
+                <pre class="dl-link" data-name="Torrent trinart2_step95000.ckpt"><code class="language-text">coming soon</code></pre>
+                <p>
+                  <strong>Web Download</strong>
+                </p>
+                <pre class="dl-link" data-name="HuggingFace trinart2_step95000.ckpt"><code class="language-text">https://huggingface.co/naclbit/trinart_stable_diffusion_v2/resolve/main/trinart2_step95000.ckpt</code></pre>
+                <h5>
+                  115,000 Steps
+                </h5>
+                <p>
+                  <strong>Torrent</strong>
+                </p>
+                <pre class="dl-link" data-name="Torrent trinart2_step115000.ckpt"><code class="language-text">coming soon</code></pre>
+                <p>
+                  <strong>Web Download</strong>
+                </p>
+                <pre class="dl-link" data-name="HuggingFace trinart2_step115000.ckpt"><code class="language-text">https://huggingface.co/naclbit/trinart_stable_diffusion_v2/resolve/main/trinart2_step115000.ckpt</code></pre>
+
+                <h2 id="upscalers" class="text-center" data-content-name="Upscalers" data-content-piece="Section" data-track-content>
+                  <a class="linkable-title" href="#upscalers" title="Permanent link">Upscalers</a>
+                </h2>
+
+                <h3 id="lollypop">
+                  <a class="linkable-title" href="#lollypop" title="Permanent link">Lollypop</a>
+                </h3>
+                <p>
+                  For anthropomorphic figures.
+                </p>
+                <pre class="dl-link" data-name="Torrent lollypop.pth"><code class="language-text">magnet:?xt=urn:btih:JDZHD4PQVPHJU35C32GRJMSLYSR7YRHS&dn=lollypop.pth&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce</code></pre>
+
+                <h3 id="remacri-upscaler">
+                  <a class="linkable-title" href="#remacri-upscaler" title="Permanent link">Remacri Upscaler</a>
+                </h3>
+                <p>
+                  For landscapes.
+                </p>
+
+                <h3 id="swinir">
+                  <a class="linkable-title" href="#swinir" title="Permanent link">SwinIR</a>
+                </h3>
+                <p>
+                  According to the developers, SwinIR achieves:
+                </p>
+                <blockquote>
+                  <p>State-of-the-art performance in bicubic/lighweight/real-world image SR, grayscale/color image denoising, grayscale/color JPEG compression artifact reduction.</p>
+                </blockquote>
+                <p>
+                  <a class="dl-link" data-name="GitHub SwinIR Releases" href="https://github.com/JingyunLiang/SwinIR/releases" rel="nofollow noopener">Get it on GitHub &gt;</a>
+                </p>
+
+                <h2 id="face-restorers" class="text-center" data-content-name="Face Restorers" data-content-piece="Section" data-track-content>
+                  <a class="linkable-title" href="#face-restorers" title="Permanent link">Face Restorers</a>
+                </h2>
+                <h3 id="gfpgan">
+                  GFPGAN
+                  <a class="linkable-title" href="#gfpgan" title="Permanent link">GFPGAN</a>
+                </h3>
+                <blockquote>
+                  <p>GFPGAN aims at developing Practical Algorithms for Real-world Face Restoration.</p>
+                </blockquote>
+                <a class="dl-link" data-name="GitHub GFPGAN Releases" href="https://github.com/TencentARC/GFPGAN/releases" rel="nofollow noopener">Get it on GitHub &gt;</a>
+
+                <h2 id="textual-inversion" class="text-center" data-content-name="Textual Inversion" data-content-piece="Section" data-track-content>
+                  <a class="linkable-title" href="#textual-inversion" title="Permanent link">Textual Inversion</a>
+                </h2>
+                <center>
+                  <p>
+                    <a href="https://github.com/Cyberes/stable-diffusion-textual-inversion-models/actions/workflows/generate_static_html.yml">
+                      <img src="https://github.com/Cyberes/stable-diffusion-textual-inversion-models/actions/workflows/generate_static_html.yml/badge.svg">
+                    </a>
+                  </p>
+                </center>
+                <p>
+                  HuggingFace publishes community-submitted textual inversion models. I created a seperate page to preview and download them.
+                </p>
+                <p><a href="https://cyberes.github.io/stable-diffusion-textual-inversion-models/" rel="nofollow noopener">https://cyberes.github.io/stable-diffusion-textual-inversion-models</a></p>
+                <p>
+                  It updates automatically twice a day.
+                </p>
+
+                <h2 id="model-comparison" class="text-center" data-content-name="Model Comparison" data-content-piece="Section" data-track-content>
+                  <a class="linkable-title" href="#model-comparison" title="Permanent link">Model Comparison</a>
+                </h2>
+                <h3 id="anime-model-comparison">
+                  <a class="linkable-title" href="#anime-model-comparison" title="Permanent link">Anime Model Comparison</a>
+                </h3>
+                <p>
+                  <img alt="Anime Model Comparison" src="assets/anime-model-comparison.jpg" title="Anime Model Comparison">
+                </p>
+                <h3 id="waifu-diffusion-ema-vs-pruned">
+                  <a class="linkable-title" href="#waifu-diffusion-ema-vs-pruned" title="Permanent link">Waifu Diffusion EMA vs Pruned</a>
+                </h3>
+                <p>
+                  <img alt="Waifu Diffusion EMA vs Pruned" referrerpolicy="same-origin" src="assets/waifu-diffusion-ema-vs-pruned.png" title="Waifu Diffusion EMA vs Pruned">
+                </p>
+
+
+
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    hljs.highlightAll();
+
+    function push(category, action, name) {
+      _paq.push(['trackEvent', category, action, name]);
+    }
+
+    $(".dl-link").click(function(e) {
+      push('Click Element', 'Model Link', $(this).attr("data-name"));
+    });
+    $(".click-element").click(function(e) {
+      push('Generic Click', 'Element', $(this).attr("data-name"));
+    });
+  </script>
+</body>
+
+</html>
