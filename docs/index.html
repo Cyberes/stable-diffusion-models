@@ -58,7 +58,6 @@
   <noscript>
     <p><img src="https://mato.evulid.cc/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p>
   </noscript>
-  </noscript>
   <!-- End Matomo Code -->
 </head>
 
@@ -308,8 +307,8 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
       var toc = "";
       var level = 0;
       var maxLevel = 3;
-      document.getElementById("contents").innerHTML =
-        document.getElementById("contents").innerHTML.replace(
+      document.getElementById("toc-contents").innerHTML =
+        document.getElementById("toc-contents").innerHTML.replace(
           /<h([\d])>([^<]+)<\/h([\d])>/gi,
           function(str, openLevel, titleText, closeLevel) {
             if (openLevel != closeLevel) {
@@ -337,7 +336,7 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
     };
 
     function push(category, action, name) {
-      _paq.push(['trackEvent', category, action, name]);
+      _paq.push(["trackEvent", category, action, name]);
     }
 
     $(".dl-link").click(function(e) {
@@ -351,7 +350,7 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
       push("trackEvent", "Scroll", "View Section", $(this).attr("data-content-name"));
     })
     var waypoints_subsection = $(".subsection").waypoint(function(direction) {
-      push("trackEvent", "Scroll", "View Subsection", $(this).attr("data-content-name"));
+      push("Scroll", "View Subsection", $(this).attr("data-content-name"));
     })
   </script>
 </body>
