@@ -14,7 +14,6 @@
   <link rel="stylesheet" href="/stable-diffusion-models/main.css" />
   <link rel="stylesheet" href="/stable-diffusion-models/assets/bootstrap-modified.css" />
   <script src="/stable-diffusion-models/index.js"></script>
-  <script src="/stable-diffusion-models/assets/html-table-of-contents.js"></script>
   <script src="/stable-diffusion-models/assets/jquery.waypoints.min.js"></script>
 
   <script crossorigin="anonymous" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
@@ -76,7 +75,38 @@
                   </span>
                 </h1>
 
-                <div id="toc"></div>
+                <div class="toc">
+                  <ol>
+                    <li><a href="#quick-easy-torrent-downloading">Quick &amp; Easy Torrent Downloading</a></li>
+                    <li><a href="#models">Models</a>
+                      <ol>
+                        <li><a href="#standard-model">Standard Model</a></li>
+                        <li><a href="#waifu-diffusion">Waifu Diffusion</a></li>
+                        <li><a href="#wd-v12-and-sd-v14-merged">WD v1.2 and SD v1.4 Merged</a></li>
+                        <li><a href="#trinart_stable_diffusion_v2">trinart_stable_diffusion_v2</a></li>
+                      </ol>
+                    </li>
+                    <li><a href="#upscalers">Upscalers</a>
+                      <ol>
+                        <li><a href="#lollypop">Lollypop</a></li>
+                        <li><a href="#remacri-upscaler">Remacri Upscaler</a></li>
+                        <li><a href="#swinir">SwinIR</a></li>
+                      </ol>
+                    </li>
+                    <li><a href="#face-restorers">Face Restorers</a>
+                      <ol>
+                        <li><a href="#gfpgan">GFPGAN</a></li>
+                      </ol>
+                    </li>
+                    <li><a href="#textual-inversion">Textual Inversion</a></li>
+                    <li><a href="#model-comparison">Model Comparison</a>
+                      <ol>
+                        <li><a href="#anime-model-comparison">Anime Model Comparison</a></li>
+                        <li><a href="#waifu-diffusion-ema-vs-pruned">Waifu Diffusion EMA vs Pruned</a></li>
+                      </ol>
+                    </li>
+                  </ol>
+                </div>
 
                 <div id="toc-contents">
                   <div class="section" data-content-name="Quick & Easy Torrent Downloading" data-content-piece="Section" data-track-content>
@@ -305,8 +335,6 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
 
     $(document).ready(function() {
       hljs.highlightAll();
-
-      htmlTableOfContents();
 
       function matoPush(category, action, name) {
         _paq.push(["trackEvent", category, action, name]);
