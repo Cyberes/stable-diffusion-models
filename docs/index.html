@@ -334,7 +334,7 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
         matoPush("Scroll", "View Section", $(this).attr("data-content-name"));
       })
       var waypoints_subsection = $(".subsection").waypoint(function(direction) {
-        matoPush("Scroll", "View Subsection", $(this).attr("data-content-name"));
+        matoPush("Scroll", "View Subsection", this.element.getAttribute("data-content-name"));
       })
     });
   </script>
