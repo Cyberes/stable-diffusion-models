@@ -59,7 +59,7 @@
 
 <body class="m-0 p-0">
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:#6c757d14!important;">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:#6c757d42!important;">
     <div class="container-fluid">
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
@@ -91,8 +91,9 @@
                       <ol>
                         <li><a href="#standard-model">Standard Model</a></li>
                         <li><a href="#waifu-diffusion">Waifu Diffusion</a></li>
-                        <li><a href="#wd-v12-and-sd-v14-merged">WD v1.2 and SD v1.4 Merged</a></li>
                         <li><a href="#trinart_stable_diffusion_v2">trinart_stable_diffusion_v2</a></li>
+                        <li><a href="#hiten-girl-anime-8k-wallpaper">Hiten</a></li>
+                        <li><a href="#wd-v12-and-sd-v14-merged">WD v1.2 and SD v1.4 Merged</a></li>
                       </ol>
                     </li>
                     <li><a href="#upscalers">Upscalers</a>
@@ -135,6 +136,13 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
                   <h3 id="standard-model">
                     <a class="linkable-title" href="#standard-model" title="Permanent link">Standard Model</a>
                   </h3>
+
+                  <h5>1.5</h5>
+                  <p>
+                    Stable Diffusion 1.5 beta has been released on DreamStudio. StabilityAI should release it publicly eventualy...
+                  </p>
+
+                  <h5>1.4</h5>
                   <p>
                     <strong>Torrent</strong>
                   </p>
@@ -150,6 +158,9 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
                   <p>
                     Alternatively, you could use this Google Drive link that the author of the WebUI shared:
                   </p>
+                  <p>
+                    <strong>Google Drive</strong>
+                  </p>
                   <pre class="dl-link" data-name="Google Drive sd-v1-4.ckpt"><code class="language-text">https://drive.google.com/file/d/1wHFgl0ivCmIZv88hVZXkb8oy9qCuaBGA/view</code></pre>
                 </div>
 
@@ -160,36 +171,39 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
                   <p>
                     Trained on Danbooru, slightly NSFW.
                   </p>
+
+                  <h5>1.3 Beta</h5>
                   <p>
-                    <strong>Half-Size Model</strong>
+                    Unfinished Beta 1.3 Waifu Diffusion model. Trained for 3 Epochs.
+                  </p>
+
+                  <p>
+                    The model isn't finished yet. The full version is expected to be finished and released October 10th.
+                  </p>
+
+                  <pre class="dl-link" data-name="Torrent sd-v1-4.ckpt"><code class="language-text">https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/model-epoch05-float32.ckpt</code></pre>
+
+                  <h5>1.2</h5>
+                  <p>
+                    <strong>Pruned Model</strong>
                   </p>
                   <p>
-                    The full-size model was pruned to produce this model. Some people swear there's a minor shift of output vs EMA model but it really doesn't matter.
+                    The full-size model was pruned to produce this model. Basically, that means all the unnessesary data was removed.
                   </p>
                   <pre class="dl-link"
                     data-name="Torrent wd-v1-2-full-ema-pruned.ckpt"><code class="language-text">magnet:?xt=urn:btih:153590FD7E93EE11D8DB951451056C362E3A9150&dn=wd-v1-2-full-ema-pruned.ckpt&tr=udp://tracker.opentrackr.org:1337</code></pre>
                   <p>
-                    <strong>Full-Size Model</strong>
+                    <strong>EMA Model</strong>
+                  </p>
+                  <p>
+                    This model (and any other EMA model) is for <i>training</i> only. If you aren't training, use the pruned version above. <a href="#waifu-diffusion-ema-vs-pruned"
+                      onclick="_paq.push(['trackEvent', 'Generic Click', 'Internal Link', '#waifu-diffusion-ema-vs-pruned']);">There is no difference between the EMA and Pruned models.</a>
                   </p>
                   <pre class="dl-link" data-name="Torrent wd-v1-2-full-ema.ckpt"><code class="language-text">magnet:?xt=urn:btih:F45CECF4E9DE86DA83A78DD2CCCD7F27D5557A52&tr=udp://nyquist.localghost.org:6969</code></pre>
                   <p>
-                    <strong>Web Download</strong>
-                  </p>
-                  <p>
-                    Very slow.
+                    The creators have provided a web download, but it's very slow.
                   </p>
                   <pre class="dl-link" data-name="WebDL wd-v1-2-full-ema.ckpt"><code class="language-text">https://thisanimedoesnotexist.ai/downloads/wd-v1-2-full-ema.ckpt</code></pre>
-                </div>
-
-                <div class="subsection" data-content-name="WD v1.2 and SD v1.4 Merged" data-content-piece="Subsection" data-track-content>
-                  <h3 id="wd-v12-and-sd-v14-merged">
-                    <a class="linkable-title" href="#wd-v12-and-sd-v14-merged" title="Permanent link">WD v1.2 and SD v1.4 Merged</a>
-                  </h3>
-                  <p>
-                    WD merged back into SD. I don't know what the weights are.
-                  </p>
-                  <pre class="dl-link"
-                    data-name="Torrent wd1-2_sd1-4_merged.ckpt"><code class="language-text">magnet:?xt=urn:btih:UFIV4BI4MGWFLZSKPFQ5VFLNYL24ADUQ&dn=wd1-2_sd1-4_merged.ckpt&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce</code></pre>
                 </div>
 
                 <div class="subsection" data-content-name="trinart_stable_diffusion_v2" data-content-piece="Subsection" data-track-content>
@@ -197,7 +211,7 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
                     <a class="linkable-title" href="#trinart_stable_diffusion_v2" title="Permanent link">trinart_stable_diffusion_v2</a>
                   </h3>
                   <p>
-                    Another anime finetune.
+                    Another anime finetune. Designed to nudge SD to an anime/manga style. Seems to be more "stylized" and "artistic" than SD, if that makes any sense.
                   </p>
                   <p>
                     The 60,000 steps version is the original, the 115,000 and 95,000 versions is the 60,000 with additional training. Use the 60,000 step version if the style nudging is too much.
@@ -239,6 +253,33 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
                   </p>
                   <pre class="dl-link" data-name="HuggingFace trinart2_step115000.ckpt"><code class="language-text">https://huggingface.co/naclbit/trinart_stable_diffusion_v2/resolve/main/trinart2_step115000.ckpt</code></pre>
                 </div>
+
+                <div class="subsection" data-content-name="Hiten" data-content-piece="Subsection" data-track-content>
+                  <h3 id="hiten-girl-anime-8k-wallpaper">
+                    <a class="linkable-title" href="#hiten-girl-anime-8k-wallpaper" title="Permanent link">Hiten</a>
+                  </h3>
+                  <p>
+                    Based off Waifu Diffusion v1.2, trained on the artist Hiten. <a href="https://huggingface.co/BumblingOrange/Hiten">More Info.</a> I've heard people say that this model is best when merged with Waifu Diffusion or trinart2 as it
+                    improves colors.
+                  </p>
+                  <p>
+                    To use the model, insert <code>Hiten</code> into your prompt. For stronger results, append <code>girl_anime_8k_wallpaper</code> (the class token) after <code>Hiten</code> (example: <code>1girl by Hiten
+                      girl_anime_8k_wallpaper</code>).
+                  </p>
+                  <pre class="dl-link" data-name="Torrent wd1-2_sd1-4_merged.ckpt"><code class="language-text">https://huggingface.co/BumblingOrange/Hiten/resolve/main/Hiten%20girl_anime_8k_wallpaper_4k.ckpt</code></pre>
+                </div>
+
+                <div class="subsection" data-content-name="WD v1.2 and SD v1.4 Merged" data-content-piece="Subsection" data-track-content>
+                  <h3 id="wd-v12-and-sd-v14-merged">
+                    <a class="linkable-title" href="#wd-v12-and-sd-v14-merged" title="Permanent link">WD v1.2 and SD v1.4 Merged</a>
+                  </h3>
+                  <p>
+                    WD merged back into SD. I don't know what the ratio is.
+                  </p>
+                  <pre class="dl-link"
+                    data-name="Torrent wd1-2_sd1-4_merged.ckpt"><code class="language-text">magnet:?xt=urn:btih:UFIV4BI4MGWFLZSKPFQ5VFLNYL24ADUQ&dn=wd1-2_sd1-4_merged.ckpt&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce</code></pre>
+                </div>
+
                 <!-- </div> -->
 
                 <!-- <div class="section" data-content-name="Upscalers" data-content-piece="Section" data-track-content> -->
