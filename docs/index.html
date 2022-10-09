@@ -65,6 +65,7 @@
         <div class="navbar-nav">
           <a class="nav-link active" aria-current="page" href="/stable-diffusion-models/">Models</a>
           <a class="nav-link" href="/stable-diffusion-textual-inversion-models/">Textual Inversion Models</a>
+          <a class="nav-link" href="/stable-diffusion-dreambooth-library/">DreamBooth Models</a>
         </div>
       </div>
     </div>
@@ -97,6 +98,7 @@
                         <li><a href="#novelai">NovelAI Leaked Models</a></li>
                       </ol>
                     </li>
+                    <li><a href="#dreambooth">Dreambooth</a></li>
                     <li><a href="#upscalers">Upscalers</a>
                       <ol>
                         <li><a href="#lollypop">Lollypop</a></li>
@@ -173,20 +175,31 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
                     Trained on Danbooru, slightly NSFW.
                   </p>
 
-                  <h5>1.3 Beta</h5>
+                  <h5>1.3</h5>
                   <p>
-                    Unfinished Beta 1.3 Waifu Diffusion model. Trained for 3 Epochs.
+                    Trained on 600,000 high-resolution Danbooru images for 10 Epochs.
+                  </p>
+                  <p>
+                    The float16 version is smaller than the float32 (2GB vs 4GB) but float32 <i>may</i> produce better results.
                   </p>
 
-                  <p>
-                    The model isn't finished yet. The full version is expected to be finished and released October 10th. The team uploads new epochs regularly so follow the link below and download the newest version.
-                  </p>
+                  <h6>float16</h6>
+                  <pre class="dl-link" data-name="HuggingFace wd-v1-3-float16.ckpt"><code class="language-text">https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/wd-v1-3-float16.ckpt</code></pre>
 
+                  <h6>float32</h6>
+                  <pre class="dl-link" data-name="HuggingFace wd-v1-3-float32.ckpt"><code class="language-text">https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/wd-v1-3-float32.ckpt</code></pre>
+
+                  <h6>Training Versions</h6>
                   <p>
-                    <a href="https://huggingface.co/hakurei/waifu-diffusion-v1-3/tree/main">huggingface.co/hakurei/waifu-diffusion-v1-3/tree/main</a>
+                    These models contain extra data used for continuing training. You don't need if you aren't doing that.
                   </p>
+                  <pre class="dl-link" data-name="HuggingFace wd-v1-3-full.ckpt"><code class="language-text">https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/wd-v1-3-full.ckpt</code></pre>
+                  <pre class="dl-link" data-name="HuggingFace wd-v1-3-full-opt.ckpt"><code class="language-text">https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/wd-v1-3-full-opt.ckpt</code></pre>
 
                   <h5>1.2</h5>
+                  <p>
+                    Trained 56,000 Danbooru images for 5 epochs.
+                  </p>
                   <p>
                     <strong>Pruned Model</strong>
                   </p>
@@ -262,7 +275,7 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
                     <a class="linkable-title" href="#hiten-girl-anime-8k-wallpaper" title="Permanent link">Hiten</a>
                   </h3>
                   <p>
-                    Based off Waifu Diffusion v1.2, trained on the artist Hiten. <a href="https://huggingface.co/BumblingOrange/Hiten">More Info.</a> I've heard people say that this model is best when merged with Waifu Diffusion or trinart2 as it
+                    Based off Waifu Diffusion v1.2, trained on the artist Hiten. <a href="https://huggingface.co/BumblingOrange/Hiten">More Info.</a> I've heard people say this model is best when merged with Waifu Diffusion or trinart2 as it
                     improves colors.
                   </p>
                   <p>
@@ -306,6 +319,26 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
 
                 <!-- </div> -->
 
+                <div class="section" data-content-name="Dreambooth" data-content-piece="Section" data-track-content>
+                  <h2 id="dreambooth" class="text-center">
+                    <a class="linkable-title" href="#dreambooth" title="Permanent link">Dreambooth</a>
+                  </h2>
+                  <center>
+                    <p>
+                      <a href="https://github.com/Cyberes/stable-diffusion-dreambooth-library/actions/workflows/generate_static_html.yml">
+                        <img src="https://github.com/Cyberes/stable-diffusion-dreambooth-library/actions/workflows/generate_static_html.yml/badge.svg">
+                      </a>
+                    </p>
+                  </center>
+                  <p>
+                    HuggingFace publishes community-submitted Dreambooth models. View them here.
+                  </p>
+                  <p><a href="https://cyberes.github.io/stable-diffusion-dreambooth-library/">https://cyberes.github.io/stable-diffusion-dreambooth-library/</a></p>
+                  <p>
+                    It updates automatically twice a day.
+                  </p>
+                </div>
+
                 <!-- <div class="section" data-content-name="Upscalers" data-content-piece="Section" data-track-content> -->
                 <h2 id="upscalers" class="text-center">
                   <a class="linkable-title" href="#upscalers" title="Permanent link">Upscalers</a>
@@ -343,7 +376,7 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
                     <p>State-of-the-art performance in bicubic/lighweight/real-world image SR, grayscale/color image denoising, grayscale/color JPEG compression artifact reduction.</p>
                   </blockquote>
                   <p>
-                    <a class="dl-link" data-name="GitHub SwinIR Releases" href="https://github.com/JingyunLiang/SwinIR/releases" rel="nofollow noopener">Get it on GitHub &gt;</a>
+                    <a class="dl-link" data-name="GitHub SwinIR Releases" href="https://github.com/JingyunLiang/SwinIR/releases">Get it on GitHub &gt;</a>
                   </p>
                 </div>
                 <!-- </div> -->
@@ -360,7 +393,7 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
                   <blockquote>
                     <p>GFPGAN aims at developing Practical Algorithms for Real-world Face Restoration.</p>
                   </blockquote>
-                  <a class="dl-link" data-name="GitHub GFPGAN Releases" href="https://github.com/TencentARC/GFPGAN/releases" rel="nofollow noopener">Get it on GitHub &gt;</a>
+                  <a class="dl-link" data-name="GitHub GFPGAN Releases" href="https://github.com/TencentARC/GFPGAN/releases">Get it on GitHub &gt;</a>
                 </div>
                 <!-- </div> -->
 
@@ -378,7 +411,7 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
                   <p>
                     HuggingFace publishes community-submitted textual inversion models. I created a seperate page to preview and download them.
                   </p>
-                  <p><a href="https://cyberes.github.io/stable-diffusion-textual-inversion-models/" rel="nofollow noopener">https://cyberes.github.io/stable-diffusion-textual-inversion-models</a></p>
+                  <p><a href="https://cyberes.github.io/stable-diffusion-textual-inversion-models/">https://cyberes.github.io/stable-diffusion-textual-inversion-models</a></p>
                   <p>
                     It updates automatically twice a day.
                   </p>
