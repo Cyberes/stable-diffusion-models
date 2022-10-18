@@ -1,0 +1,1084 @@
+#`Stable Diffusion Models`
+
+[TOC2]
+
+## Changelog
+Most recent entries first.
+
+18/10/2022
+>\+ TestFurry_5.ckpt [b1f1855e]
+>\+ Trinart > trinart_characters_19.2m_stable_diffusion_v1 [d64dab7f] + VAE
+>\+ Dreambooth > Kurisu
+16/10/2022
+>\+ Waifu Diffusion VAE kl-f8-anime2
+14/10/2022
+>\+ Bump version Dreambooth > Zeipher F111
+>\+ Hentai Diffusion > HD-16.ckpt [e2ec4647]
+>\+ Dreambooth > hyper_preg_2.7k-lr5e-7-15ks-fp16.ckpt
+>\+ Dreambooth > Arcane Vi vimod.ckpt [e02601f3]
+12/10/2022
+>\+ Anal Vore AVHumanFurryPony7.ckpt [68e2e32d]
+>\+ Dreambooth > StudioGhibli [10c6aa67]
+11/10/2022
+>\+ Dreambooth > towa-4000-pruned-fp16.ckpt [d578d3c1]
+>\+ Dreambooth > Star Fox Krystal 
+>\+ Added r34 e4 tag counts
+10/10/2022
+>\+ Waifu Diffusion VAE kl-f8-anime
+09/10/2022
+>\+ R34 > r34_e4.ckpt [6e45cf2c]
+>\+ Dreambooth > mori_calliope-4000-pruned-fp16.ckpt [6cb50083]
+>\+ Dreambooth > gawr_gura-4000-pruned-fp16.ckpt [cbd4da60]
+>\+ R34 > r34_e3.ckpt [57ea6f43]
+>\+ Dreambooth > nagatoro-4000-pruned-fp16.ckpt [8c5ff341]
+08/10/2022
+>\+ Add link to WD v1.3 release notes https://gist.github.com/harubaru/f727cedacae336d1f7877c4bbe2196e1
+07/10/2022
+>\+ R34 > r34_e2.ckpt [778b68b1]
+>\+ Dreambooth > hilda-v2-8000-pruned-fp16.ckpt [d2c8eef1]
+06/10/2022
+>\+ Dreambooth > Zeipher Female Nude (better anatomy)
+>\+ Dreambooth > Zeipher BB (Blowjob images)
+>\+ Dreambooth > Emilia_CustReg_3k.ckpt [2660cf9a]
+>\+ Dreambooth > Gawr_Gura_450img.ckpt [e7883abf]
+>\+ Dreambooth > misato-10000-pruned-fp16.ckpt [c51e4c77]
+>\+ Dreambooth > 2b-10000-pruned-fp16.ckpt [8cf4478f]
+>\+ Dreambooth > bea-14000-pruned-fp16.ckpt [802a681b]
+>\+ Dreambooth > rizaDB-54imgs-4500steps.ckpt
+>\+ Dreambooth > nanachiDB-42imgs-5000steps.ckpt
+>\+ Gape > gape22 [d69e1a23]
+>\+ Gape > gape18
+>\+ Sort model versions by newest
+>\+ Waifu Diffusion v1.3 Full [84692140] [4470c325] [e1de58a9] [3e1a125f]
+05/10/2022
+>\+ Waifu Diffusion v1.3 beta epoch09 [a0d90b41] [134eaffb] [e90a9d02]
+04/10/2022
+>\+ R34 > r34_e1.ckpt [f9000e4e]
+>\+ Hentai Diffusion > RD1412.ckpt [2140af02] [5b87f0e6] [4fdde306]
+>\+ Waifu Diffusion v1.3 beta epoch08 [55537280] [7dd9e8e1] [d12b4159]
+03/10/2022
+>\+ Hentai Diffusion > RD1212.ckpt [a1f5a67e] [37b5398c] [3b3459c8]
+>\+ Bare Feet / Full Body b4_t16_noadd [03e33bb4] [2bd8166c] [9012c514]
+>\+ Waifu Diffusion v1.3 beta epoch07 [3ad68e9a] [e4150f29] [39312118]
+
+## Stable Diffusion v1.4 [4af45990] [7460a6fa] [06c50424]
+!!! note
+	sd-v1-4-pruned.ckpt **[4af45990]**
+	sd-v1-4.ckpt **[7460a6fa]** | **SHA256** fe4efff1e174c627256e44ec2991ba279b3816e364b49f9be2abc0b3ff3f8556
+	sd-v1-4-full-ema.ckpt **[06c50424]** | **SHA256** 14749efc0ae8ef0329391ad4436feb781b402f4fece4883c7ad8d10556d8a36a
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:3A4A612D75ED088EA542ACAC52F9F45987488D1C&tr=udp://tracker.opentrackr.org:1337
+```
+**HuggingFace**
+Requires login.
+```text
+https://huggingface.co/CompVis/stable-diffusion-v-1-4-original
+```
+**GDrive**
+```text
+https://drive.google.com/file/d/1wHFgl0ivCmIZv88hVZXkb8oy9qCuaBGA/view
+```
+
+## Waifu Diffusion
+### Waifu Diffusion VAE kl-f8-anime2
+A finetune of the SD 1.4 VAE on 250k anime-styled images. Supposedly improves reconstruction of eyes and fingers.
+Info `https://twitter.com/haruu1367/status/1579286947519864833`
+Repo `https://huggingface.co/hakurei/waifu-diffusion-v1-4`
+
+!!! warning
+	A VAE is not the same as the other models on this list. It is not a complete model that can be used to generate images alone, but a component to be used in tandem with other models.
+	If you don't know what this is or why you would want it, don't bother with it.
+
+**Web**
+```text
+https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/vae/kl-f8-anime2.ckpt
+```
+
+### Waifu Diffusion VAE kl-f8-anime
+A finetune of the SD 1.4 VAE on 250k anime-styled images. Supposedly improves reconstruction of eyes and fingers.
+Info `https://twitter.com/haruu1367/status/1579286947519864833`
+Repo `https://huggingface.co/hakurei/waifu-diffusion-v1-4`
+
+!!! warning
+	A VAE is not the same as the other models on this list. It is not a complete model that can be used to generate images alone, but a component to be used in tandem with other models.
+	If you don't know what this is or why you would want it, don't bother with it.
+
+**Web**
+```text
+https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/vae/kl-f8-anime.ckpt
+```
+
+### Waifu Diffusion v1.3 Full [84692140] [4470c325] [e1de58a9] [3e1a125f]
+1.3 Waifu Diffusion model trained on 600,000 high-resolution Danbooru images for 10 Epochs.
+Release notes: https://gist.github.com/harubaru/f727cedacae336d1f7877c4bbe2196e1
+
+!!! note
+	wd-v1-3-float16.ckpt **[84692140]** | **SHA256** 4afab9126057859b34d13d6207d90221d0b017b7580469ea70cee37757a29edd
+	wd-v1-3-float32.ckpt **[4470c325]** | **SHA256** 9dade826203c7ee369881b5dc20d34298fa644c1f137568e09fbc4b9a0d3e817
+	wd-v1-3-full.ckpt **[e1de58a9]** | **SHA256** 23ba8d0411c211d3d14903d46613bc088924e1453ed1c6428ce86bde54a37d27
+	wd-v1-3-full-opt.ckpt **[3e1a125f]** | **SHA256** 10912b9a6d773ea7c299c0563d10538ada04ade81837362b6c0c67be4df937c1
+
+**wd-v1-3-float16.ckpt [84692140] Web**
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/wd-v1-3-float16.ckpt
+```
+**wd-v1-3-float32.ckpt [4470c325] Web**
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/wd-v1-3-float32.ckpt
+```
+**wd-v1-3-full.ckpt [e1de58a9] Web**
+The full EMA is larger in file size because it contains additional data used for **training only**. 
+If you don't know what this is, use the float16 or float32 version.
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/wd-v1-3-full.ckpt
+```
+**wd-v1-3-full-opt.ckpt [3e1a125f] Web**
+The full opt is larger in file size because it contains additional data used for **training only**. 
+If you don't know what this is, use the float16 or float32 version.
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/wd-v1-3-full-opt.ckpt
+```
+
+
+### Waifu Diffusion v1.3 beta epoch09 [a0d90b41] [134eaffb] [e90a9d02]
+**==Unfinished Beta==** 1.3 Waifu Diffusion model trained on 600,000 high-resolution Danbooru images for 9 Epochs.
+
+!!! note
+	model-epoch08-float16.ckpt **[a0d90b41]** | **SHA256** b30bab13a2ea946ba85bc7b3a30c3fa20d013ca306193aa54b4771d147192dc1
+	model-epoch08-float32.ckpt **[134eaffb]** | **SHA256** a16d2f57b229156a61ccab6b1cbc120332f3a2a320c75952241e6439f3fe79ec
+	model-epoch08-full.ckpt **[e90a9d02]** | **SHA256** 7fb9c64bb460724dfecbf693fcd8e0e556c4664553a352c1256997813d585329
+
+**model-epoch09-float16.ckpt [a0d90b41] Web**
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/model-epoch09-float16.ckpt
+```
+**model-epoch09-float32.ckpt [134eaffb] Web**
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/model-epoch09-float32.ckpt
+```
+**model-epoch09-full.ckpt [e90a9d02] Web**
+The full EMA is larger in file size because it contains additional data used for **training only**. 
+If you don't know what this is, use the float16 or float32 version.
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/model-epoch09-full.ckpt
+```
+
+### Waifu Diffusion v1.3 beta epoch08 [55537280] [7dd9e8e1] [d12b4159]
+**==Unfinished Beta==** 1.3 Waifu Diffusion model trained on 600,000 high-resolution Danbooru images for 8 Epochs.
+
+!!! note
+	model-epoch08-float16.ckpt **[55537280]** | **SHA256** 3a3a36aac85502a06878ec6760c0fb95f71546ad734fbb2b6cfab9a50db7aa8d
+	model-epoch08-float32.ckpt **[7dd9e8e1]** | **SHA256** e64cbc29edbef82142768c3a398345f602ba8b337ebd22cd83071162fe789a18
+	model-epoch08-full.ckpt **[d12b4159]** | **SHA256** c2a8b09f77ce572c012c810495d8ae9f989d04ca6b3226c93be5dce2208bacdd
+
+**model-epoch08-float16.ckpt [55537280] Web**
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/model-epoch08-float16.ckpt
+```
+**model-epoch08-float32.ckpt [7dd9e8e1] Web**
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/model-epoch08-float32.ckpt
+```
+**model-epoch08-full.ckpt [d12b4159] Web**
+The full EMA is larger in file size because it contains additional data used for **training only**. 
+If you don't know what this is, use the float16 or float32 version.
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/model-epoch08-full.ckpt
+```
+
+### Waifu Diffusion v1.3 beta epoch07 [3ad68e9a] [e4150f29] [39312118]
+**==Unfinished Beta==** 1.3 Waifu Diffusion model trained on 600,000 high-resolution Danbooru images for 7 Epochs.
+>The model is not finished, not even close. Do not take the results as final.
+
+!!! note
+	model-epoch07-float16.ckpt **[3ad68e9a]** | **SHA256** 0aa0a2d1620b65fbcfe800ac5d5b5fc681c9e3bc7373ad5519837f94828eb83f
+	model-epoch07-float32.ckpt **[e4150f29]** | **SHA256** 99c1061162c126c59d17cfddaf8b475935a9f0a504f7b305b1d733e7618be82b
+	model-epoch07-full.ckpt **[39312118]** | **SHA256** 74ae340acb9ac251b8b9ee57f795e18bc4d39c016272fafd440e637fe391a790
+
+**model-epoch07-float16.ckpt [3ad68e9a] Web**
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/model-epoch07-float16.ckpt
+```
+**model-epoch07-float32.ckpt [e4150f29] Web**
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/model-epoch07-float32.ckpt
+```
+**model-epoch07-full.ckpt [39312118] Web**
+The full EMA is larger in file size because it contains additional data used for **training only**. 
+If you don't know what this is, use the float16 or float32 version.
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/model-epoch07-full.ckpt
+```
+
+### Waifu Diffusion v1.3 beta epoch06 [281c28bb] [3a672a8a] [d970eaf1]
+**==Unfinished Beta==** 1.3 Waifu Diffusion model trained on 600,000 high-resolution Danbooru images for 6 Epochs.
+>The model is not finished, not even close. Do not take the results as final.
+
+!!! note
+	model-epoch06-float16.ckpt **[281c28bb]** | **SHA256** c0397df53cd4cf1cfadb95a121a67eaad903e4203d708abfe3409a832a517191
+	model-epoch06-float32.ckpt **[3a672a8a]** | **SHA256** f34c89c80e91d77c06df178d292611ac7757728dd7a3aaff8c4c9117e6e92e35
+	model-epoch06-full.ckpt **[d970eaf1]** | **SHA256** cc5569691c843f64cc8e819b78c0081f6e8024432f6de898f11ee816ac3ff5ca
+
+**model-epoch06-float16.ckpt [281c28bb] Web**
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/model-epoch06-float16.ckpt
+```
+**model-epoch06-float32.ckpt [3a672a8a] Web**
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/model-epoch06-float32.ckpt
+```
+**model-epoch06-full.ckpt [d970eaf1] Web**
+The full EMA is larger in file size because it contains additional data used for **training only**. 
+If you don't know what this is, use the float16 or float32 version.
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/model-epoch06-full.ckpt
+```
+
+### Waifu Diffusion v1.3 beta epoch05 [25f7a927] [3563d59f] [9453d3e5]
+**==Unfinished Beta==** 1.3 Waifu Diffusion model trained on 600,000 high-resolution Danbooru images for 5 Epochs.
+>The model is not finished, not even close. Do not take the results as final.
+
+!!! note
+	model-epoch05-float16.ckpt **[25f7a927]** | **SHA256** 26cf2a2e30095926bb9fd9de0c83f47adc0b442dbfdc3d667d43778e8b70bece
+	model-epoch05-float32.ckpt **[3563d59f]** | **SHA256** 694617b2145abcd248d78ea2c556af86787ef9f79e9d9a0f7473d7b408dd3dfa
+	model-epoch05-full.ckpt **[9453d3e5]** | **SHA256** e0fceaac42328912ed60957c5fed129a418bdd5f3ebe82d5f09e7901a296a6ce
+
+**model-epoch05-float16.ckpt [25f7a927] Web**
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/model-epoch05-float16.ckpt
+```
+**model-epoch05-float32.ckpt [3563d59f] Web**
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/model-epoch05-float32.ckpt
+```
+**model-epoch05-full.ckpt [9453d3e5] Web**
+The full EMA is larger in file size because it contains additional data used for **training only**. 
+If you don't know what this is, use the float16 or float32 version.
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/model-epoch05-full.ckpt
+```
+
+### Waifu Diffusion v1.3 beta epoch04 [958859c3] [84d80299] [994d2e0f]
+**==Unfinished Beta==** 1.3 Waifu Diffusion model trained on 600,000 high-resolution Danbooru images for 4 Epochs.
+>The model is not finished, not even close. Do not take the results as final.
+
+!!! note
+	model-epoch04-float16.ckpt **[958859c3]** | **SHA256** 3fd4bbb7ca76c806d88061f0ce994b763693369bd6ea37863c93c1c6b9d25232
+	model-epoch04-float32.ckpt **[84d80299]** | **SHA256** 5237503095524512c7612f81ef786036aa001fd76693064fb00478115659a335
+	model-epoch04-full.ckpt **[994d2e0f]** | **SHA256** eee5a4391d6074f08bc6c3de3457c245252bde101e3e651c27b5cf85d4926b08
+
+**model-epoch04-float16.ckpt [958859c3] Web**
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/model-epoch04-float16.ckpt
+```
+**model-epoch04-float32.ckpt [84d80299] Web**
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/model-epoch04-float32.ckpt
+```
+**model-epoch04-full.ckpt [994d2e0f] Web**
+The full EMA is larger in file size because it contains additional data used for **training only**. 
+If you don't know what this is, use the float16 or float32 version.
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/model-epoch04-full.ckpt
+```
+### Waifu Diffusion v1.3 beta epoch03 [63e9eb31] [22ca2722] [d8b28983]
+**==Unfinished Beta==** 1.3 Waifu Diffusion model trained on 600,000 high-resolution Danbooru images for 3 Epochs.
+>The model is not finished, not even close. Do not take the results as final.
+
+!!! note
+	model-epoch04-float16.ckpt **[63e9eb31]** | **SHA256** 123d8ae9cdbf08f5e68b6eaf868483c29c3408d29bce693ea12c40f9ac34b04d
+	model-epoch04-float32.ckpt **[22ca2722]** | **SHA256** 1fe36906fff1a14879f1bda49d19112f0a21dd183f8f5842ea493f4733070205
+	model-epoch04-full.ckpt **[d8b28983]** | **SHA256** 950ea42feb58dcdfad26f23cd5e68ea38f9df2f49449c694a389d18fb33e6ea6
+
+  **model-epoch03-float16.ckpt [63e9eb31] Web**
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/model-epoch03-float16.ckpt
+```
+**model-epoch03-float32.ckpt [22ca2722] Web**
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/model-epoch03-float32.ckpt
+```
+**model-epoch03-full.ckpt [d8b28983] Web**
+The full EMA is larger in file size because it contains additional data used for **training only**. 
+If you don't know what this is, use the float16 or float32 version.
+```
+https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/model-epoch03-full.ckpt
+```
+
+
+### Waifu Diffusion v1.2 [0b8c694b] [45dee52b]
+Trained on Stable Diffusion v1.4 using 56k Danbooru images for 5 epochs.
+!!! note
+	wd-v1-2-full-ema-pruned.ckpt **[0b8c694b]** | **SHA256** 5512bc271c31fd9433494f3fced009d3b27515cca5ef1a1ed13bce136f8e8cad
+	wd-v1-2-full-ema.ckpt **[45dee52b]** | **SHA256** 89138c3a7783a2b17730090c06e2e1950fb421068cc5f4a5d6c4ba1040a7e1bb
+	
+**Pruned Torrent [0b8c694b]**
+```text
+magnet:?xt=urn:btih:153590fd7e93ee11d8db951451056c362e3a9150&dn=wd-v1-2-full-ema-pruned.ckpt&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fzecircle.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fyahor.ftp.sh%3A6969%2Fannounce&tr=udp%3A%2F%2Fvibe.sleepyinternetfun.xyz%3A1738%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tcp.exchange%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.swateam.org.uk%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce
+```
+**Full EMA Torrent [45dee52b]**
+The full EMA is larger in file size because it contains additional data used for **training only**. 
+If you don't know what this is, use the pruned version.
+```text
+magnet:?xt=urn:btih:f45cecf4e9de86da83a78dd2cccd7f27d5557a52&dn=wd-v1-2-full-ema.ckpt&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fzecircle.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fyahor.ftp.sh%3A6969%2Fannounce&tr=udp%3A%2F%2Fvibe.sleepyinternetfun.xyz%3A1738%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tcp.exchange%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.swateam.org.uk%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce
+```
+
+
+## Trinart
+### trinart_characters_19.2m_stable_diffusion_v1 [d64dab7f] + VAE
+>A stable diffusion v1-based model trained by roughly 19.2M anime/manga style images (pre-rolled augmented images included) plus final finetuning by about 50,000 images. This model seeks for a sweet spot between artistic style versatility and anatomical quality within the given model spec of SDv1.
+>This is the same version 1 model that was released in AI Novelist/TrinArt service from early September through Oct 14.
+>The dataset is filtered to exclude NSFW or unsafe contents.
+Repo https://huggingface.co/naclbit/trinart_characters_19.2m_stable_diffusion_v1
+
+!!! note
+	trinart_characters_it4_v1.ckpt [d64dab7f] **SHA256** d58058f2c71612aa7492d63ad8e6c32b3159494dc51a29ffe71937cdc49b6681
+	autoencoder_kl-f8-trinart_characters.ckpt **SHA256** d2dd1c82220e31a72bd9958dda249ed7f94faf875d5123ae3aab7a1950a82a8f
+
+**Web**
+```text
+https://huggingface.co/naclbit/trinart_characters_19.2m_stable_diffusion_v1/resolve/main/trinart_characters_it4_v1.ckpt
+```
+
+**VAE Web**
+```text
+https://huggingface.co/naclbit/trinart_characters_19.2m_stable_diffusion_v1/resolve/main/autoencoder_kl-f8-trinart_characters.ckpt
+```
+
+### trinart2_step115000.ckpt [f1c7e952]
+V2 checkpoint uses dropouts, 10,000 more images and a new tagging strategy and trained longer to improve results while retaining the original aesthetics.
+!!! note
+	**SHA256** 776af18775dfccf29725a994df855e7d8f7b8ea525013e3a466f210ec15c8fd4
+
+**Web**
+```text
+https://huggingface.co/naclbit/trinart_stable_diffusion_v2/resolve/main/trinart2_step115000.ckpt
+```
+
+### trinart2_step95000.ckpt [cf0bd941]
+V2 checkpoint uses dropouts, 10,000 more images and a new tagging strategy and trained longer to improve results while retaining the original aesthetics.
+!!! note
+	**SHA256** c1799d22a355ba25c9ceeb6e3c91fc61788c8e274b73508ae8a15877c5dbcf63
+
+**Web**
+```text
+https://huggingface.co/naclbit/trinart_stable_diffusion_v2/resolve/main/trinart2_step95000.ckpt
+```
+
+### trinart2_step60000.ckpt [6ecd8e48]
+V2 checkpoint uses dropouts, 10,000 more images and a new tagging strategy and trained longer to improve results while retaining the original aesthetics.
+!!! note
+	**SHA256** 0acc70d6a515cdedbc840e2c06525709a83cb9be8cdfdf1136a6548e9ee8f0fa
+
+**Web**
+```text
+https://huggingface.co/naclbit/trinart_stable_diffusion_v2/resolve/main/trinart2_step60000.ckpt
+```
+
+### trinart_stable_diffusion_epoch3.ckpt [9d7f05fc]
+Considered obsolete, refer to trinart2.
+trinart_stable_diffusion is a SD model finetuned by about 30,000 assorted high resolution manga/anime-style pictures for 3.5 epochs.
+!!! note
+	**SHA256** 840bbc99a603d4171963b31eec700abcb6f9545d1374b53eb7f830261494be19
+
+**Web**
+```text
+https://huggingface.co/naclbit/trinart_stable_diffusion/resolve/main/trinart_stable_diffusion_epoch3.ckpt
+```
+
+## gg1342_testrun1_pruned.ckpt [43076286] [2ccc3e58]
+A test run that was trained on 280 NSFW images (nude solo women) + another 80 SFW images of a few fictional characters.
+!!! note
+	gg1342_testrun1_pruned.ckpt **[43076286]** | **SHA256** ebe2f8dfeed0b87080a37e94bf0aca8800fc10691826a5e76259faf509106246
+	gg1342_testrun1_pruned-float16.ckpt **[2ccc3e58]**
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:c95e266e15e13cf0e2d69b29338a89a94d736546&dn=gg1342_testrun1_pruned.ckpt&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fzecircle.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fyahor.ftp.sh%3A6969%2Fannounce&tr=udp%3A%2F%2Fvibe.sleepyinternetfun.xyz%3A1738%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tcp.exchange%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.swateam.org.uk%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce
+```
+
+## Hentai Diffusion
+Repo https://huggingface.co/Deltaadams/Hentai-Diffusion/tree/main
+Supposedly will update weekly, so check the repo, it might be more current than this listing.
+The pruned torrents below are with EMA weights removed.
+
+>This model was based on Waifu Diffusion 1.2, and trained on 150,000 images from R34 and gelbooru.
+>Focused training has been done of more obscure poses such as crouching and facing away from the viewer, along with a focus on improving hands.
+>Using tags from the site in prompts is recommended. Adding 1girl to the start of the prompt will help get better results.
+
+### HD-16.ckpt [e2ec4647]
+Repo https://huggingface.co/Deltaadams/Hentai-Diffusion/tree/main
+Supposedly will update weekly, so check the repo, it might be more current than this listing.
+!!! note
+	**SHA256** 4c9317fe064386b0d8645375d0f8a0059455cfee0b84d2e280d5cc2fc9e88c21
+**Web**
+```text
+https://huggingface.co/Deltaadams/Hentai-Diffusion/resolve/main/HD-16.ckpt
+```
+
+### RD1412.ckpt [2140af02] [5b87f0e6] [4fdde306]
+Repo https://huggingface.co/Deltaadams/Hentai-Diffusion/tree/main
+Supposedly will update weekly, so check the repo, it might be more current than this listing.
+
+!!! note
+	RD1412-pruned-fp16.ckpt **[2140af02]** | **SHA256** c02f07fc72ea7281a14c94469428a497b142f70f6b5b4ea20435fbf5ef3f1731
+	RD1412-pruned-fp32.ckpt **[5b87f0e6]** | **SHA256** c318e7155f30af74785503d8ebf2856813e234032bd5c043c814e2f8baa4d67e
+	RD1412.ckpt **[4fdde306]** | **SHA256** 477b860a6859838e99d81fa5d3345e717e11fe8bd0e7eb32bce7541d57807a4d
+
+**Torrent RD1412-pruned-fp16.ckpt [a1f5a67e]**
+```text
+magnet:?xt=urn:btih:da8986f9059ce4f64f84e7390eb542558b2cd466&dn=RD1412-pruned-fp16.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.0x.tf%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fbt.oiyo.tk%3a6969%2fannounce&tr=https%3a%2f%2ftracker.nanoha.org%3a443%2fannounce&tr=https%3a%2f%2ftracker.lilithraws.org%3a443%2fannounce
+```
+
+**Torrent RD1412-pruned-fp32.ckpt [37b5398c]**
+```text
+magnet:?xt=urn:btih:ab4c2d7308a3fa694f7409407399a1cc5d4c7ed9&dn=RD1412-pruned-fp32.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.0x.tf%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fbt.oiyo.tk%3a6969%2fannounce&tr=https%3a%2f%2ftracker.nanoha.org%3a443%2fannounce&tr=https%3a%2f%2ftracker.lilithraws.org%3a443%2fannounce
+```
+
+**Web Full EMA RD1412.ckpt [4fdde306]**
+```text
+https://huggingface.co/Deltaadams/Hentai-Diffusion/resolve/main/RD1412.ckpt
+```
+
+### RD1212.ckpt [a1f5a67e] [37b5398c] [3b3459c8]
+Repo https://huggingface.co/Deltaadams/Hentai-Diffusion/tree/main
+Supposedly will update weekly, so check the repo, it might be more current than this listing.
+
+!!! note
+	HenDiff_RD1212-pruned-fp16.ckpt **[a1f5a67e]** | **SHA256** 8e46950f3d700886ced3842e4f05c31a1ab30b856668e9bc990940e60ad21be1
+	HenDiff_RD1212-pruned-fp32.ckpt **[37b5398c]** | **SHA256** c303f408d538544765b109aef0e2f165864cab720365a1d3a1d166237965095a
+	RD1212.ckpt **[3b3459c8]** | **SHA256** 23c56765c35a9b205e52f64b46c6311279cc3a56e6d17eba32779ff590bdc3d7
+
+**Torrent HenDiff_RD1212-pruned-fp16.ckpt [a1f5a67e]**
+```text
+magnet:?xt=urn:btih:f4e78d085169d2077a316bd9b75723812c1ab429&dn=HenDiff_RD1212-pruned-fp16.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.0x.tf%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fbt.oiyo.tk%3a6969%2fannounce&tr=https%3a%2f%2ftracker.nanoha.org%3a443%2fannounce&tr=https%3a%2f%2ftracker.lilithraws.org%3a443%2fannounce
+```
+
+**Torrent HenDiff_RD1212-pruned-fp32.ckpt [37b5398c]**
+```text
+magnet:?xt=urn:btih:2a6b60f454dcf89b81e7db034fcb1536b774628c&dn=HenDiff_RD1212-pruned-fp32.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.0x.tf%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fbt.oiyo.tk%3a6969%2fannounce&tr=https%3a%2f%2ftracker.nanoha.org%3a443%2fannounce&tr=https%3a%2f%2ftracker.lilithraws.org%3a443%2fannounce
+```
+
+**Web Full EMA RD1212.ckpt [3b3459c8]**
+```text
+https://huggingface.co/Deltaadams/Hentai-Diffusion/resolve/main/RD1212.ckpt
+```
+**Torrent Full EMA RD1212.ckpt [3b3459c8]**
+```text
+magnet:?xt=urn:btih:D0B89A0516205157EA0CBDDBBB49BC60C611A3B7&dn=RD1212.ckpt&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce
+```
+
+## Bare Feet / Full Body b4_t16_noadd [03e33bb4] [2bd8166c] [9012c514]
+High quality labels only (the "curated" model).
+Preview grid https://i.imgur.com/2sJGz3j.jpeg
+
+>A very WIP checkpoint focused on Bare Foot (BF) Full Body (FB) nude female images - best used if you are trying for accurate photorealistic feet or female genitalia, both of which normal SD struggles with
+>It is very much WIP
+>Extremely specialized, and lost a lot of general purpose capability and ability to stylize.
+
+**Torrent bf_fb_v3_t4_b16_noadd-ema-pruned-fp16.ckpt [03e33bb4]** 
+```text
+magnet:?xt=urn:btih:9530a8a0b43f83366216ab853b4419aa2056da58&dn=bf_fb_v3_t4_b16_noadd-ema-pruned-fp16.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.skyts.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.0x.tf%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fbt.oiyo.tk%3a6969%2fannounce
+```
+
+**Torrent bf_fb_v3_t4_b16_noadd-ema-pruned-fp32.ckpt [2bd8166c]**
+```text
+magnet:?xt=urn:btih:1f6bab17c548e35ac2a412e3e9119e5f4e00bb50&dn=bf_fb_v3_t4_b16_noadd-ema-pruned-fp32.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.skyts.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.0x.tf%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fbt.oiyo.tk%3a6969%2fannounce
+```
+
+## Lewd Diffusion
+### Lewd Diffusion 70k 2e [f4030c43]
+LD-70k-2e-pruned.ckpt
+70k explicit images from danbooru
+2 epochs
+Base model Waifu Diffusion v1.2 
+Dataset: `https://drive.google.com/drive/folders/1f_BYi88LLTZUzBHkUz8PDgw6l7M7swkd?usp=sharing`
+Dataset stats: `https://docs.google.com/spreadsheets/d/1BzNSXyT4fhiM64DwIJSCyAXuhRQ9fkxqcr-t1frIYkc/edit`
+!!! note
+	**SHA256** 54faf6de03fb9a6fe4d8af163b16133cd7cd045d45915178c602e4b51a92036c
+**Torrent**
+```text
+magnet:?xt=urn:btih:U5RICVYDEJL6LIJJWFKQOIVO5GMGCJNW&dn=last-pruned.ckpt&xl=3852165809&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce
+```
+
+### Lewd Diffusion 70k 1e [950d323b]
+LD-70k-1e-pruned.ckpt
+70k explicit from danbooru
+1 epoch
+Base model Waifu Diffusion v1.2 
+Dataset: `https://drive.google.com/drive/folders/1f_BYi88LLTZUzBHkUz8PDgw6l7M7swkd?usp=sharing`
+Dataset stats: `https://docs.google.com/spreadsheets/d/1BzNSXyT4fhiM64DwIJSCyAXuhRQ9fkxqcr-t1frIYkc/edit`
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:fca8782a5a9861a6beb1aa3b48938bd1da1a665e&dn=LD-70k-1e-pruned.ckpt&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fzecircle.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fyahor.ftp.sh%3A6969%2Fannounce&tr=udp%3A%2F%2Fvibe.sleepyinternetfun.xyz%3A1738%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tcp.exchange%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.swateam.org.uk%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce
+```
+### Lewd Diffusion v0 [07734b46]
+Lewd-diffusion-pruned.ckpt
+Danbooru21 NSFW epoch0
+40K Images
+1 Full Epoch
+Base model Waifu Diffusion v1.2
+Dataset: `https://drive.google.com/drive/folders/1f_BYi88LLTZUzBHkUz8PDgw6l7M7swkd?usp=sharing`
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:f6976fbe3b9f93469bb62eb0c4950643b09f1f83&dn=Lewd-diffusion-pruned.ckpt&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fzecircle.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fyahor.ftp.sh%3A6969%2Fannounce&tr=udp%3A%2F%2Fvibe.sleepyinternetfun.xyz%3A1738%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tcp.exchange%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.swateam.org.uk%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce
+```
+
+## Yiffy
+### yiffy-e18.ckpt [50ad914b]
+Based on yiffy-e15, trained for a further 3 epochs using a dataset of 210k images from e621.
+>This will likely be the last epoch for quite some time, because until further improvements to other parts of the network (such as a custom VAE, variable res, etc), we think that further training is not necessary because the model has converged on a decent style for now.
+>**IMPORTANT NOTE:** during training explicit was misspelled as **explict**. Using the misspelled version results in better cocks. Sorry :<
+
+Tag counts `https://mega.nz/file/ZkkTEYJY#X_j191NtHJRp0BKJusTqmWrs1-AdAILy99mqSAMpWbo` or `https://pixeldrain.com/u/TkwJU3WG`
+
+!!! note
+	**SHA256** 64e242ae67cb1fc85110a68242c936fa6f3e33077f2bfed48c4769959dff6c61
+	**MD5** dbe25794e24af183565dc45e9ec99713
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:b177dd04ae7062b541c82ad26f897e0a9fa514f4&dn=yiffy-e18.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce
+```
+**Web**
+```text
+https://sexy.canine.wf/file/yiffy-ckpt/yiffy-e18.ckpt
+```
+### yiffy-e15.ckpt [4bb305c0]
+Based on yiffy-e13, trained for a further 2 epochs using a dataset of 210k images from e621.
+>**IMPORTANT NOTE:** during training explicit was misspelled as **explict**. Using the misspelled version results in better cocks. Sorry :<
+
+Tag counts `https://mega.nz/file/ZkkTEYJY#X_j191NtHJRp0BKJusTqmWrs1-AdAILy99mqSAMpWbo` or `https://pixeldrain.com/u/TkwJU3WG`
+
+!!! note
+	**SHA256** f0d49adddcb9f1030cb13e4eed21d12f27cdd3d98a9740002d0ccdb4a9fa61f1
+	**MD5** cc354964edbcbb7758cb359743aa1791
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:2b8d5f308244eddf56d4a350df84d63045e65dd6&dn=yiffy-e15.ckpt&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fzecircle.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fyahor.ftp.sh%3A6969%2Fannounce&tr=udp%3A%2F%2Fvibe.sleepyinternetfun.xyz%3A1738%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tcp.exchange%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.swateam.org.uk%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce
+```
+**Web**
+```text
+https://sexy.canine.wf/file/yiffy-ckpt/yiffy-e15.ckpt
+```
+**Web**
+```text
+https://pixeldrain.com/u/qkRKKpqg
+```
+**Web**
+```text
+https://iwiftp.yerf.org/Furry/Software/Stable%20Diffusion%20Furry%20Finetune%20Models/Finetune%20models/yiffy-e15.ckpt
+```
+### yiffy-e13.ckpt [778b38ae]
+>first 4 epochs were trained on ~70k images with lama infilling (the cause of all of our headaches, because the network found a pattern in the edges and started replicating it everywhere)
+>next 6 epochs were trained on ~120k images with random cropping and a lower LR
+>last epochs were done on a different dataset, not bigger than 150k
+>**IMPORTANT NOTE:** during training explicit was misspelled as **explict**. Using the misspelled version results in better cocks. Sorry :<
+
+Tag counts `https://mega.nz/file/ZkkTEYJY#X_j191NtHJRp0BKJusTqmWrs1-AdAILy99mqSAMpWbo` or `https://pixeldrain.com/u/TkwJU3WG`
+
+!!! note
+	**MD5** bfff21ca92fb218e52ab47aea8bac582
+	**SHA256** 3d3f7cc7876ce79697038c620ba723d785be26a18a9734ea10a31fae63992b65
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:6d749325cbdcf1fc044483fb0d53c233b60735dc&dn=yiffy-e13.ckpt&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fzecircle.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fyahor.ftp.sh%3A6969%2Fannounce&tr=udp%3A%2F%2Fvibe.sleepyinternetfun.xyz%3A1738%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tcp.exchange%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.swateam.org.uk%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce
+```
+**Web**
+```text
+https://iwiftp.yerf.org/Furry/Software/Stable%20Diffusion%20Furry%20Finetune%20Models/Finetune%20models/yiffy-e13.ckpt
+```
+
+## Furry
+### Furry_epoch4.ckpt [323f8dd8]
+Trained on 300k images from e621. 
+Tag counts: `https://mega.nz/file/co0UlQ5Z#vERcoYTWGJguTsXmysbLq1NL_xBS8txQhVvPI5E3QKE` or `https://pixeldrain.com/u/FQwRjyyk`
+
+!!! note
+	**MD5** f8ef45a295ef4966682f6e8fc2c6830d
+	**SHA256** 4160c57f98f1727f5a52cba8c844656fc9061311f9c37daf45e8e0ebe913c987
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:a9635389ae4c5583b0cc76ec8f6dce35438b3016&dn=furry_epoch4.ckpt&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fzecircle.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fyahor.ftp.sh%3A6969%2Fannounce&tr=udp%3A%2F%2Fvibe.sleepyinternetfun.xyz%3A1738%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tcp.exchange%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.swateam.org.uk%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce
+```
+**Web**
+```text
+https://pixeldrain.com/u/dtYiYN7g
+```
+**Web**
+```text
+https://iwiftp.yerf.org/Furry/Software/Stable%20Diffusion%20Furry%20Finetune%20Models/Finetune%20models/furry_epoch4.ckpt
+```
+### Furry_epoch1.ckpt [0c891127]
+Trained on 300k images from e621.
+Tag counts: `https://mega.nz/file/co0UlQ5Z#vERcoYTWGJguTsXmysbLq1NL_xBS8txQhVvPI5E3QKE` or `https://pixeldrain.com/u/FQwRjyyk`
+
+**Torrent**
+```
+magnet:?xt=urn:btih:d62bc9a088b206565005cab915a58fd26da1802e&dn=furry_epoch1.ckpt&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fzecircle.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fyahor.ftp.sh%3A6969%2Fannounce&tr=udp%3A%2F%2Fvibe.sleepyinternetfun.xyz%3A1738%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tcp.exchange%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.swateam.org.uk%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce
+```
+**Web**
+```text
+https://iwiftp.yerf.org/Furry/Software/Stable%20Diffusion%20Furry%20Finetune%20Models/Finetune%20models/furry_epoch1.ckpt
+```
+
+### Furry_epoch0.ckpt [8c19ee5a]
+Trained on 300k images from e621.
+Tag counts: `https://mega.nz/file/co0UlQ5Z#vERcoYTWGJguTsXmysbLq1NL_xBS8txQhVvPI5E3QKE` or `https://pixeldrain.com/u/FQwRjyyk`
+
+**Web**
+```text
+https://iwiftp.yerf.org/Furry/Software/Stable%20Diffusion%20Furry%20Finetune%20Models/Finetune%20models/furry_epoch0_ckpt
+```
+
+
+## Zack3D_Kinky-v1.ckpt [1a75d5c6]
+This is a NSFW model trained from SD v1.4, great for general furry but specializes in the kinky side of art such as
+Transformation, latex, tentacles, goo, ferals, bondage, and a lot more that I cant remember. Uses over 100k images all aesthetics filtered. 
+Prompt is raw E621 tags, so with underscores.
+!!! note
+	**SHA1** 9f54dcdbdb2e4c969a9d1b70ba34f02227b8ce10
+	**MD5** aa944b1ecdaac60113027a0fdcda4f1b
+	**SHA256** 3FD17AF06C610990A957A801A1831F88EF5E45D9C3C8E551557B8B9C6C1FC2D5
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:807a71d3ed3f887e41c492cf24fbd3c6f5a81534&dn=Zack3D_Kinky-v1.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce
+```
+**Web**
+```
+https://pixeldrain.com/u/DEocAHsx
+```
+
+## Anal Vore AVHumanFurryPony7.ckpt [68e2e32d]
+Anal vore. 7 epochs continued from Zack3D_Kinky-v1. 
+Tags `https://mega.nz/file/FmxSnRZa#I4JgsLTiXWoFUoDrQBWfVNnooUUOxqkFHEOPuCE1Hdc`
+Example prompts `https://mega.nz/file/hu5QnJgJ#DFmvHDuEpm7OdDkQD_wIRrCo7x8j3lqYkhC4aS-egvs`
+
+**Web**
+```text
+https://mega.nz/file/4jR2WAIZ#p0A7eorXgI_ywC06zQiLcPwE3QdStEa86wwEdrDIE7A
+```
+
+## R34
+### r34_e4.ckpt [6e45cf2c]
+Fifth epoch.
+Tag counts: `https://mega.nz/file/4sFn0AxQ#pHDvIE5eKJC3NSNpgdEw-ve0WSlWjtsTvfpe7YaYh1Q`
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:ed9f0e3f849d7119107ef4e072c6abeb129e1a51&dn=r34_e4.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2fpublic.tracker.vraphim.com%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2ffe.dealclub.de%3a6969%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce
+```
+
+**Web**
+```text
+https://mega.nz/file/yJgDUCzA#zOD2yeE6QLBqPEjEpIi2b4FWOlb64yVUveOd_eW6teI
+```
+
+### r34_e3.ckpt [57ea6f43]
+>r34 e3 (fourth epoch). Same dataset, prepended "by" to artist tags, artist recognition has improved a little bit (still needs to get better), character recognition has improved quite a bit.
+
+**Web**
+```text
+https://mega.nz/file/WVggzbRa#4-pcaLeLN02bdvzUwCn2QQKoLxCC7copAJHYyG4aOB0
+```
+
+### r34_e2.ckpt [778b68b1]
+>Third epoch, again a pretty nice improvement over the last. Dataset grew by ~3K images, with 5K removed and 8K added.
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:ef93096b839a54bff77c585b1ba2518bc264d0b4&dn=r34_e2.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.swateam.org.uk%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.filemail.com%3a6969%2fannounce
+```
+
+**Web**
+```text
+https://mega.nz/file/3JQ13JTZ#sdByZl4rXp7uxxIDutGs5GHg5RkGZfLrTA5wQEfkDJE
+```
+
+### r34_e1.ckpt [f9000e4e]
+>I yeeted about 30K images and then added 20K back from good artists, and lowered the LR significantly to reflect my batch size, I think it's improved significantly but I didn't save any prompts/settings from epoch0 to compare it with.
+
+!!! note
+	**SHA256** 6ca821f381687796052aa027f60a2dff1aeb001a0c4a2e1f1a1fef4fe89e809a
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:aa575688ad99cf4bf8e5ee8ab026de9ef61f2d19&dn=r34_e1.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.0x.tf%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fbt.oiyo.tk%3a6969%2fannounce&tr=https%3a%2f%2ftracker.nanoha.org%3a443%2fannounce&tr=https%3a%2f%2ftracker.lilithraws.org%3a443%2fannounce
+```
+
+**Web**
+```text
+https://mega.nz/file/OdxnkAaQ#-9VBG4jyPqlQIcRRnojtNWvhdJQFbmmfGU9I2QGWV5o
+```
+
+
+### r34_150k_epoch0.ckpt  [7dc34283] [7c3721c3]
+Trained on 150K images from `rule34.xxx`. 1 epoch.
+Tag counts: `https://mega.nz/file/UhsWjBCI#XOvN31pil7_g9YgtzpchpJwyOnVHxrE-dlhxBLYku0I`
+!!! note
+	r34_150k_epoch0-pruned-fp16.ckpt **[7dc34283]** | **SHA256** f8c7da0d6a98ebd641cb67c24f33510e2c86d1dfa104c10279c7e5cb49d535fd
+	r34_150k_epoch0.ckpt **[7c3721c3]** | **SHA256** de2ad17e4af8871cdd42bd03de4faf28983c0ef8702323bbc3d382510d367a91
+
+**r34_150k_epoch0-pruned-fp16.ckpt [7dc34283] Torrent**
+```text
+magnet:?xt=urn:btih:a8f34e4f7f0bc5298516082b41b5e920b8cc483c&dn=r34_150k_epoch0-pruned-fp16.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.0x.tf%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fbt2.archive.org%3a6969%2fannounce
+```
+
+**r34_150k_epoch0.ckpt [7c3721c3] Torrent**
+```text
+magnet:?xt=urn:btih:PVTASWQ5GXC4NXGKAZU5LVXJZX3PR6R2&dn=r34_150k_epoch0.ckpt&xl=11142098457&tr=udp%3A%2F%2Ftracker.pomf.se%3A80%2Fannounce
+```
+
+**r34_150k_epoch0.ckpt [7c3721c3] Web**
+```text
+https://mega.nz/file/fdpVCZqB#C3G1_Qs9K65oh_9RHIJoiO1eE5Ns07mvqVdVYXq9uoo
+```
+
+##Gape
+
+### gape22 [d69e1a23]
+Presumably the 22nd epoch.
+gaping model trained on sankaku and e621 data: all of `gaping_anus`, `gaping_pussy`, `large_penetration`, `fisting`, `prolapse`, etc (some shit omitted). based on yiffy15.
+Info https://rentry.org/gapemodel
+**Web**
+```text
+https://mega.nz/file/29hmjYaA#GDdvgwJKKNFLMiaYA2RpuxFk7ormSrS32c05-s3JJCo
+```
+**Torrent**
+```text
+magnet:?xt=urn:btih:9d7aabfbac88940a0f93b076f3ce30bb4b06b7e8&dn=gape22_yiffy15.ckpt&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pomf.se%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fbt.oiyo.tk%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.nanoha.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.lilithraws.org%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce
+```
+
+### gape18
+Presumably the 18th epoch.
+gaping model trained on e621 data: all of `gaping_anus`, `gaping_pussy`, `large_penetration`, `fisting`, `prolapse`, etc (some shit omitted). based on yiffy15.
+Info https://rentry.org/gapemodel
+**Torrent**
+```text
+magnet:?xt=urn:btih:9c0fac3978e650e0fa18c18ee74dc35479774c08&dn=gape18_yiffy15.ckpt&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pomf.se%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fbt.oiyo.tk%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.nanoha.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.lilithraws.org%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce
+```
+
+## TestFurry_5.ckpt [b1f1855e]
+>Small model, trained with 40k dataset mixed furry and humans (~15k humans and 25k furry). No censorship, no speech bubbles, no comic strips. Gelbooru/e621 mixed tags.  5 epoch (still not finished but can do good results) NSFW!!
+>Tags order recommendation - type (furry if furry), character, source, author, race, gender, other description tags.
+>Trained on up to 225 tags, with penultimate layer (CLIP 2 in AUTO GUI)
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:0c0bbbf3182305d6e7e4707e566f2c60cf4e890f&dn=TestFurry_5.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.swateam.org.uk%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
+```
+
+## pony-diffusion [9070b574]
+Fine-tuned on top of an early checkpoint of Waifu Diffusion with a learning rate of 5.0e-6 for 4 epochs on approximately 80k pony text-image pairs (using tags from derpibooru) which all have score greater than 500 and belong to categories `safe` or `suggestive`.
+Info `https://huggingface.co/AstraliteHeart/pony-diffusion`
+!!! note
+	**SHA256** 507dd62efcb01db04aeb1b68eb28912d1fe692c04637e463cc43e68752729627
+
+**Web**
+```text
+https://mega.nz/file/ZT1xEKgC#Xxir5udMmU_mKaRZAbBkF247Yk7DqCr01V0pDzSlYI0
+```
+
+## mio-wd-v1.2-e24-ex-ad [125f9ece]
+Small model trained on 500 (aprox) images on Mio (nichijou). 24 epochs. 
+Info: `https://huggingface.co/chavinlo/mio-naganohara-waifu-diffusion`
+
+!!! note
+	**SHA256** 4744ed99c119096fa144df9aa8c869d933e3b6a239786462c5cc399ff1d78698
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:MS2YZ762U2IJZBG2GSEADRAA5KAOQCVQ&dn=mio-wd-v1.2-e24-ex-ad&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce
+```
+**Web**
+```text
+https://huggingface.co/chavinlo/mio-naganohara-waifu-diffusion/resolve/main/epoch%3D000023-pruned.ckpt
+```
+## fubuki-ld-v1-e13-ex-ad [2af6d20f]
+Medium model trained on 5,000 images of Fubuki from Hololive. 13 Epochs Pruned, 3.8GB, includes samples.
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:D37QX2URIZ7QWMBCCLMZG6THZF5GLDB2&dn=fubuki-ld-v1-e13-ex-ad&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce
+```
+## asuka-ld-v1-e4-ex-ad [87074080]
+Small model trained on 17,000 images of Asuka from Evangelion. 4 Epochs, Pruned, 3.6GB, does not include samples.
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:4GBOL6SMWLZWT2CBUWVMSF5NCGD47CGZ&dn=asuka-ld-v1-e4-ex-ad&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce
+```
+## tomoko-kuroki-ld-v1-e20-ex-ad [6095e7ab]
+Small model trained on unknown number of images of Tomoko Kuroki. 20 Epochs, Pruned, 3.5GB, does not include samples.
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:3OFJJ76Y2K4W47RJ7EXFKI3BAZPPVTQM&dn=tomoko-kuroki-ld-v1-e20-ex-ad&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce
+```
+## 70gg30LD70k.ckpt [402dc090]
+A merge between gg1342_testrun1_pruned.ckpt and LD-70k-1e-pruned.ckpt, 70-30 ratio.
+This list isn't for merges, you can make them yourself with the WebUI.
+This one is here because it is referenced (and asked for) so often.
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:5667722f227d1534232182de77730f8aa7ff8212&dn=70gg30LD70k.ckpt&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fzecircle.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fyahor.ftp.sh%3A6969%2Fannounce&tr=udp%3A%2F%2Fvibe.sleepyinternetfun.xyz%3A1738%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tcp.exchange%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.swateam.org.uk%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce
+```
+## wd1-2_sd1-4_merged.ckpt [2037c511]
+A merge between Waifu Diffusion v1.2 and Stable Diffusion v1.4 at unknown ratio.
+This list isn't for merges, you can make them yourself with the WebUI.
+This one is here because it is referenced (and asked for) so often.
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:a1515e051c61ac55e64a7961da956dc2f5c00e90&dn=wd1-2_sd1-4_merged.ckpt&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.nanoha.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.lilithraws.org%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce
+```
+
+## Dreambooth
+### Hiten girl_anime_8k_wallpaper_4k.ckpt [7831dea3]
+Useful for merging.
+Custom Dreambooth model based off of the artist Hiten. Dataset was 6 training images, and 34 regularization images. Trained for 4000 steps.
+Uses the Waifu Diffusion v1.2 model as a base.
+To use the model, simply insert the name 'Hiten' into your prompts. The class token used was 'girl_anime_8k_wallpaper'. Append the class token after Hiten for stronger results. EX: "1girl by Hiten girl_anime_8k_wallpaper"
+Info: `https://huggingface.co/BumblingOrange/Hiten`
+!!! note
+	**SHA256** | 59cb5b6f2b7b9373a602d93c802ee841c367db5166a758e8d1d32464c9db1dd5
+
+**Web**
+```text
+https://huggingface.co/BumblingOrange/Hiten/resolve/main/Hiten%20girl_anime_8k_wallpaper_4k.ckpt
+```
+
+### nanachiDB-42imgs-5000steps.ckpt
+> nanachi 42 images on top of yiffy-e15
+> keyword: nanachiDB cute_furry_girl
+**Web**
+```text
+https://mega.nz/file/xE9gFQYK#f61_2_OvDSOd4VRW3W9EoLpImwCBf1hauUFhW-iNtRw
+```
+
+### rizaDB-54imgs-4500steps.ckpt
+> ryza dreambooth model (54 images on top of WD 1.3 beta)
+> keyword: rizaDB anime_girl (yes I misspelled the name)
+> Attention: it can generate nsfw result by default
+```text
+https://mega.nz/file/dc1EDKCa#NTXIyMRCpFfS8BsW3s-VeT950ApRTzE8_aVciLmx1bM
+```
+
+### bea-14000-pruned-fp16.ckpt [802a681b]
+>Bea (Pokemon S/S) NSFW DreamBooth model
+>Dataset Size: 24 hand-picked, hand-cropped fanart images, 50% SFW, 50% NSFW
+>Steps: `14000`
+>Learning Rate: `6.5e-07`
+>Trigger Phrase (Identifier + Class): `sks girl`
+>All training images depict the character as at least 18 years old - I am not responsible for the generation results using this model file.
+>Training data included in torrent. 
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:18c7932594fcf2b67434103d3af422a92ebac625&dn=dreambooth-bea-nsfw&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.skyts.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce
+magnet:?xt=urn:btih:18c7932594fcf2b67434103d3af422a92ebac625&dn=dreambooth-bea-nsfw&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.skyts.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce
+```
+
+### 2b-10000-pruned-fp16.ckpt [8cf4478f]
+>YoRHa 2B (Nier) DreamBooth NSFW
+>Dataset Size: 18 hand-picked, hand-cropped fanart images, roughly half of them NSFW
+>Steps: `10000`
+>Learning Rate: `6.5e-07`
+>Trigger Phrase (Identifier + Class): `sks girl`
+>All training images depict the character as at least 18 years old - I am not responsible for the generation results using this model file.
+>Training data included in torrent.
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:14f5414d184f36c1932f310661eb82e14165931b&dn=dreambooth-2b-nsfw&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.skyts.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce
+```
+
+### misato-10000-pruned-fp16.ckpt [c51e4c77]
+>Misato Katsuragi (Casual Outfit) (Neon Genesis Evangelion) DreamBooth NSFW
+>Dataset Size: 21 hand-picked, hand-cropped fanart images, roughly half of them NSFW
+>Steps: `10000`
+>Learning Rate: `6.5e-07` (i think?)
+>Base Model: WD 1.3 epoch 8
+>Trigger Phrase (Identifier + Class): `sks katsuragi_misato`
+>All training images depict the character as at least 18 years old - I am not responsible for the generation results using this model file.
+>Training images included in torrent.
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:b4751304bbb04c719233436f92806cf278da74ab&dn=dreambooth-misato-nsfw&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.skyts.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce
+```
+
+### hilda-v2-8000-pruned-fp16.ckpt [d2c8eef1]
+>Hilda (Pokemon) DreamBooth NSFW
+>Dataset Size: 24 hand-picked, hand-cropped fanart images, roughly half of them NSFW
+>Steps: `8000`
+>Base Model: WD 1.3 epoch 8
+>Trigger Phrase (Identifier + Class): `sks hilda_(pokemon)`
+>All training images depict the character as at least 18 years old - I am not responsible for the generation results using this model file.
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:37c7fc96d630dafc14c3e46526507ca66e760afc&dn=dreambooth-hilda-nsfw&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce
+```
+
+### nagatoro-4000-pruned-fp16.ckpt [8c5ff341]
+>Nagatoro DreamBooth NSFW
+>Dataset Size: 16 hand-picked, hand-cropped fanart images, roughly half of them NSFW
+>Learning Rate: `2.9e-07` (imgs*0.18)
+>Steps: `4000`
+>Trigger Phrase (Identifier + Class): `sks nagatoro_hayase`
+>All training images depict the character as at least 18 years old - I am not responsible for the generation results using this model file.
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:fc70fc0613601df43ffc7e7921250debf925db7b&dn=dreambooth-nagatoro-nsfw&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce
+```
+
+### gawr_gura-4000-pruned-fp16.ckpt [cbd4da60]
+>Gawr Gura (Hololive) DreamBooth Model NSFW
+>Dataset Size: 24 hand-picked, hand-cropped fanart images, roughly half of them NSFW
+>Learning Rate: `4.3e-07` (imgs*0.18)
+>Steps: `4000`
+>Trigger Phrase (Identifier + Class): `sks gawr_gura`
+>All training images depict the character as at least 18 years old - I am not responsible for the generation results using this model file.
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:9200076f1cc41258a8069a6c44e948f5f6cd515b&dn=dreambooth-gura-nsfw&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce
+```
+
+### mori_calliope-4000-pruned-fp16.ckpt [6cb50083]
+>Calliope Mori (Hololive) DreamBooth Model NSFW
+>Dataset Size: 14 hand-picked, hand-cropped fanart images, roughly half of them NSFW
+>Learning Rate: `2.5e-07` (imgs*0.18)
+>Steps: `4000`
+>Trigger Phrase (Identifier + Class): `sks mori_calliope`
+>All training images depict the character as at least 18 years old - I am not responsible for the generation results using this model file.
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:969cabc39c8363aeec824f5530bb0749b6452621&dn=dreambooth-calli-nsfw&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce
+```
+
+### towa-4000-pruned-fp16.ckpt [d578d3c1]
+>Tokoyami Towa (Hololive) DreamBooth Model NSFW
+>Dataset Size: 15 fanart images, roughly half of them NSFW
+>Learning Rate: `2.7e-07` (imgs*0.18)
+>Steps: `4000`
+>Class: `tokoyami_towa`
+>All training images depict the character as at least 18 years old - I am not responsible for the generation results using this model file.
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:207fef192613543d219a861b37e04c138a7a8597&dn=dreambooth-towa-nsfw&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce
+```
+
+### Gawr_Gura_450img.ckpt [e7883abf]
+Based on Waifu Diffusion v1.2
+Custom Dreambooth model based off of the likeness of Hololive Vtuber Gawr Gura. Dataset was 450 training images, and 900 regularization images. Trained for 3000 steps.
+To use the model, simply insert the name 'Gawr Gura' into your prompts.
+Repo: https://huggingface.co/BumblingOrange/GuraLv400
+**Web**
+```text
+https://huggingface.co/BumblingOrange/GuraLv400/resolve/main/Gawr_Gura_450img.ckpt
+```
+
+### Emilia_CustReg_3k.ckpt [2660cf9a]
+Based on Waifu Diffusion v1.2
+Custom Dreambooth model based off of the likeness of Emilia from Re:Zero. Dataset was 16 training images, and 11 regularization images. Trained for 3000 steps.
+To use the model, simply insert the name 'Emilia' into your prompts. The class token used was 'white_hair_girl_violet_eyes'. Append the class token after Emilia for stronger results. EX: "A photo of Emilia white_hair_girl_violet_eyes"
+Repo: https://huggingface.co/BumblingOrange/Emilia
+```text
+https://huggingface.co/BumblingOrange/Emilia/resolve/main/Emilia_CustReg_3k.ckpt
+```
+
+### Star Fox Krystal 
+Trained on 90 fan art images for 2500 steps on top of yiffy18. Regulation images were an even mix of about 200 low-quality generations of 4 common anthro species with a spread of gender (a new idea I hope to explain in a forthcoming guide).
+This following bit of text MUST be used in your prompt, or it will do nothing!
+Trigger Phrase `thatbluefoxfromstarfoxkrystal anthro`
+
+!!! note
+	**SHA256** 13adea314c8653de231c454fa9e911d80ab04640caf30d752802c9b201d4c243
+
+**Web**
+```text
+https://mega.nz/file/6x4zETbS#E22vQhjjK9CmBQXkzZgNFkIF4-TWGsyE0GRFP7pk-kE
+```
+
+**Web**
+```text
+https://pixeldrain.com/u/EH2mvEux
+```
+
+### StudioGhibli [10c6aa67]
+Prompt is `studio_ghibli_anime_style style`
+Repo https://huggingface.co/IShallRiseAgain/StudioGhibli
+
+**Web**
+```text
+https://huggingface.co/IShallRiseAgain/StudioGhibli/resolve/main/StudioGhibliV4.ckpt
+```
+
+### Arcane Vi vimod.ckpt [e02601f3]
+Use `sks vi` or `vi` in the prompt.
+!!! note
+	**SHA256** 2db4e932c1d7e3ac4b8c9d94d9b9c98487941f3b6c5617973351f898374d7aae
+
+**Web**
+```text
+https://huggingface.co/jinofcoolnes/VImodel/resolve/main/vimod.ckpt
+```
+
+### hyper_preg_2.7k-lr5e-7-15ks-fp16.ckpt
+Hyper Preg Dreambooth model NSFW
+>2.7k images
+>15,000 steps
+>learning rate `5e-7`
+>base model `sd-v1-4`
+>keyword `hyperpreg`
+>class `round belly`
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:b2e9d5cefe697dbf9360a6b2ae474ed63ce46dcb&dn=dreambooth-hyper-preg
+```
+
+### Kurisu
+>Kurisu NSFW 
+>Trigger Phrase (Identifier + Class): `sks kurisu`
+>Steps - 4000
+>Images - 16 with a few NSFW
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:2380decbde8386095241729e38cb6bbead93c0c2&dn=kurisu_final_pruned.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce
+```
+
+### Zeipher F111 Female Nude (better anatomy)
+From: https://ai.zeipher.com/
+>All of these are still being trained and not final
+Check their website/discord for downloads and potential updates.
+
+**Torrent F111**
+```text
+magnet:?xt=urn:btih:402da7b33832b0db84a999909ad8b361eae3c7db&dn=f111
+```
+**Web**
+```text
+https://redirect.ai.zeipher.com/b1t50kc
+```
+Previously F99.
+
+### Zeipher BB (Blowjob images)
+From: https://ai.zeipher.com/
+>All of these are still being trained and not final
+Check their website/discord for downloads potential updates.
