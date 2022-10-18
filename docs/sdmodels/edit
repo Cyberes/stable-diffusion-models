@@ -33,7 +33,7 @@
     <form id="entry-form" class="long-words-overflow-y" action="" method="post" style="display: flex; flex: 1 0; flex-direction: column;">
         
 
-        <input type="hidden" name="csrfmiddlewaretoken" value="XxNmjeaH1JhyqyaxfxpQS4dHe9PizqWZ3fSPtAoVvf2WRyj1xeql7jwFFDxy8Ygl">
+        <input type="hidden" name="csrfmiddlewaretoken" value="hgkhsoJj8VcLe67l9JcgJu3lkBWYtJuopTThmtYTxmrsoEkDRPILvSJyYiKNaiaR">
 <div role="tabpanel" class="my-2 flex-tab" style="display: flex; flex: 1 0; flex-direction: column; min-height: 15em">
     <div class="text-danger messages"></div>
 
