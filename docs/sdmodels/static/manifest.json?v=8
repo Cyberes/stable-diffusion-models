@@ -1,0 +1,99 @@
+{
+    "short_name": "Rentry.co",
+    "name": "Rentry.co - Markdown Pastebin",
+    "description": "Markdown Pastebin",
+    "icons": [{
+            "src": "/static/icons/16.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        },
+        {
+            "src": "/static/icons/32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "/static/icons/48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "/static/icons/64.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "/static/icons/96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/static/icons/114.png",
+            "type": "image/png",
+            "sizes": "114x114"
+        },
+        {
+            "src": "/static/icons/120.png",
+            "type": "image/png",
+            "sizes": "120x120"
+        },
+        {
+            "src": "/static/icons/128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "/static/icons/144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "/static/icons/152.png",
+            "type": "image/png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "/static/icons/167.png",
+            "type": "image/png",
+            "sizes": "167x167"
+        },
+        {
+            "src": "/static/icons/180.png",
+            "type": "image/png",
+            "sizes": "180x180"
+        },
+        {
+            "src": "/static/icons/192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/static/icons/196.png",
+            "type": "image/png",
+            "sizes": "196x196"
+        },
+        {
+            "src": "/static/icons/228.png",
+            "type": "image/png",
+            "sizes": "228x228"
+        },
+        {
+            "src": "/static/icons/270.png",
+            "type": "image/png",
+            "sizes": "270x270"
+        },
+        {
+            "src": "/static/icons/512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/static/icons/558.png",
+            "type": "image/png",
+            "sizes": "558x558"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#edeef0",
+    "display": "standalone"
+}
