@@ -19,7 +19,7 @@ rm 'static/manifest.json?v=8'
 
 mv pdf sdmodels.pdf
 mv raw sdmodels-raw.txt
-# wget https://rentry.org/sdmodels/png --timeout=900 -O sdmodels.png
+wget https://rentry.org/sdmodels/png --timeout=900 -O sdmodels.png
 
 mv "static/css/bootstrap.min.css?v=84" static/css/bootstrap.min.css
 mv "static/js/bootstrap.min.js?v=20" static/js/bootstrap.min.js
