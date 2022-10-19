@@ -5,6 +5,9 @@
 ## Changelog
 Most recent entries first.
 
+19/10/2022
+>\+ Dreambooth > Blacked POV blowjob [8467f44f]
+>\+ RunwayML Stable Diffusion Inpainting v1.5 [3e16efc8]
 18/10/2022
 >\+ TestFurry_5.ckpt [b1f1855e]
 >\+ Trinart > trinart_characters_19.2m_stable_diffusion_v1 [d64dab7f] + VAE
@@ -79,6 +82,26 @@ https://huggingface.co/CompVis/stable-diffusion-v-1-4-original
 **GDrive**
 ```text
 https://drive.google.com/file/d/1wHFgl0ivCmIZv88hVZXkb8oy9qCuaBGA/view
+```
+
+## RunwayML Stable Diffusion Inpainting v1.5 [3e16efc8]
+This is not StabilityAI's 1.5 model.
+Repo https://huggingface.co/runwayml/stable-diffusion-inpainting
+Intended to be used with https://github.com/runwayml/stable-diffusion
+
+>The Stable-Diffusion-Inpainting was initialized with the weights of the Stable-Diffusion-v-1-2. First 595k steps regular training, then 440k steps of inpainting training at resolution 512x512 on “laion-aesthetics v2 5+” and 10% dropping of the text-conditioning to improve classifier-free classifier-free guidance sampling. For inpainting, the UNet has 5 additional input channels (4 for the encoded masked-image and 1 for the mask itself) whose weights were zero-initialized after restoring the non-inpainting checkpoint. During training, we generate synthetic masks and in 25% mask everything.
+
+!!! note
+	**SHA256** c6bbc15e3224e6973459ba78de4998b80b50112b0ae5b5c67113d56b4e366b19
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:b523a9e71ae02e27b28007eca190f41999c2add1&dn=sd-v1-5-inpainting.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.swateam.org.uk%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce
+```
+
+**Web (Requires Login)**
+```text
+https://huggingface.co/runwayml/stable-diffusion-inpainting/resolve/main/sd-v1-5-inpainting.ckpt
 ```
 
 ## Waifu Diffusion
@@ -1061,6 +1084,21 @@ magnet:?xt=urn:btih:b2e9d5cefe697dbf9360a6b2ae474ed63ce46dcb&dn=dreambooth-hyper
 **Torrent**
 ```text
 magnet:?xt=urn:btih:2380decbde8386095241729e38cb6bbead93c0c2&dn=kurisu_final_pruned.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce
+```
+
+### Blacked POV blowjob [8467f44f]
+dreambooth-bkdbj-4000step-pruned-fp16.ckpt
+>Blacked POV blowjob model, trained for 4000 steps on 70 hand picked photos from blacked.com, trained on top of SD 1.4 model using Dreambooth. Keyword for prompt: `bkdbj`
+>All training images used depict the actress as at least 18 years old - I am not responsible for any generation results using this model file or models merged with it. I will provide no support or further updates for this model. It is a "one trick pony" model, as it can do only one kind of NSFW scene. Size for generation that works is 512x512 or up to 512x640.
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:836422af364efb784e61a049c1257ea1230509b7&dn=dreambooth-bkdbj-4000step-pruned-fp16.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.swateam.org.uk%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce
+```
+
+**Web**
+```text
+https://gofile.io/d/aMfZIV
 ```
 
 ### Zeipher F111 Female Nude (better anatomy)
