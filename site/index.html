@@ -146,9 +146,18 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
 
                   <h5>1.5</h5>
                   <p>
-                    Stable Diffusion 1.5 beta has been released on DreamStudio. StabilityAI should release it publicly eventually...
+                    The main model is v1-5-pruned-emaonly.ckpt, meaning it has ema-only weights.
                   </p>
+                  <h6>Torrent</h6>
+                  <pre class="dl-link"
+                    data-name="Torrent v1-5-pruned-emaonly.ckpt"><code class="language-text">magnet:?xt=urn:btih:2daef5b5f63a16a9af9169a529b1a773fc452637&dn=v1-5-pruned-emaonly.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce</code></pre>
 
+                  <h6>Web Download</h6>
+                  <pre class="dl-link" data-name="HuggingFace v1-5-pruned-emaonly.ckpt"><code class="language-bash">https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt</code></pre>
+
+                  <p>
+                    Full EMA models <a href="https://huggingface.co/runwayml/stable-diffusion-v1-5">here</a>.
+                  </p>
                   <h5>1.4</h5>
                   <p>
                     <strong>Torrent</strong>
@@ -160,8 +169,7 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
                   <p>
                     Download from HuggingFace. Fast, global CDN but you need to get access to the model repository and provide your user token.
                   </p>
-                  <pre class="dl-link"
-                    data-name="HuggingFace sd-v1-4.ckpt"><code class="language-bash">wget --header="Authorization: Bearer &lt;user_token&gt;" https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt -O sd-v1-4.ckpt</code></pre>
+                  <pre class="dl-link" data-name="HuggingFace sd-v1-4.ckpt"><code class="language-bash">https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt</code></pre>
                   <p>
                     Alternatively, you could use this Google Drive link that the author of the WebUI shared:
                   </p>
@@ -521,7 +529,8 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
   </script>
   <script crossorigin="anonymous" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script crossorigin="anonymous" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="/stable-diffusion-models/assets/jquery.waypoints.min.js"></script>
+  <!-- <script src="/stable-diffusion-models/assets/jquery.waypoints.min.js"></script> -->
+  <script src="https://getbootstrap.com/docs/5.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

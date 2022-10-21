@@ -28,7 +28,7 @@ mv static/js/jquery.min.js?v=* static/js/jquery.min.js
 perl -pi -e 's/bootstrap\.min\.css\?v=[0-9]*/bootstrap\.min\.css/g' index.html
 perl -pi -e 's/bootstrap\.min\.js\?v=[0-9]*/bootstrap\.min\.js/g' index.html
 perl -pi -e 's/jquery\.min\.js\?v=[0-9]*/jquery\.min\.js/g' index.html
-perl -pi -e 's/<\/body>/<script src="https:\/\/getbootstrap\.com\/docs\/5\.0\/dist\/js\/bootstrap\.bundle\.min\.js"><\/script><\/body>g/' index.html
+perl -pi -e 's/<\/body>/<script src="https:\/\/getbootstrap\.com\/docs\/5\.0\/dist\/js\/bootstrap\.bundle\.min\.js"><\/script><\/body>/g' index.html
 
 perl -pi -e 's/\/sdmodels\/raw/sdmodels-raw\.txt/g' index.html
 perl -pi -e 's/\/sdmodels\/pdf/sdmodels\.pdf/g' index.html
