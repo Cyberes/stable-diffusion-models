@@ -56,8 +56,8 @@ li {
   list-style-type: none !important;
 }
 
-ol>li>ol {
-  font-weight: unset !important;
+ol>li>ol>li, ol > li > ol > ol > li {
+  font-weight: initial !important;
 }
 
 li {
