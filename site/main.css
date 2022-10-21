@@ -51,3 +51,15 @@ code.hljs>span.hljs-string {
 h1, h2, h3, h4, h5, h6 {
   cursor: text !important;
 }
+
+ol {
+  list-style-type: none !important;
+}
+
+ol>li>ol {
+  font-weight: unset !important;
+}
+
+li {
+  font-weight: bold !important;
+}
