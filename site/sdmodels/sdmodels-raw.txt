@@ -5,9 +5,14 @@
 ## Changelog
 Most recent entries first.
 
+21/10/2022
+>\+ Stable Diffusion VAE ft-mse-original
+>\+ Stable Diffusion VAE ft-ema-original
+20/10/2022
+>\+ Stable Diffusion v1.5 [81761151] [a9263745]
 19/10/2022
 >\+ Dreambooth > Blacked POV blowjob [8467f44f]
->\+ RunwayML Stable Diffusion Inpainting v1.5 [3e16efc8]
+>\+ Stable Diffusion Inpainting v1.5 [3e16efc8]
 18/10/2022
 >\+ TestFurry_5.ckpt [b1f1855e]
 >\+ Trinart > trinart_characters_19.2m_stable_diffusion_v1 [d64dab7f] + VAE
@@ -64,7 +69,91 @@ Most recent entries first.
 >\+ Bare Feet / Full Body b4_t16_noadd [03e33bb4] [2bd8166c] [9012c514]
 >\+ Waifu Diffusion v1.3 beta epoch07 [3ad68e9a] [e4150f29] [39312118]
 
-## Stable Diffusion v1.4 [4af45990] [7460a6fa] [06c50424]
+## Stable Diffusion
+### Stable Diffusion v1.5 [81761151] [a9263745]
+>The Stable-Diffusion-v1-5 checkpoint was initialized with the weights of the Stable-Diffusion-v1-2 checkpoint and subsequently fine-tuned on 595k steps at resolution 512x512 on "laion-aesthetics v2 5+" and 10% dropping of the text-conditioning to improve classifier-free guidance sampling.
+Repo https://huggingface.co/runwayml/stable-diffusion-v1-5
+
+!!! note
+	v1-5-pruned-emaonly.ckpt **[81761151]** | **SHA256** cc6cb27103417325ff94f52b7a5d2dde45a7515b25c255d8e396c90014281516
+	v1-5-pruned.ckpt **[a9263745]** | **SHA256** e1441589a6f3c5a53f5f54d0975a18a7feb7cdf0b0dee276dfc3331ae376a053
+
+**Torrent v1-5-pruned-emaonly.ckpt**
+```text
+magnet:?xt=urn:btih:2daef5b5f63a16a9af9169a529b1a773fc452637&dn=v1-5-pruned-emaonly.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
+```
+
+**Web v1-5-pruned-emaonly.ckpt**
+Requires login
+```text
+https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt
+```
+
+**Torrent v1-5-pruned.ckpt**
+!!! warning
+	This version of the model is only useful for native training. If you don't know what this is, you don't need this.
+	If you only want to generate images, or train dreambooth/textual inversion/hypernetworks, get v1-5-pruned-emaonly.ckpt instead.
+
+```text
+magnet:?xt=urn:btih:38c2b7a8abf55604ae8a5f060ffda2e028075af3&dn=v1-5-pruned.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
+```
+
+**Web v1-5-pruned.ckpt**
+Requires login.
+!!! warning
+	This version of the model is only useful for native training. If you don't know what this is, you don't need this.
+	If you only want to generate images, or train dreambooth/textual inversion/hypernetworks, get v1-5-pruned-emaonly.ckpt instead.
+```text
+https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned.ckpt
+```
+
+### Stable Diffusion VAE ft-mse-original
+Resumed from ft-EMA and uses EMA weights and was trained for another 280k steps using a re-weighted loss, with more emphasis on MSE reconstruction (producing somewhat "smoother" outputs). To keep compatibility with existing models, only the decoder part was finetuned; the checkpoints can be used as a drop-in replacement for the existing autoencoder.
+Repo & Info (with comparisons) https://huggingface.co/stabilityai/sd-vae-ft-mse-original
+
+!!! warning
+	A VAE is not the same as the other models on this list. It is not a complete model that can be used to generate images alone, but a component to be used in tandem with other models.
+	If you don't know what this is or why you would want it, don't bother with it.
+
+**Web**
+```text
+https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt
+```
+
+### Stable Diffusion VAE ft-ema-original
+Resumed from the original checkpoint, trained for 313198 steps and uses EMA weights. To keep compatibility with existing models, only the decoder part was finetuned; the checkpoints can be used as a drop-in replacement for the existing autoencoder.
+Repo & Info (with comparisons) https://huggingface.co/stabilityai/sd-vae-ft-ema-original
+
+!!! warning
+	A VAE is not the same as the other models on this list. It is not a complete model that can be used to generate images alone, but a component to be used in tandem with other models.
+	If you don't know what this is or why you would want it, don't bother with it.
+
+**Web**
+```text
+https://huggingface.co/stabilityai/sd-vae-ft-ema-original/resolve/main/vae-ft-ema-560000-ema-pruned.ckpt
+```
+
+### Stable Diffusion Inpainting v1.5 [3e16efc8]
+Repo https://huggingface.co/runwayml/stable-diffusion-inpainting
+Intended to be used with https://github.com/runwayml/stable-diffusion
+
+>The Stable-Diffusion-Inpainting was initialized with the weights of the Stable-Diffusion-v-1-2. First 595k steps regular training, then 440k steps of inpainting training at resolution 512x512 on “laion-aesthetics v2 5+” and 10% dropping of the text-conditioning to improve classifier-free classifier-free guidance sampling. For inpainting, the UNet has 5 additional input channels (4 for the encoded masked-image and 1 for the mask itself) whose weights were zero-initialized after restoring the non-inpainting checkpoint. During training, we generate synthetic masks and in 25% mask everything.
+
+!!! note
+	**SHA256** c6bbc15e3224e6973459ba78de4998b80b50112b0ae5b5c67113d56b4e366b19
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:b523a9e71ae02e27b28007eca190f41999c2add1&dn=sd-v1-5-inpainting.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.swateam.org.uk%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce
+```
+
+**Web**
+Requires login
+```text
+https://huggingface.co/runwayml/stable-diffusion-inpainting/resolve/main/sd-v1-5-inpainting.ckpt
+```
+
+### Stable Diffusion v1.4 [4af45990] [7460a6fa] [06c50424]
 !!! note
 	sd-v1-4-pruned.ckpt **[4af45990]**
 	sd-v1-4.ckpt **[7460a6fa]** | **SHA256** fe4efff1e174c627256e44ec2991ba279b3816e364b49f9be2abc0b3ff3f8556
@@ -82,26 +171,6 @@ https://huggingface.co/CompVis/stable-diffusion-v-1-4-original
 **GDrive**
 ```text
 https://drive.google.com/file/d/1wHFgl0ivCmIZv88hVZXkb8oy9qCuaBGA/view
-```
-
-## RunwayML Stable Diffusion Inpainting v1.5 [3e16efc8]
-This is not StabilityAI's 1.5 model.
-Repo https://huggingface.co/runwayml/stable-diffusion-inpainting
-Intended to be used with https://github.com/runwayml/stable-diffusion
-
->The Stable-Diffusion-Inpainting was initialized with the weights of the Stable-Diffusion-v-1-2. First 595k steps regular training, then 440k steps of inpainting training at resolution 512x512 on “laion-aesthetics v2 5+” and 10% dropping of the text-conditioning to improve classifier-free classifier-free guidance sampling. For inpainting, the UNet has 5 additional input channels (4 for the encoded masked-image and 1 for the mask itself) whose weights were zero-initialized after restoring the non-inpainting checkpoint. During training, we generate synthetic masks and in 25% mask everything.
-
-!!! note
-	**SHA256** c6bbc15e3224e6973459ba78de4998b80b50112b0ae5b5c67113d56b4e366b19
-
-**Torrent**
-```text
-magnet:?xt=urn:btih:b523a9e71ae02e27b28007eca190f41999c2add1&dn=sd-v1-5-inpainting.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.swateam.org.uk%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce
-```
-
-**Web (Requires Login)**
-```text
-https://huggingface.co/runwayml/stable-diffusion-inpainting/resolve/main/sd-v1-5-inpainting.ckpt
 ```
 
 ## Waifu Diffusion
