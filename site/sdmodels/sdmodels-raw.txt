@@ -5,6 +5,10 @@
 ## Changelog
 Most recent entries first.
 
+22/10/2022
+>\+ Dreambooth > dreambooth_lain_girl.ckpt [e7629bf8]
+>\+ Dreambooth > LOKEAN_MISSIONARY_POV.ckpt [e02601f3]
+>\+ Dreambooth > LOKEAN_PUPPYSTYLE_POV.ckpt [e02601f3]
 21/10/2022
 >\+ Stable Diffusion VAE ft-mse-original
 >\+ Stable Diffusion VAE ft-ema-original
@@ -1155,6 +1159,19 @@ magnet:?xt=urn:btih:b2e9d5cefe697dbf9360a6b2ae474ed63ce46dcb&dn=dreambooth-hyper
 magnet:?xt=urn:btih:2380decbde8386095241729e38cb6bbead93c0c2&dn=kurisu_final_pruned.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce
 ```
 
+### dreambooth_lain_girl.ckpt [e7629bf8]
+Prompt token `lain girl`
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:8fb4f0fe0ce052b5d6f0d1221a69f04aa2ea406d&dn=dreambooth_lain_girl.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
+```
+
+**Web**
+```text
+https://mega.nz/file/VK0U0ALD#YDfGgOu8rquuR5FbFxmzKD5hzxO1iF0YQafN0ipw-Ck
+```
+
 ### Blacked POV blowjob [8467f44f]
 dreambooth-bkdbj-4000step-pruned-fp16.ckpt
 >Blacked POV blowjob model, trained for 4000 steps on 70 hand picked photos from blacked.com, trained on top of SD 1.4 model using Dreambooth. Keyword for prompt: `bkdbj`
@@ -1189,3 +1206,37 @@ Previously F99.
 From: https://ai.zeipher.com/
 >All of these are still being trained and not final
 Check their website/discord for downloads potential updates.
+
+### LOKEAN_PUPPYSTYLE_POV.ckpt [e02601f3]
+Photorealistic hetero doggystyle images.
+For some reason, shares short hash with Arcane Vi vimod.ckpt and lokean missionary. Probably due to how it was trained - the hash is only of a small segment near the start of the file. They are different models.
+Use `LOKEAN_PUPPYSTYLE_POV` to activate.
+Info and preview images https://rentry.org/kwai
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:81327feecffd080a72744a415ec815081d73ccc4&dn=LOKEAN_PUPPYSTYLE_POV.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
+```
+
+**Web**
+```text
+https://agencykwai.vip/SD/LOKEAN_PUPPYSTYLE_POV.part1.rar
+https://agencykwai.vip/SD/LOKEAN_PUPPYSTYLE_POV.part2.rar
+```
+
+### LOKEAN_MISSIONARY_POV.ckpt [e02601f3]
+Photorealistic hetero missionary images.
+For some reason, shares short hash with Arcane Vi vimod.ckpt and lokean puppystyle. Probably due to how it was trained - the hash is only of a small segment near the start of the file. They are different models.
+Use `LOKEAN_MISSIONARY_POV` to activate.
+Info and preview images https://rentry.org/kwai
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:6ab226eabcb4440751324e28c67125d7edaf77d6&dn=LOKEAN_MISSIONARY_POV.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
+```
+
+**Web**
+```text
+https://agencykwai.vip/SD/LOKEAN_MISSIONARY_POV.part1.rar
+https://agencykwai.vip/SD/LOKEAN_MISSIONARY_POV.part2.rar
+```
