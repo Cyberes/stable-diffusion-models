@@ -96,6 +96,7 @@
                         <li><a href="#stable-diffusion-model">Stable Diffusion</a></li>
                         <ol>
                           <li><a href="#stable-diffusion-1-5">v1.5</a></li>
+                          <li><a href="#stable-diffusion-1-5-inpainting">v1.5 Inpainting</a></li>
                           <li><a href="#stable-diffusion-1-4">v1.4</a></li>
                           <li><a href="#stable-diffusion-vae">VAE</a></li>
                         </ol>
@@ -165,7 +166,7 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
                   <pre class="dl-link"
                     data-name="Torrent v1-5-pruned-emaonly.ckpt"><code class="language-text">magnet:?xt=urn:btih:2daef5b5f63a16a9af9169a529b1a773fc452637&dn=v1-5-pruned-emaonly.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce</code></pre>
 
-                  <h6>Web Download</h6>
+                  <h6>Web</h6>
                   <p>
                     Download from HuggingFace. Fast, global CDN but you need to login and share your contact information with the repository.
                   </p>
@@ -175,10 +176,29 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
                     Full EMA models <a href="https://huggingface.co/runwayml/stable-diffusion-v1-5#original-github-repository">here</a>.
                   </p>
 
+                  <h5 id="stable-diffusion-1-5-inpainting">Stable Diffusion Inpainting</h5>
+                  <p>
+                    A model designed specifically for inpainting, based off sd-v1-5.ckpt. The first 595k steps were regular training, then 440k steps of inpainting training at resolution 512x512 on “laion-aesthetics v2 5+” and 10% dropping of the text-conditioning
+                    to improve classifier-free classifier-free guidance sampling. For inpainting, the UNet has 5 additional input channels (4 for the encoded masked-image and 1 for the mask itself) whose weights were zero-initialized after restoring
+                    the non-inpainting checkpoint. During training, synthetic masks were generated and 25% of the image was masked.
+                  </p>
+                  <p>
+                    <a href="https://github.com/runwayml/stable-diffusion">https://github.com/runwayml/stable-diffusion</a>
+                  </p>
+                  <p>
+                    <strong>Torrent</strong>
+                  <pre class="dl-link"
+                    data-name="Torrent sd-v1-5-inpainting.ckpt"><code class="language-text">magnet:?xt=urn:btih:b523a9e71ae02e27b28007eca190f41999c2add1&dn=sd-v1-5-inpainting.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.swateam.org.uk%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce</code></pre>
+
+                  <p>
+                    <strong>HuggingFace</strong>
+                  </p>
+                  <pre class="dl-link" data-name="HuggingFace sd-v1-5-inpainting.ckpt"><code class="language-text">https://huggingface.co/runwayml/stable-diffusion-inpainting/resolve/main/sd-v1-5-inpainting.ckpt</code></pre>
+
                   <h5 id="stable-diffusion-1-4">v1.4</h5>
                   <h6>Torrent</h6>
                   <pre class="dl-link" data-name="Torrent sd-v1-4.ckpt"><code class="language-text">magnet:?xt=urn:btih:3A4A612D75ED088EA542ACAC52F9F45987488D1C&tr=udp://tracker.opentrackr.org:1337</code></pre>
-                  <h6>Web Download</h6>
+                  <h6>Web</h6>
                   <p>
                     Download from HuggingFace. Fast, global CDN but you need to login and share your contact information with the repository.
                   </p>
@@ -193,10 +213,10 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
 
                   <h5 id="stable-diffusion-vae">VAE</h5>
                   <p>
-                    StabilityAI relased two autoencoders for Stable Diffusion.
+                    StabilityAI has relased two autoencoders for Stable Diffusion.
                   </p>
                   <p>
-                    <a href="https://huggingface.co/stabilityai/sd-vae-ft-mse-original#improved-autoencoders">huggingface.co/stabilityai/sd-vae-ft-mse-original#improved-autoencoders</a>
+                    <a href="https://huggingface.co/stabilityai/sd-vae-ft-mse-original#improved-autoencoders">https://huggingface.co/stabilityai/sd-vae-ft-mse-original#improved-autoencoders</a>
                   </p>
 
                   <h6>ft-EMA</h6>
@@ -295,7 +315,7 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
                   </p>
                   <pre class="dl-link" data-name="Torrent trinart2_step60000.ckpt"><code class="language-text">coming soon</code></pre> -->
                   <!-- <p>
-                    <strong>Web Download</strong>
+                    <strong>Web</strong>
                   </p> -->
                   <pre class="dl-link" data-name="HuggingFace trinart2_step60000.ckpt"><code class="language-text">https://huggingface.co/naclbit/trinart_stable_diffusion_v2/resolve/main/trinart2_step60000.ckpt</code></pre>
                   <h5>
@@ -306,7 +326,7 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
                   </p>
                   <pre class="dl-link" data-name="Torrent trinart2_step95000.ckpt"><code class="language-text">coming soon</code></pre> -->
                   <!-- <p>
-                    <strong>Web Download</strong>
+                    <strong>Web</strong>
                   </p> -->
                   <pre class="dl-link" data-name="HuggingFace trinart2_step95000.ckpt"><code class="language-text">https://huggingface.co/naclbit/trinart_stable_diffusion_v2/resolve/main/trinart2_step95000.ckpt</code></pre>
                   <h5>
@@ -317,7 +337,7 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
                   </p>
                   <pre class="dl-link" data-name="Torrent trinart2_step115000.ckpt"><code class="language-text">coming soon</code></pre> -->
                   <!-- <p>
-                    <strong>Web Download</strong>
+                    <strong>Web</strong>
                   </p> -->
                   <pre class="dl-link" data-name="HuggingFace trinart2_step115000.ckpt"><code class="language-text">https://huggingface.co/naclbit/trinart_stable_diffusion_v2/resolve/main/trinart2_step115000.ckpt</code></pre>
                 </div>
