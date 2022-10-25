@@ -178,8 +178,7 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
 
                   <h5 id="stable-diffusion-1-5-inpainting">Stable Diffusion Inpainting</h5>
                   <p>
-                    A model designed specifically for inpainting, based off sd-v1-5.ckpt. The first 595k steps were regular training, then 440k steps of inpainting training at resolution 512x512 on “laion-aesthetics v2 5+” and 10% dropping of the text-conditioning
-                    to improve classifier-free classifier-free guidance sampling. For inpainting, the UNet has 5 additional input channels (4 for the encoded masked-image and 1 for the mask itself) whose weights were zero-initialized after restoring
+                    A model designed specifically for inpainting, based off sd-v1-5.ckpt. For inpainting, the UNet has 5 additional input channels (4 for the encoded masked-image and 1 for the mask itself) whose weights were zero-initialized after restoring
                     the non-inpainting checkpoint. During training, synthetic masks were generated and 25% of the image was masked.
                   </p>
                   <p>
