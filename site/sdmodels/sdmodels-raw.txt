@@ -5,6 +5,9 @@
 ## Changelog
 Most recent entries first.
 
+25/10/2022
+>\+ SmirkingFace > EB 1.0 [7f115f17] [7010a578] [339b9a04]
+>\+ SmirkingFace > EBL 1.0 [758fda47]
 24/10/2022
 >\+ Dreambooth > Reverse cowgirl s4629674.ckpt [e285da0d]
 >\+ sd-wikiart-v2.ckpt. [8f32b8df]
@@ -487,6 +490,99 @@ trinart_stable_diffusion is a SD model finetuned by about 30,000 assorted high r
 ```text
 https://huggingface.co/naclbit/trinart_stable_diffusion/resolve/main/trinart_stable_diffusion_epoch3.ckpt
 ```
+
+## SmirkingFace
+>SmirkingFace is a project that aims to finetune the Stable Diffusion model with high quality erotic content and allow it to generate a large variety of erotic content. 
+>In case you're uncertain which model you need, the EB 1.0 EMA model tends to perform well in many cases. EBL 1.0 has been trained for the longest, but will require code for our modified model to work (released on our github).
+>Note: All our models include the updated MSE VAE released by Stability AI.
+Info https://www.patreon.com/posts/released-models-73689798
+
+
+### EB 1.0 [7f115f17] [7010a578] [339b9a04]
+Model using the original Stable Diffusion architecture trained on a wide variety of erotic photos with a large variety in poses.
+Info https://www.patreon.com/posts/released-models-73689798
+
+##### SF_EB_1.0_ema_vae.ckpt [7f115f17]
+!!! note
+	SF_EB_1.0_ema_vae.ckpt [7f115f17] **SHA256** 245cac02fa7243a83ff5f7cf78407a505308e8b6f2dacdff2ad43a1846514f3d
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:a0bcc397b2c3c101755245fd9b26ae1aa8d5d580&dn=SF_EB_1.0_ema_vae.zip&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
+```
+
+**Web**
+```text
+https://anonfiles.com/32F7ecE0y5/SF_EB_1.0_ema_vae_zip
+```
+
+**Web**
+```text
+https://gofile.io/d/MYOKl8
+```
+
+##### SF_EB_1.0_noema_vae.ckpt [7010a578]
+!!! note
+	SF_EB_1.0_noema_vae.ckpt [7010a578] **SHA256** 344719ce863db1464ee81f2dc61375c10fcb9fd8b72afd69ad07b091fc834170
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:3d73f553ce18ec0bae3811edb37a904c5e82c56d&dn=SF_EB_1.0_noema_vae.zip&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
+```
+
+**Web**
+```text
+https://anonfiles.com/t1Iee0E4y0/SF_EB_1.0_noema_vae_zip
+```
+
+**Web**
+```text
+https://gofile.io/d/MYOKl8
+```
+
+##### SF_EB_1.0_pruned_vae.ckpt [339b9a04]
+!!! note
+	SF_EB_1.0_pruned_vae.ckpt [339b9a04] **SHA256** c50ab94df348e43ad001bd18bcbf4c0f239afc408b134d24ce74b5b7c86b3e0d
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:875cb7ced0127c67f466a08de8945b5f936fc020&dn=SF_EB_1.0_pruned_vae.zip&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
+```
+
+**Web**
+```text
+https://anonfiles.com/icT4e1Eeyf/SF_EB_1.0_pruned_vae_zip
+```
+
+**Web**
+```text
+https://gofile.io/d/MYOKl8
+```
+
+### EBL 1.0  [758fda47]
+Model using an extended architecture (1.8B parameters), resumed from EB 1.0. Trained on a wide variety of erotic photos with a large variety in poses.
+Won't work out of the box with webui (currently, at least). 
+Code https://github.com/smirkingface/stable-diffusion
+Info https://www.patreon.com/posts/released-models-73689798
+
+!!! note
+	SF_EBL_1.0_vae.ckpt [758fda47] **SHA256** e237715adaf1b3e43eb2eee792fe82a90d01a45beb79d38807f5ca92b7a277db
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:8c4cafe3b148c4337e381dbc0a18fc03a2eb7ac2&dn=SF_EBL_1.0_vae.zip&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
+```
+
+**Web**
+```text
+https://anonfiles.com/I6y3feEay4/SF_EBL_1.0_vae_zip
+```
+
+**Web**
+```text
+https://gofile.io/d/MYOKl8
+```
+
 
 ## gg1342_testrun1_pruned.ckpt [43076286] [2ccc3e58]
 A test run that was trained on 280 NSFW images (nude solo women) + another 80 SFW images of a few fictional characters.
