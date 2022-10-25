@@ -97,6 +97,7 @@
                         <ol>
                           <li><a href="#stable-diffusion-1-5">v1.5</a></li>
                           <li><a href="#stable-diffusion-1-4">v1.4</a></li>
+                          <li><a href="#stable-diffusion-vae">VAE</a></li>
                         </ol>
                         <li><a href="#waifu-diffusion">Waifu Diffusion</a></li>
                         <ol>
@@ -189,6 +190,26 @@ aria2c "&lt;magnet URL here&gt;"</code></pre>
                     <strong>Google Drive</strong>
                   </p>
                   <pre class="dl-link" data-name="Google Drive sd-v1-4.ckpt"><code class="language-text">https://drive.google.com/file/d/1wHFgl0ivCmIZv88hVZXkb8oy9qCuaBGA/view</code></pre>
+
+                  <h5 id="stable-diffusion-vae">VAE</h5>
+                  <p>
+                    StabilityAI relased two autoencoders for Stable Diffusion.
+                  </p>
+                  <p>
+                    <a href="https://huggingface.co/stabilityai/sd-vae-ft-mse-original#improved-autoencoders">huggingface.co/stabilityai/sd-vae-ft-mse-original#improved-autoencoders</a>
+                  </p>
+
+                  <h6>ft-EMA</h6>
+                  <p>
+                    Resumed from the original kl-f8 VAE checkpoint, trained for 313198 steps and uses EMA weights.
+                  </p>
+                  <pre class="dl-link" data-name="HuggingFace ft-EMA VAE"><code class="language-bash">https://huggingface.co/stabilityai/sd-vae-ft-ema-original/resolve/main/vae-ft-ema-560000-ema-pruned.ckpt</code></pre>
+
+                  <h6>ft-MSE</h6>
+                  <p>
+                    Resumed from ft-EMA and uses EMA weight. Trained for another 280k steps using a re-weighted loss, with more emphasis on MSE reconstruction (producing somewhat "smoother" outputs).
+                  </p>
+                  <pre class="dl-link" data-name="HuggingFace ft-MSE VAE"><code class="language-bash">https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt</code></pre>
                 </div>
 
                 <div class="subsection" data-content-name="Waifu Diffusion" data-content-piece="Subsection" data-track-content>
