@@ -5,6 +5,10 @@
 ## Changelog
 Most recent entries first.
 
+24/10/2022
+>\+ Dreambooth > Reverse cowgirl s4629674.ckpt [e285da0d]
+>\+ sd-wikiart-v2.ckpt. [8f32b8df]
+>\+ Dreambooth > Kurisu Visual Novel Official artist (Huke) [eda12c8e]
 22/10/2022
 >\+ Dreambooth > dreambooth_lain_girl.ckpt [e7629bf8]
 >\+ Dreambooth > LOKEAN_MISSIONARY_POV.ckpt [e02601f3]
@@ -862,6 +866,16 @@ Info https://rentry.org/gapemodel
 magnet:?xt=urn:btih:9c0fac3978e650e0fa18c18ee74dc35479774c08&dn=gape18_yiffy15.ckpt&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pomf.se%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fbt.oiyo.tk%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.nanoha.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.lilithraws.org%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce
 ```
 
+## sd-wikiart-v2.ckpt. [8f32b8df]
+>sd-wikiart-v2 is a stable diffusion model that has been fine-tuned on the wikiart dataset to generate artistic images in different style and genres.
+>The current model has been fine-tuned with a learning rate of 1e-05 for 1 epoch on 81K text-image pairs from wikiart dataset. Only the attention layers of the model are fine-tuned. This is done to avoid catastrophic forgetting, the model can generate artistic images given specific prompts but still retains most of its previous knowledge.
+Info https://huggingface.co/valhalla/sd-wikiart-v2
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:474493890c2532031fefc8ba3c44d8fed61f287a&dn=sd-wikiart-v2.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
+```
+
 ## TestFurry_5.ckpt [b1f1855e]
 >Small model, trained with 40k dataset mixed furry and humans (~15k humans and 25k furry). No censorship, no speech bubbles, no comic strips. Gelbooru/e621 mixed tags.  5 epoch (still not finished but can do good results) NSFW!!
 >Tags order recommendation - type (furry if furry), character, source, author, race, gender, other description tags.
@@ -1159,6 +1173,19 @@ magnet:?xt=urn:btih:b2e9d5cefe697dbf9360a6b2ae474ed63ce46dcb&dn=dreambooth-hyper
 magnet:?xt=urn:btih:2380decbde8386095241729e38cb6bbead93c0c2&dn=kurisu_final_pruned.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce
 ```
 
+### Kurisu Visual Novel Official artist (Huke) [eda12c8e]
+kurisu_vn_final_4k_pruned.ckpt
+>Can do NSFW
+>Trigger Phrase (Identifier + Class): `sks kurisu_vn`
+>Steps - 4000 (tried 6k and it was overfitted)
+>12 SFW images from the artist of the Steins;Gate, Huke
+>Quick note on this model, if you are wanting to generate different characters and use "highres fix" in auto's ui, set denoising strength high to prevent artifacts due to the art style, preferably >0.85. Adjust CFG as necessary, 5-7 is a good start. 
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:04c933900719a5833fbe07581ffa6c5114d3b7b6&dn=kurisu_vn_final_4k_pruned.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce
+```
+
 ### dreambooth_lain_girl.ckpt [e7629bf8]
 Prompt token `lain girl`
 
@@ -1239,4 +1266,18 @@ magnet:?xt=urn:btih:6ab226eabcb4440751324e28c67125d7edaf77d6&dn=LOKEAN_MISSIONAR
 ```text
 https://agencykwai.vip/SD/LOKEAN_MISSIONARY_POV.part1.rar
 https://agencykwai.vip/SD/LOKEAN_MISSIONARY_POV.part2.rar
+```
+
+### Reverse cowgirl s4629674.ckpt [e285da0d]
+Photorealistic reverse cowgirl porn model
+Prompt `s4629674`
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:7dd135c05ce2693fbcaf0e6e2f9975dfa871f745&dn=s4629674.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
+```
+
+**Web**
+```text
+https://mega.nz/file/Q4tDRTAJ#GvgsNp_AnCuniY_rpdrerDQtVaGO90dQlyB__wT4dMM
 ```
