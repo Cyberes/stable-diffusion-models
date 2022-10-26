@@ -6,6 +6,8 @@
 Most recent entries first.
 
 25/10/2022
+>\+ SmirkingFace usage instructions links (EBL w/ auto's webui)
+>\+ Gape > gape60 [25396b85]
 >\+ SmirkingFace > EB 1.0 [7f115f17] [7010a578] [339b9a04]
 >\+ SmirkingFace > EBL 1.0 [758fda47]
 24/10/2022
@@ -496,11 +498,12 @@ https://huggingface.co/naclbit/trinart_stable_diffusion/resolve/main/trinart_sta
 >In case you're uncertain which model you need, the EB 1.0 EMA model tends to perform well in many cases. EBL 1.0 has been trained for the longest, but will require code for our modified model to work (released on our github).
 >Note: All our models include the updated MSE VAE released by Stability AI.
 Info https://www.patreon.com/posts/released-models-73689798
-
+Usage instructions with previews https://www.patreon.com/posts/73775030
 
 ### EB 1.0 [7f115f17] [7010a578] [339b9a04]
 Model using the original Stable Diffusion architecture trained on a wide variety of erotic photos with a large variety in poses.
 Info https://www.patreon.com/posts/released-models-73689798
+Usage instructions with previews https://www.patreon.com/posts/73775030
 
 ##### SF_EB_1.0_ema_vae.ckpt [7f115f17]
 !!! note
@@ -564,6 +567,8 @@ Model using an extended architecture (1.8B parameters), resumed from EB 1.0. Tra
 Won't work out of the box with webui (currently, at least). 
 Code https://github.com/smirkingface/stable-diffusion
 Info https://www.patreon.com/posts/released-models-73689798
+Running with auto's webui https://www.patreon.com/posts/running-extended-73768212
+General usage instructions with previews https://www.patreon.com/posts/73775030
 
 !!! note
 	SF_EBL_1.0_vae.ckpt [758fda47] **SHA256** e237715adaf1b3e43eb2eee792fe82a90d01a45beb79d38807f5ca92b7a277db
@@ -939,6 +944,20 @@ https://mega.nz/file/fdpVCZqB#C3G1_Qs9K65oh_9RHIJoiO1eE5Ns07mvqVdVYXq9uoo
 ```
 
 ##Gape
+### gape60 [25396b85]
+60th epoch (120k steps)
+gaping/large insertion/other model trained on danbooru, gelbooru, sankaku: all of `gaping anus`, `gaping pussy`, `large insertion`, `huge dildo`, `fisting`, `prolapse`, `all the way through` + some others.
+Info https://rentry.org/gapemodel
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:b892f6e7e6e287ca2ea59d2c575fdf5ae1f82d92&dn=gape60.ckpt&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fvibe.sleepyinternetfun.xyz%3A1738%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.zerobytes.xyz%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.zemoj.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.swateam.org.uk%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pomf.se%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.monitorit4.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce
+```
+
+**Web**
+```text
+https://mega.nz/file/38RxVBiK#ocmQb_ahp078Imfcvc5SrAvJePOqvhNVBKfZIIeP74Q
+```
 
 ### gape22 [d69e1a23]
 Presumably the 22nd epoch.
