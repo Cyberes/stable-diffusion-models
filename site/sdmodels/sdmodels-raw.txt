@@ -5,6 +5,8 @@
 ## Changelog
 Most recent entries first.
 
+26/10/2022
+>\+ Dreambooth > Wayne Barlowe [e0c27550]
 25/10/2022
 >\+ SmirkingFace usage instructions links (EBL w/ auto's webui)
 >\+ Gape > gape60 [25396b85]
@@ -1312,6 +1314,32 @@ magnet:?xt=urn:btih:8fb4f0fe0ce052b5d6f0d1221a69f04aa2ea406d&dn=dreambooth_lain_
 **Web**
 ```text
 https://mega.nz/file/VK0U0ALD#YDfGgOu8rquuR5FbFxmzKD5hzxO1iF0YQafN0ipw-Ck
+```
+
+### Wayne Barlowe [e0c27550]
+Trained on 31 SFW artworks by artist Wayne Barlowe
+>Trigger Phrase: `DBWayneBarlowe`
+>Steps: `4000`
+>Images: 
+>Model: `SD_1.5_pruned`
+>Use religious, demonic oriented prompts
+
+!!! note
+	**SHA512**  30fd8065ff69438c0ef96e063490f6ed4a8c7b41ac8433a36e592f285937f34cc45212d7c44846161a3b5f7977d9700778bf8d566beb653e56babf079f570302
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:a488fb7b0403988df282b422c3d9383e17bbc646&dn=DBWayneBarlowe_JM.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=https%3a%2f%2ftracker.nanoha.org%3a443%2fannounce&tr=https%3a%2f%2ftracker.lilithraws.org%3a443%2fannounce&tr=https%3a%2f%2ftr.burnabyhighstar.com%3a443%2fannounce
+```
+
+**Web**
+```text
+https://gofile.io/d/VPm7wu
+```
+
+**Web**
+```text
+https://pixeldrain.com/u/9pPL2ikF
 ```
 
 ### Blacked POV blowjob [8467f44f]
