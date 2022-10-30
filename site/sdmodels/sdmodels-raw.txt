@@ -1022,8 +1022,24 @@ magnet:?xt=urn:btih:0c0bbbf3182305d6e7e4707e566f2c60cf4e890f&dn=TestFurry_5.ckpt
 ```
 
 ## cookie_sd_pony_run_a12 [2ce7dcf5] [67ff5385]
-Trained on 3x RTX 2080 Ti using 300k Derpibooru images, filtered by score.gt:100 and less than 3 characters in each image. Anthro, Humanized, EqG are now included. Model sharding and offloading provided by DeepSpeed was used to circumvent the training VRAM requirements. 
-Readme, tag counts, etc. `https://mega.nz/folder/rIZwEaLZ#AwCpM7Zhu8TFgISQhAE8tw/folder/LRxjWBaJ`
+>This is the "Cookie A12" model.
+>Trained on 300k Derpibooru images with score.gt:100 for 2172700 steps.
+
+>New features;
+>- Improved VAE
+>- Improved CLIP Text Encoder
+>- Generate images at any aspect ratio
+>- Generate any derpibooru artist or OC to high accuracy.
+>- Generate Anthro, Humanized, EqG, Dragon?, whatever exists in derpibooru.
+>- Generate high quality results without "magic words" (https://u.smutty.horse/mjzakocpxtf.png)
+>- No censored tags or data, NSFW+SFW.
+
+>Note:
+>Keep CLIP Skip off. The improved CLIP will break if you skip any layers.
+
+>Samples:
+>https://u.smutty.horse/mjzakocpxtf.png
+>https://drive.google.com/drive/folders/1nOZKI2iXpzjusvlCsZxF7NxKZYjvKOWE?usp=share_link
 
 **Torrent float16**
 ```text
