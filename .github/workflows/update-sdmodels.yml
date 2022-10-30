@@ -38,12 +38,12 @@ jobs:
 
     - name:             Commit Changes
       run: |
-        git config --global user.email "<>" \
-        git config --global user.name "GitHub Actions"
-        cd ${{ github.workspace }} \
-        git add --all \
-        git commit -m "[AUTO] Update static page" \
-        git push \
+        git config user.name "GitHub Actions Bot"
+        git config user.email "<>"
+        cd ${{ github.workspace }}
+        git add --all
+        git commit -m "[AUTO] Update static page"
+        git push
 
 #       uses:             devops-infra/action-commit-push@master
 #       with:
