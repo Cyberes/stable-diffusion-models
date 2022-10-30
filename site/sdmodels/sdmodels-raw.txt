@@ -5,6 +5,13 @@
 ## Changelog
 Most recent entries first.
 
+29/10/2022
+>\+ Pachu-Diffusion [54d5d199]
+>\+ Dreambooth > Arcane-Diffusion [318a302e]
+>\+ Dreambooth > modern-disney-diffusion [ccf3615f]
+>\+ Dreambooth > elden-ring-diffusion [16d77205]
+>\+ pony-diffusion-v2 [5bdc40aa]
+>\+ cookie_sd_pony_run_a12 [2ce7dcf5] [67ff5385]
 26/10/2022
 >\+ Dreambooth > Wayne Barlowe [e0c27550]
 25/10/2022
@@ -501,6 +508,7 @@ https://huggingface.co/naclbit/trinart_stable_diffusion/resolve/main/trinart_sta
 >Note: All our models include the updated MSE VAE released by Stability AI.
 Info https://www.patreon.com/posts/released-models-73689798
 Usage instructions with previews https://www.patreon.com/posts/73775030
+Word lists https://www.patreon.com/posts/word-lists-73913464
 
 ### EB 1.0 [7f115f17] [7010a578] [339b9a04]
 Model using the original Stable Diffusion architecture trained on a wide variety of erotic photos with a large variety in poses.
@@ -993,6 +1001,16 @@ Info https://huggingface.co/valhalla/sd-wikiart-v2
 magnet:?xt=urn:btih:474493890c2532031fefc8ba3c44d8fed61f287a&dn=sd-wikiart-v2.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
 ```
 
+## Pachu-Diffusion [54d5d199]
+>This fine-tuned Stable Diffusion v1.5 model was trained for 8000 iterations on the works of Pachu M. Torres. Training was performed using ShivamShrirao/diffusers with full precision, prior-preservation loss, the train-text-encoder feature, and the new 1.5 MSE VAE from Stability AI. A total of 4120 regularization / class images were used. Regularization images were generated using the prompt "artwork style", 50 DDIM steps, and a CFG of 7.
+>Use the tokens `pachu artwork style` in your prompts for the effect.
+Repo https://huggingface.co/ProGamerGov/Pachu-Diffusion
+
+**Web**
+```text
+https://huggingface.co/ProGamerGov/Pachu-Diffusion/resolve/main/pachu_artwork_style_v1_iter8000.ckpt
+```
+
 ## TestFurry_5.ckpt [b1f1855e]
 >Small model, trained with 40k dataset mixed furry and humans (~15k humans and 25k furry). No censorship, no speech bubbles, no comic strips. Gelbooru/e621 mixed tags.  5 epoch (still not finished but can do good results) NSFW!!
 >Tags order recommendation - type (furry if furry), character, source, author, race, gender, other description tags.
@@ -1003,7 +1021,43 @@ magnet:?xt=urn:btih:474493890c2532031fefc8ba3c44d8fed61f287a&dn=sd-wikiart-v2.ck
 magnet:?xt=urn:btih:0c0bbbf3182305d6e7e4707e566f2c60cf4e890f&dn=TestFurry_5.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.swateam.org.uk%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
 ```
 
-## pony-diffusion [9070b574]
+## cookie_sd_pony_run_a12 [2ce7dcf5] [67ff5385]
+Trained on 3x RTX 2080 Ti using 300k Derpibooru images, filtered by score.gt:100 and less than 3 characters in each image. Anthro, Humanized, EqG are now included. Model sharding and offloading provided by DeepSpeed was used to circumvent the training VRAM requirements. 
+Readme, tag counts, etc. `https://mega.nz/folder/rIZwEaLZ#AwCpM7Zhu8TFgISQhAE8tw/folder/LRxjWBaJ`
+
+**Torrent float16**
+```text
+magnet:?xt=urn:btih:54d2d1d8f36d9ee192a3b84e6e6c0ddb68f4e891&dn=cookie_sd_pony_run_a12_datasetv5_300k_imgs_fp16.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.swateam.org.uk%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.encrypted-data.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
+```
+
+**Web float16**
+```text
+https://sexy.canine.wf/file/furry-ckpt/cookie_sd_pony_run_a12_datasetv5_300k_imgs_fp16.ckpt
+```
+
+**Web float32**
+```text
+https://sexy.canine.wf/file/furry-ckpt/cookie_sd_pony_run_a12_datasetv5_300k_imgs_fp32.ckpt
+```
+
+**Web**
+```text
+https://mega.nz/folder/rIZwEaLZ#AwCpM7Zhu8TFgISQhAE8tw/folder/LRxjWBaJ
+```
+
+## pony-diffusion
+
+### pony-diffusion-v2 [5bdc40aa]
+>pony-diffusion is a latent text-to-image diffusion model that has been conditioned on high-quality pony and furry SFW and NSFW images through fine-tuning.
+>WARNING: Compared to v1 of this model, v2 is much more capable of producing NSFW content so it's recommended to use 'safe' tag in prompt in combination with negative prompt for image features you may want to suppress. v2 model also has a slight 3d bias so negative prompts like '3d' or 'sfm' should be used to better match v1 outputs.
+Repo https://huggingface.co/AstraliteHeart/pony-diffusion-v2
+
+**Web**
+```text
+https://mega.nz/file/Va0Q0B4L#QAkbI2v0CnPkjMkK9IIJb2RZTegooQ8s6EpSm1S4CDk
+```
+
+### pony-diffusion-v1 [9070b574]
 Fine-tuned on top of an early checkpoint of Waifu Diffusion with a learning rate of 5.0e-6 for 4 epochs on approximately 80k pony text-image pairs (using tags from derpibooru) which all have score greater than 500 and belong to categories `safe` or `suggestive`.
 Info `https://huggingface.co/AstraliteHeart/pony-diffusion`
 !!! note
@@ -1423,4 +1477,37 @@ magnet:?xt=urn:btih:7dd135c05ce2693fbcaf0e6e2f9975dfa871f745&dn=s4629674.ckpt&tr
 **Web**
 ```text
 https://mega.nz/file/Q4tDRTAJ#GvgsNp_AnCuniY_rpdrerDQtVaGO90dQlyB__wT4dMM
+```
+
+### elden-ring-diffusion [16d77205]
+This is the fine-tuned Stable Diffusion model trained on the game art from Elden Ring. 
+Use the tokens `elden ring style` in your prompts for the effect.
+Repo https://huggingface.co/nitrosocke/elden-ring-diffusion
+Check the repo for potential newer versions.
+
+**Web**
+```text
+https://huggingface.co/nitrosocke/elden-ring-diffusion/resolve/main/eldenring-v2-pruned.ckpt
+```
+
+### modern-disney-diffusion [ccf3615f]
+This is the fine-tuned Stable Diffusion model trained on screenshots from a popular animation studio. 
+Use the tokens `modern disney style` in your prompts for the effect.
+Repo https://huggingface.co/nitrosocke/mo-di-diffusion
+Check the repo for potential newer versions.
+
+**Web**
+```text
+https://huggingface.co/nitrosocke/mo-di-diffusion/resolve/main/moDi-v1-pruned.ckpt
+```
+
+### Arcane-Diffusion [318a302e]
+This is the fine-tuned Stable Diffusion model trained on images from the TV Show Arcane. 
+Use the tokens `arcane style` in your prompts for the effect.
+Repo https://huggingface.co/nitrosocke/Arcane-Diffusion
+Check the repo for potential newer versions.
+
+**Web**
+```text
+https://huggingface.co/nitrosocke/Arcane-Diffusion/resolve/main/arcane-diffusion-v3.ckpt
 ```
