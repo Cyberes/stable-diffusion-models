@@ -37,13 +37,21 @@ jobs:
       shell:            sh
 
     - name:             Commit Changes
-      uses:             devops-infra/action-commit-push@master
-      with:
-        github_token:   "${{ secrets.GITHUB_TOKEN }}"
-        add_timestamp:  false
-        commit_prefix:  "[AUTO] "
-        commit_message: "Update static page"
-        force:          false
+      run: |
+        git config --global user.email "<>" \
+        git config --global user.name "GitHub Actions"
+        cd ${{ github.workspace }} \
+        git add --all \
+        git commit -m "[AUTO] Update static page" \
+        git push \
+
+#       uses:             devops-infra/action-commit-push@master
+#       with:
+#         github_token:   "${{ secrets.GITHUB_TOKEN }}"
+#         add_timestamp:  false
+#         commit_prefix:  "[AUTO] "
+#         commit_message: "Update static page"
+#         force:          false
 
   deploy:
     needs:              generate
