@@ -2,9 +2,21 @@
 
 [TOC2]
 
+## Contact
+I have been keeping up with SD less lately, which means I am more likely to miss new models.
+If you think something is missing from this list, contact me with details.
+plonk#2327
+
 ## Changelog
 Most recent entries first.
 
+31/10/2022
+>\+ Dreambooth > DCAU [2fd6057b]
+>\+ Dreambooth > bukkake [b4a14787]
+>\+ Added contact
+>\+ Dreambooth > classic-anim-diffusion [be7ddafc]
+>\+ Dreambooth > hyperbreasts: v3
+>\+ Dreambooth > hyperpreg: v2
 29/10/2022
 >\+ Pachu-Diffusion [54d5d199]
 >\+ Dreambooth > Arcane-Diffusion [318a302e]
@@ -1335,7 +1347,29 @@ Use `sks vi` or `vi` in the prompt.
 https://huggingface.co/jinofcoolnes/VImodel/resolve/main/vimod.ckpt
 ```
 
-### hyper_preg_2.7k-lr5e-7-15ks-fp16.ckpt
+### hyperbreasts: v3
+>Hyper Breasts Dreambooth model [NSFW] v3
+>-1.2k images
+>-10,000 steps
+>-learning rate 1e-6
+>This one was trained on less images overall, but higher quality and larger in size.  Bigger results than v2.
+>keyword `hyperbreasts`
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:nf5mg3yvhho5rc4euyrxz4s62ejyrp2d&dn=dreambooth-hyper-breasts-v3&xl=2133006880&fc=2
+```
+
+### hyperpreg: v2 (realism and anime)
+>keyword `hyperpreg`
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:xeaxmzyhmdxooukwdf3ejjdb2yngjgin&dn=dreambooth-hyper-preg-v2&xl=2133006686&fc=2 
+```
+
+### hyperpreg: v1 (realism)
+hyper_preg_2.7k-lr5e-7-15ks-fp16.ckpt
 Hyper Preg Dreambooth model NSFW
 >2.7k images
 >15,000 steps
@@ -1346,7 +1380,7 @@ Hyper Preg Dreambooth model NSFW
 
 **Torrent**
 ```text
-magnet:?xt=urn:btih:b2e9d5cefe697dbf9360a6b2ae474ed63ce46dcb&dn=dreambooth-hyper-preg
+magnet:?xt=urn:btih:wlu5ltx6nf637e3au2zk4r2o2y6oi3ol&dn=dreambooth-hyper-preg&xl=2133006686&fc=2
 ```
 
 ### Kurisu
@@ -1526,4 +1560,41 @@ Check the repo for potential newer versions.
 **Web**
 ```text
 https://huggingface.co/nitrosocke/Arcane-Diffusion/resolve/main/arcane-diffusion-v3.ckpt
+```
+
+### classic-anim-diffusion [be7ddafc]
+This is the fine-tuned Stable Diffusion model trained on screenshots from a popular animation studio. 
+Use the tokens `classic disney style` in your prompts for the effect.
+Repo https://huggingface.co/nitrosocke/classic-anim-diffusion
+Check the repo for potential newer versions.
+
+**Web**
+```text
+https://huggingface.co/nitrosocke/classic-anim-diffusion/resolve/main/classicAnim-v1.ckpt
+```
+
+### bukkake [b4a14787]
+bukkake_20_training_images_2020_max_training_steps_woman_class_word.ckpt
+SD1.4 + Dreambooth
+>A good prompt to test is is "portrait of bukkake woman, cute girl, sexy, beautiful girl, photograph, nikon d4, f/2.8, 70mm, topless" 
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:90df9e64cd31b686c858b9d50b54efafd6a96984&dn=bukkake_20_training_images_2020_max_training_steps_woman_class_word.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.swateam.org.uk%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.encrypted-data.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
+```
+
+**Web**
+```text
+https://mega.nz/file/olV0yDrR#-5ShWX92PP6r8wV6jHMHQjOmEGnq82xY6-J048GOf9s
+```
+
+### DCAU [2fd6057b]
+A model for the DC animated universe. Currently it has only been trained on Batman the Animated Series, but there are plans to include all the shows.
+Repo (with samples) https://huggingface.co/IShallRiseAgain/DCAU
+See the repo for potential newer versions.
+Prompt is currently `Batman_the_animated_series`.
+
+**Web**
+```text
+https://huggingface.co/IShallRiseAgain/DCAU/resolve/main/DCAUV1.ckpt
 ```
