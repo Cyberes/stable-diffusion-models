@@ -10,6 +10,9 @@ plonk#2327
 ## Changelog
 Most recent entries first.
 
+01/11/2022
+>\+ Easter e3 [9c5ade34] 
+>\+ Pyro's Blowjob Model v1.0 [9b5251e8]
 31/10/2022
 >\+ Dreambooth > DCAU [2fd6057b]
 >\+ Dreambooth > bukkake [b4a14787]
@@ -620,6 +623,48 @@ A test run that was trained on 280 NSFW images (nude solo women) + another 80 SF
 **Torrent**
 ```text
 magnet:?xt=urn:btih:c95e266e15e13cf0e2d69b29338a89a94d736546&dn=gg1342_testrun1_pruned.ckpt&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fzecircle.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fyahor.ftp.sh%3A6969%2Fannounce&tr=udp%3A%2F%2Fvibe.sleepyinternetfun.xyz%3A1738%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tcp.exchange%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.swateam.org.uk%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce
+```
+
+## Pyro's Blowjob Model v1.0 [9b5251e8]
+Photorealistic
+>Current dreambooth based blowjob models suck dick (heh), so I decided to do a "real" take on this and fine-tune it the native way (like eg. WaifuDiffusion did with their model)
+>Base model: SD 1.5
+>2899 input images
+>23192 steps x batch size 4
+>LR 5e-06
+Info and potentially newer versions: https://rentry.org/pyros-sd-model
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:5c5d96dfb4eda3d4eb0f8f67c695b8b8ac241060&dn=pyros-bj-v1-0.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.swateam.org.uk%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.encrypted-data.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
+```
+
+**Web**
+```text
+https://anonfiles.com/6123m6F6y9/pyros-bj-v1-0_ckpt
+```
+
+**Web**
+```text
+https://mega.nz/file/lLtjCLwb#KgXPDzbTotcb0_quzzBMm6DaDCuSFIaF8CXxw1WsEs8
+```
+
+## Easter e3 [9c5ade34] 
+>General lewd model, "Easter.ckpt"! Trained on about 180k images from gelbooru and e621.
+>NSFW and niche content is included. I take no responsibility for the model's outputs!
+>Model seems better at the front than the back.
+>Suggested negative prompt: "Letterbox".
+>The name comes from its tendency to mix rabbits and eggs.
+>Currently on epoch 3. 
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:79d1adf55ab8336e095215f3d293fa3c29d57528&dn=easter_e3.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.swateam.org.uk%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.encrypted-data.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
+```
+
+**Web**
+```text
+https://mega.nz/file/l3RRiIzI#hHGR6rYAJ0-weE8kef7bBUq5u2WjI3oTP92A7atTINw
 ```
 
 ## Hentai Diffusion
@@ -1577,6 +1622,7 @@ https://huggingface.co/nitrosocke/classic-anim-diffusion/resolve/main/classicAni
 bukkake_20_training_images_2020_max_training_steps_woman_class_word.ckpt
 SD1.4 + Dreambooth
 >A good prompt to test is is "portrait of bukkake woman, cute girl, sexy, beautiful girl, photograph, nikon d4, f/2.8, 70mm, topless" 
+>Tip: Do NOT use face restore if you are trying to do txt2img to achieve any kind of realistic cum on a realistic face. Both currently available face restore models (GPFGAN and Codeformer) completely remove or ruin cum on face. Hopefully another coomer will come up with a new face restore model that ignores liquids on faces and still fixes the underlying face
 
 **Torrent**
 ```text
