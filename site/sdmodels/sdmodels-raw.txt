@@ -10,6 +10,10 @@ plonk#2327
 ## Changelog
 Most recent entries first.
 
+02/11/2022
+>\+ Dreambooth > oshinobu-pruned.ckpt
+>\+ Dreambooth >henreader_final_pruned.ckpt [e5803978]
+>\+ Dreambooth > oshino_shinobu_final_pruned.ckpt
 01/11/2022
 >\+ Easter e3 [9c5ade34] 
 >\+ Pyro's Blowjob Model v1.0 [9b5251e8]
@@ -1532,15 +1536,9 @@ For some reason, shares short hash with Arcane Vi vimod.ckpt and lokean missiona
 Use `LOKEAN_PUPPYSTYLE_POV` to activate.
 Info and preview images https://rentry.org/kwai
 
-**Torrent**
-```text
-magnet:?xt=urn:btih:81327feecffd080a72744a415ec815081d73ccc4&dn=LOKEAN_PUPPYSTYLE_POV.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
-```
-
 **Web**
 ```text
-https://agencykwai.vip/SD/LOKEAN_PUPPYSTYLE_POV.part1.rar
-https://agencykwai.vip/SD/LOKEAN_PUPPYSTYLE_POV.part2.rar
+https://agencykwai.vip/SD/LOKEAN_PUPPYSTYLE_POV.ckpt
 ```
 
 ### LOKEAN_MISSIONARY_POV.ckpt [e02601f3]
@@ -1549,15 +1547,9 @@ For some reason, shares short hash with Arcane Vi vimod.ckpt and lokean puppysty
 Use `LOKEAN_MISSIONARY_POV` to activate.
 Info and preview images https://rentry.org/kwai
 
-**Torrent**
-```text
-magnet:?xt=urn:btih:6ab226eabcb4440751324e28c67125d7edaf77d6&dn=LOKEAN_MISSIONARY_POV.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
-```
-
 **Web**
 ```text
-https://agencykwai.vip/SD/LOKEAN_MISSIONARY_POV.part1.rar
-https://agencykwai.vip/SD/LOKEAN_MISSIONARY_POV.part2.rar
+https://agencykwai.vip/SD/LOKEAN_MISSIONARY_POV.ckpt
 ```
 
 ### Reverse cowgirl s4629674.ckpt [e285da0d]
@@ -1643,4 +1635,56 @@ Prompt is currently `Batman_the_animated_series`.
 **Web**
 ```text
 https://huggingface.co/IShallRiseAgain/DCAU/resolve/main/DCAUV1.ckpt
+```
+
+### Raven anime.ckpt
+>'anime' model - A newer model. It is a bit undertrained for more flexibility. It can create more complicated images with greater stability, but with a stronger anime style.
+>Tag & classname require more emphasis / attention than the 'Western' model. Try (RavenRoth woman:1.2). It is a bit undertrained for more flexibility - may need to use 'grey skin' in the prompt. (RavenRoth woman:1.2) with grey skin.
+>Tag & classname: `RavenRoth woman`
+
+**Web**
+```text
+https://mega.nz/folder/4KlHFQaL#NBqANoiG3E7mz3apn85Q0g
+```
+
+### Raven Western.ckpt
+>This is an earlier Dreambooth model I created. It has a style more true to the Teen Titans cartoon and Zone art.
+>I noticed how negative prompts can cause the model to shift away from a cartoon / Zone art style, so be careful with negative prompts if you find this.
+>A negative prompt of: 'lowres, (bad anatomy), bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, jpeg artifacts, >signature, watermark, username, blurry, artist name' works well.
+>I think the AI considers the thick line art style to be 'low quality' and for Raven to be 'deformed' or 'mutant', due to the grey skin.
+>Try lower CFG Scale (closer to 5) for more flexibility. You may even want to try `[RavenRoth anime_girl]`
+>Tag & classname: `RavenRoth anime_girl`
+
+**Web**
+```text
+https://mega.nz/folder/4KlHFQaL#NBqANoiG3E7mz3apn85Q0g
+```
+
+### oshinobu-pruned.ckpt
+>Dataset Size: 63 fanart images that resemble the anime character design (just 3 or 4 are NSFW)
+>Steps: 9450 (~6 epochs)
+>Base Model: Waifu Diffusion v1.3
+>Trigger Phrase (Identifier + Class): `illustration of a oshinobu blonde_loli`
+>Because of the training data used, generated images keep her typical round blush (most of times).
+>Now, I think I used an insane amount of steps and images, but when I trained this (one week ago) I had no idea what I was exactly doing.
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:bd00f28f19715632b62eae8660cbffb14d606c20&dn=oshinobu-pruned.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce
+```
+
+### henreader_final_pruned.ckpt [e5803978]
+Trigger Phrase (Identifier + Class): `sks henreader_db`
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:2ea2f859da0dd0b48d39f7296bee20434b40e92b&dn=henreader_final_pruned.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce
+```
+
+### oshino_shinobu_final_pruned.ckpt
+Trigger Phrase (Identifier + Class): `photo of a sks oshino_shinobu_db`
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:ed81724913f0cf899c6eed4a896ff1480b243761&dn=oshino_shinobu_final_pruned.ckpt&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2fpublic.tracker.vraphim.com%3a6969%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ffe.dealclub.de%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce
 ```

@@ -214,6 +214,11 @@ Waifu Diffusion VAE kl-f8-ani..." />
 <li><a href="#classic-anim-diffusion-be7ddafc">classic-anim-diffusion [be7ddafc]</a></li>
 <li><a href="#bukkake-b4a14787">bukkake [b4a14787]</a></li>
 <li><a href="#dcau-2fd6057b">DCAU [2fd6057b]</a></li>
+<li><a href="#raven-animeckpt">Raven anime.ckpt</a></li>
+<li><a href="#raven-westernckpt">Raven Western.ckpt</a></li>
+<li><a href="#oshinobu-prunedckpt">oshinobu-pruned.ckpt</a></li>
+<li><a href="#henreader_final_prunedckpt-e5803978">henreader_final_pruned.ckpt [e5803978]</a></li>
+<li><a href="#oshino_shinobu_final_prunedckpt">oshino_shinobu_final_pruned.ckpt</a></li>
 </ol>
 </li>
 </ol>
@@ -224,6 +229,12 @@ If you think something is missing from this list, contact me with details.<br>
 plonk#2327</p>
 <h2 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link"> </a></h2>
 <p>Most recent entries first.</p>
+<p>02/11/2022</p>
+<blockquote>
+<p>+ Dreambooth &gt; oshinobu-pruned.ckpt<br>
++ Dreambooth &gt;henreader_final_pruned.ckpt [e5803978]<br>
++ Dreambooth &gt; oshino_shinobu_final_pruned.ckpt</p>
+</blockquote>
 <p>01/11/2022</p>
 <blockquote>
 <p>+ Easter e3 [9c5ade34] <br>
@@ -2939,30 +2950,15 @@ All training images used depict the actress as at least 18 years old - I am not 
 For some reason, shares short hash with Arcane Vi vimod.ckpt and lokean missionary. Probably due to how it was trained - the hash is only of a small segment near the start of the file. They are different models.<br>
 Use <code>LOKEAN_PUPPYSTYLE_POV</code> to activate.<br>
 Info and preview images <a href="https://rentry.org/kwai">https://rentry.org/kwai</a></p>
-<p><strong>Torrent</strong><br>
-</p><div class="codeblock">
-<div class="clipboard">
-<div class="clippy" tabindex="0" value="magnet:?xt=urn:btih:81327feecffd080a72744a415ec815081d73ccc4&amp;dn=LOKEAN_PUPPYSTYLE_POV.ckpt&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&amp;tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&amp;tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce">
-<div class="clippy-icon">⎗</div>
-<div class="check-icon d-none cb-tooltip">✓<span class="cb-tooltiptext"></span></div>
-</div>
-</div>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-157-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-157-1"><a id="L-157-1" name="L-157-1"></a>magnet:?xt=urn:btih:81327feecffd080a72744a415ec815081d73ccc4&amp;dn=LOKEAN_PUPPYSTYLE_POV.ckpt&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&amp;tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&amp;tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
-</span></pre></div>
-</td></tr></table>
-</div>
 <p><strong>Web</strong><br>
 </p><div class="codeblock">
 <div class="clipboard">
-<div class="clippy" tabindex="0" value="https://agencykwai.vip/SD/LOKEAN_PUPPYSTYLE_POV.part1.rar
-https://agencykwai.vip/SD/LOKEAN_PUPPYSTYLE_POV.part2.rar">
+<div class="clippy" tabindex="0" value="https://agencykwai.vip/SD/LOKEAN_PUPPYSTYLE_POV.ckpt">
 <div class="clippy-icon">⎗</div>
 <div class="check-icon d-none cb-tooltip">✓<span class="cb-tooltiptext"></span></div>
 </div>
 </div>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-158-1">1</a></span>
-<span class="normal"><a href="#L-158-2">2</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-158-1"><a id="L-158-1" name="L-158-1"></a>https://agencykwai.vip/SD/LOKEAN_PUPPYSTYLE_POV.part1.rar
-</span><span id="L-158-2"><a id="L-158-2" name="L-158-2"></a>https://agencykwai.vip/SD/LOKEAN_PUPPYSTYLE_POV.part2.rar
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-157-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-157-1"><a id="L-157-1" name="L-157-1"></a>https://agencykwai.vip/SD/LOKEAN_PUPPYSTYLE_POV.ckpt
 </span></pre></div>
 </td></tr></table>
 </div>
@@ -2971,30 +2967,15 @@ https://agencykwai.vip/SD/LOKEAN_PUPPYSTYLE_POV.part2.rar">
 For some reason, shares short hash with Arcane Vi vimod.ckpt and lokean puppystyle. Probably due to how it was trained - the hash is only of a small segment near the start of the file. They are different models.<br>
 Use <code>LOKEAN_MISSIONARY_POV</code> to activate.<br>
 Info and preview images <a href="https://rentry.org/kwai">https://rentry.org/kwai</a></p>
-<p><strong>Torrent</strong><br>
-</p><div class="codeblock">
-<div class="clipboard">
-<div class="clippy" tabindex="0" value="magnet:?xt=urn:btih:6ab226eabcb4440751324e28c67125d7edaf77d6&amp;dn=LOKEAN_MISSIONARY_POV.ckpt&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&amp;tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&amp;tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce">
-<div class="clippy-icon">⎗</div>
-<div class="check-icon d-none cb-tooltip">✓<span class="cb-tooltiptext"></span></div>
-</div>
-</div>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-159-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-159-1"><a id="L-159-1" name="L-159-1"></a>magnet:?xt=urn:btih:6ab226eabcb4440751324e28c67125d7edaf77d6&amp;dn=LOKEAN_MISSIONARY_POV.ckpt&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&amp;tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&amp;tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
-</span></pre></div>
-</td></tr></table>
-</div>
 <p><strong>Web</strong><br>
 </p><div class="codeblock">
 <div class="clipboard">
-<div class="clippy" tabindex="0" value="https://agencykwai.vip/SD/LOKEAN_MISSIONARY_POV.part1.rar
-https://agencykwai.vip/SD/LOKEAN_MISSIONARY_POV.part2.rar">
+<div class="clippy" tabindex="0" value="https://agencykwai.vip/SD/LOKEAN_MISSIONARY_POV.ckpt">
 <div class="clippy-icon">⎗</div>
 <div class="check-icon d-none cb-tooltip">✓<span class="cb-tooltiptext"></span></div>
 </div>
 </div>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-160-1">1</a></span>
-<span class="normal"><a href="#L-160-2">2</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-160-1"><a id="L-160-1" name="L-160-1"></a>https://agencykwai.vip/SD/LOKEAN_MISSIONARY_POV.part1.rar
-</span><span id="L-160-2"><a id="L-160-2" name="L-160-2"></a>https://agencykwai.vip/SD/LOKEAN_MISSIONARY_POV.part2.rar
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-158-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-158-1"><a id="L-158-1" name="L-158-1"></a>https://agencykwai.vip/SD/LOKEAN_MISSIONARY_POV.ckpt
 </span></pre></div>
 </td></tr></table>
 </div>
@@ -3009,7 +2990,7 @@ Prompt <code>s4629674</code></p>
 <div class="check-icon d-none cb-tooltip">✓<span class="cb-tooltiptext"></span></div>
 </div>
 </div>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-161-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-161-1"><a id="L-161-1" name="L-161-1"></a>magnet:?xt=urn:btih:7dd135c05ce2693fbcaf0e6e2f9975dfa871f745&amp;dn=s4629674.ckpt&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&amp;tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&amp;tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-159-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-159-1"><a id="L-159-1" name="L-159-1"></a>magnet:?xt=urn:btih:7dd135c05ce2693fbcaf0e6e2f9975dfa871f745&amp;dn=s4629674.ckpt&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&amp;tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&amp;tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
 </span></pre></div>
 </td></tr></table>
 </div>
@@ -3021,7 +3002,7 @@ Prompt <code>s4629674</code></p>
 <div class="check-icon d-none cb-tooltip">✓<span class="cb-tooltiptext"></span></div>
 </div>
 </div>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-162-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-162-1"><a id="L-162-1" name="L-162-1"></a>https://mega.nz/file/Q4tDRTAJ#GvgsNp_AnCuniY_rpdrerDQtVaGO90dQlyB__wT4dMM
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-160-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-160-1"><a id="L-160-1" name="L-160-1"></a>https://mega.nz/file/Q4tDRTAJ#GvgsNp_AnCuniY_rpdrerDQtVaGO90dQlyB__wT4dMM
 </span></pre></div>
 </td></tr></table>
 </div>
@@ -3038,7 +3019,7 @@ Check the repo for potential newer versions.</p>
 <div class="check-icon d-none cb-tooltip">✓<span class="cb-tooltiptext"></span></div>
 </div>
 </div>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-163-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-163-1"><a id="L-163-1" name="L-163-1"></a>https://huggingface.co/nitrosocke/elden-ring-diffusion/resolve/main/eldenring-v2-pruned.ckpt
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-161-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-161-1"><a id="L-161-1" name="L-161-1"></a>https://huggingface.co/nitrosocke/elden-ring-diffusion/resolve/main/eldenring-v2-pruned.ckpt
 </span></pre></div>
 </td></tr></table>
 </div>
@@ -3055,7 +3036,7 @@ Check the repo for potential newer versions.</p>
 <div class="check-icon d-none cb-tooltip">✓<span class="cb-tooltiptext"></span></div>
 </div>
 </div>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-164-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-164-1"><a id="L-164-1" name="L-164-1"></a>https://huggingface.co/nitrosocke/mo-di-diffusion/resolve/main/moDi-v1-pruned.ckpt
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-162-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-162-1"><a id="L-162-1" name="L-162-1"></a>https://huggingface.co/nitrosocke/mo-di-diffusion/resolve/main/moDi-v1-pruned.ckpt
 </span></pre></div>
 </td></tr></table>
 </div>
@@ -3072,7 +3053,7 @@ Check the repo for potential newer versions.</p>
 <div class="check-icon d-none cb-tooltip">✓<span class="cb-tooltiptext"></span></div>
 </div>
 </div>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-165-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-165-1"><a id="L-165-1" name="L-165-1"></a>https://huggingface.co/nitrosocke/Arcane-Diffusion/resolve/main/arcane-diffusion-v3.ckpt
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-163-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-163-1"><a id="L-163-1" name="L-163-1"></a>https://huggingface.co/nitrosocke/Arcane-Diffusion/resolve/main/arcane-diffusion-v3.ckpt
 </span></pre></div>
 </td></tr></table>
 </div>
@@ -3089,7 +3070,7 @@ Check the repo for potential newer versions.</p>
 <div class="check-icon d-none cb-tooltip">✓<span class="cb-tooltiptext"></span></div>
 </div>
 </div>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-166-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-166-1"><a id="L-166-1" name="L-166-1"></a>https://huggingface.co/nitrosocke/classic-anim-diffusion/resolve/main/classicAnim-v1.ckpt
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-164-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-164-1"><a id="L-164-1" name="L-164-1"></a>https://huggingface.co/nitrosocke/classic-anim-diffusion/resolve/main/classicAnim-v1.ckpt
 </span></pre></div>
 </td></tr></table>
 </div>
@@ -3108,7 +3089,7 @@ Tip: Do NOT use face restore if you are trying to do txt2img to achieve any kind
 <div class="check-icon d-none cb-tooltip">✓<span class="cb-tooltiptext"></span></div>
 </div>
 </div>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-167-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-167-1"><a id="L-167-1" name="L-167-1"></a>magnet:?xt=urn:btih:90df9e64cd31b686c858b9d50b54efafd6a96984&amp;dn=bukkake_20_training_images_2020_max_training_steps_woman_class_word.ckpt&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&amp;tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.swateam.org.uk%3a2710%2fannounce&amp;tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.encrypted-data.xyz%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-165-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-165-1"><a id="L-165-1" name="L-165-1"></a>magnet:?xt=urn:btih:90df9e64cd31b686c858b9d50b54efafd6a96984&amp;dn=bukkake_20_training_images_2020_max_training_steps_woman_class_word.ckpt&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&amp;tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.swateam.org.uk%3a2710%2fannounce&amp;tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.encrypted-data.xyz%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce
 </span></pre></div>
 </td></tr></table>
 </div>
@@ -3120,7 +3101,7 @@ Tip: Do NOT use face restore if you are trying to do txt2img to achieve any kind
 <div class="check-icon d-none cb-tooltip">✓<span class="cb-tooltiptext"></span></div>
 </div>
 </div>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-168-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-168-1"><a id="L-168-1" name="L-168-1"></a>https://mega.nz/file/olV0yDrR#-5ShWX92PP6r8wV6jHMHQjOmEGnq82xY6-J048GOf9s
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-166-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-166-1"><a id="L-166-1" name="L-166-1"></a>https://mega.nz/file/olV0yDrR#-5ShWX92PP6r8wV6jHMHQjOmEGnq82xY6-J048GOf9s
 </span></pre></div>
 </td></tr></table>
 </div>
@@ -3137,7 +3118,95 @@ Prompt is currently <code>Batman_the_animated_series</code>.</p>
 <div class="check-icon d-none cb-tooltip">✓<span class="cb-tooltiptext"></span></div>
 </div>
 </div>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-169-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-169-1"><a id="L-169-1" name="L-169-1"></a>https://huggingface.co/IShallRiseAgain/DCAU/resolve/main/DCAUV1.ckpt
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-167-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-167-1"><a id="L-167-1" name="L-167-1"></a>https://huggingface.co/IShallRiseAgain/DCAU/resolve/main/DCAUV1.ckpt
+</span></pre></div>
+</td></tr></table>
+</div>
+<h3 id="raven-animeckpt">Raven anime.ckpt<a class="headerlink" href="#raven-animeckpt" title="Permanent link"> </a></h3>
+<blockquote>
+<p>'anime' model - A newer model. It is a bit undertrained for more flexibility. It can create more complicated images with greater stability, but with a stronger anime style.<br>
+Tag &amp; classname require more emphasis / attention than the 'Western' model. Try (RavenRoth woman:1.2). It is a bit undertrained for more flexibility - may need to use 'grey skin' in the prompt. (RavenRoth woman:1.2) with grey skin.<br>
+Tag &amp; classname: <code>RavenRoth woman</code></p>
+</blockquote>
+<p><strong>Web</strong><br>
+</p><div class="codeblock">
+<div class="clipboard">
+<div class="clippy" tabindex="0" value="https://mega.nz/folder/4KlHFQaL#NBqANoiG3E7mz3apn85Q0g">
+<div class="clippy-icon">⎗</div>
+<div class="check-icon d-none cb-tooltip">✓<span class="cb-tooltiptext"></span></div>
+</div>
+</div>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-168-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-168-1"><a id="L-168-1" name="L-168-1"></a>https://mega.nz/folder/4KlHFQaL#NBqANoiG3E7mz3apn85Q0g
+</span></pre></div>
+</td></tr></table>
+</div>
+<h3 id="raven-westernckpt">Raven Western.ckpt<a class="headerlink" href="#raven-westernckpt" title="Permanent link"> </a></h3>
+<blockquote>
+<p>This is an earlier Dreambooth model I created. It has a style more true to the Teen Titans cartoon and Zone art.<br>
+I noticed how negative prompts can cause the model to shift away from a cartoon / Zone art style, so be careful with negative prompts if you find this.<br>
+A negative prompt of: 'lowres, (bad anatomy), bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, jpeg artifacts, &gt;signature, watermark, username, blurry, artist name' works well.<br>
+I think the AI considers the thick line art style to be 'low quality' and for Raven to be 'deformed' or 'mutant', due to the grey skin.<br>
+Try lower CFG Scale (closer to 5) for more flexibility. You may even want to try <code>[RavenRoth anime_girl]</code><br>
+Tag &amp; classname: <code>RavenRoth anime_girl</code></p>
+</blockquote>
+<p><strong>Web</strong><br>
+</p><div class="codeblock">
+<div class="clipboard">
+<div class="clippy" tabindex="0" value="https://mega.nz/folder/4KlHFQaL#NBqANoiG3E7mz3apn85Q0g">
+<div class="clippy-icon">⎗</div>
+<div class="check-icon d-none cb-tooltip">✓<span class="cb-tooltiptext"></span></div>
+</div>
+</div>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-169-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-169-1"><a id="L-169-1" name="L-169-1"></a>https://mega.nz/folder/4KlHFQaL#NBqANoiG3E7mz3apn85Q0g
+</span></pre></div>
+</td></tr></table>
+</div>
+<h3 id="oshinobu-prunedckpt">oshinobu-pruned.ckpt<a class="headerlink" href="#oshinobu-prunedckpt" title="Permanent link"> </a></h3>
+<blockquote>
+<p>Dataset Size: 63 fanart images that resemble the anime character design (just 3 or 4 are NSFW)<br>
+Steps: 9450 (~6 epochs)<br>
+Base Model: Waifu Diffusion v1.3<br>
+Trigger Phrase (Identifier + Class): <code>illustration of a oshinobu blonde_loli</code><br>
+Because of the training data used, generated images keep her typical round blush (most of times).<br>
+Now, I think I used an insane amount of steps and images, but when I trained this (one week ago) I had no idea what I was exactly doing.</p>
+</blockquote>
+<p><strong>Torrent</strong><br>
+</p><div class="codeblock">
+<div class="clipboard">
+<div class="clippy" tabindex="0" value="magnet:?xt=urn:btih:bd00f28f19715632b62eae8660cbffb14d606c20&amp;dn=oshinobu-pruned.ckpt&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce">
+<div class="clippy-icon">⎗</div>
+<div class="check-icon d-none cb-tooltip">✓<span class="cb-tooltiptext"></span></div>
+</div>
+</div>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-170-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-170-1"><a id="L-170-1" name="L-170-1"></a>magnet:?xt=urn:btih:bd00f28f19715632b62eae8660cbffb14d606c20&amp;dn=oshinobu-pruned.ckpt&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce
+</span></pre></div>
+</td></tr></table>
+</div>
+<h3 id="henreader_final_prunedckpt-e5803978">henreader_final_pruned.ckpt [e5803978]<a class="headerlink" href="#henreader_final_prunedckpt-e5803978" title="Permanent link"> </a></h3>
+<p>Trigger Phrase (Identifier + Class): <code>sks henreader_db</code></p>
+<p><strong>Torrent</strong><br>
+</p><div class="codeblock">
+<div class="clipboard">
+<div class="clippy" tabindex="0" value="magnet:?xt=urn:btih:2ea2f859da0dd0b48d39f7296bee20434b40e92b&amp;dn=henreader_final_pruned.ckpt&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce">
+<div class="clippy-icon">⎗</div>
+<div class="check-icon d-none cb-tooltip">✓<span class="cb-tooltiptext"></span></div>
+</div>
+</div>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-171-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-171-1"><a id="L-171-1" name="L-171-1"></a>magnet:?xt=urn:btih:2ea2f859da0dd0b48d39f7296bee20434b40e92b&amp;dn=henreader_final_pruned.ckpt&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce
+</span></pre></div>
+</td></tr></table>
+</div>
+<h3 id="oshino_shinobu_final_prunedckpt">oshino_shinobu_final_pruned.ckpt<a class="headerlink" href="#oshino_shinobu_final_prunedckpt" title="Permanent link"> </a></h3>
+<p>Trigger Phrase (Identifier + Class): <code>photo of a sks oshino_shinobu_db</code></p>
+<p><strong>Torrent</strong><br>
+</p><div class="codeblock">
+<div class="clipboard">
+<div class="clippy" tabindex="0" value="magnet:?xt=urn:btih:ed81724913f0cf899c6eed4a896ff1480b243761&amp;dn=oshino_shinobu_final_pruned.ckpt&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&amp;tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&amp;tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&amp;tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&amp;tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&amp;tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&amp;tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&amp;tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fpublic.tracker.vraphim.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ffe.dealclub.de%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce">
+<div class="clippy-icon">⎗</div>
+<div class="check-icon d-none cb-tooltip">✓<span class="cb-tooltiptext"></span></div>
+</div>
+</div>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"><a href="#L-172-1">1</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span id="L-172-1"><a id="L-172-1" name="L-172-1"></a>magnet:?xt=urn:btih:ed81724913f0cf899c6eed4a896ff1480b243761&amp;dn=oshino_shinobu_final_pruned.ckpt&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&amp;tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&amp;tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&amp;tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&amp;tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&amp;tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&amp;tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&amp;tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fpublic.tracker.vraphim.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ffe.dealclub.de%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce
 </span></pre></div>
 </td></tr></table>
 </div>
@@ -3164,9 +3233,9 @@ Prompt is currently <code>Batman_the_animated_series</code>.</p>
                 <div class="float-right text-right pr-2 pr-sm-0">
                     Pub: 29 Sep 2022 00:54 <span class="d-none d-sm-inline">UTC</span><br>
                     
-                    Edit: 01 Nov 2022 12:04 <span class="d-none d-sm-inline">UTC</span><br>
+                    Edit: 02 Nov 2022 22:26 <span class="d-none d-sm-inline">UTC</span><br>
                     
-                    Views: 568579<br>
+                    Views: 578365<br>
                 </div>
             </div>
         </div>
