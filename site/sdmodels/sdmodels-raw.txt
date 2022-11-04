@@ -10,6 +10,11 @@ plonk#2327
 ## Changelog
 Most recent entries first.
 
+04/11/2022
+>\+ SnackBar-General-V1-E11 [16d5a5c7]
+>\+ easter_e5 [da453598]
+>\+ easter_e4 [3997b596]
+>\+ Dreambooth > hyperass v1
 03/11/2022
 >\+ Bump version Dreambooth > Zeipher F222
 02/11/2022
@@ -655,7 +660,37 @@ https://anonfiles.com/6123m6F6y9/pyros-bj-v1-0_ckpt
 https://mega.nz/file/lLtjCLwb#KgXPDzbTotcb0_quzzBMm6DaDCuSFIaF8CXxw1WsEs8
 ```
 
-## Easter e3 [9c5ade34] 
+## Easter
+### easter_e5 [da453598]
+>General lewd model, "Easter.ckpt"! Trained on about 180k images from gelbooru and e621.
+>NSFW and niche content is included. I take no responsibility for the model's outputs!
+>Model seems better at the front than the back.
+>Suggested negative prompt: "Letterbox".
+>The name comes from its tendency to mix rabbits and eggs.
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:da3395f01a1063d1980c3c2c610c25a7a20ebce8&dn=easter_e5%20%5bda453598%5d%20plus%20tags.zip&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.swateam.org.uk%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.encrypted-data.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce
+```
+
+**Web**
+```text
+https://mega.nz/file/1vQVHbBI#W0hrTSMy9CvUxzhWShmtGsUf4AV6ndHze5NPTLqqhKU
+```
+
+### easter_e4 [3997b596]
+>General lewd model, "Easter.ckpt"! Trained on about 180k images from gelbooru and e621.
+>NSFW and niche content is included. I take no responsibility for the model's outputs!
+>Model seems better at the front than the back.
+>Suggested negative prompt: "Letterbox".
+>The name comes from its tendency to mix rabbits and eggs.
+
+**Web**
+```text
+https://mega.nz/file/4vADAYYY#m7K2OVQrEYhmi5e3wUnkdb2xg6ewotysAt7Z0Rras6g
+```
+
+### easter_e3 [9c5ade34] 
 >General lewd model, "Easter.ckpt"! Trained on about 180k images from gelbooru and e621.
 >NSFW and niche content is included. I take no responsibility for the model's outputs!
 >Model seems better at the front than the back.
@@ -867,6 +902,24 @@ magnet:?xt=urn:btih:6d749325cbdcf1fc044483fb0d53c233b60735dc&dn=yiffy-e13.ckpt&t
 **Web**
 ```text
 https://iwiftp.yerf.org/Furry/Software/Stable%20Diffusion%20Furry%20Finetune%20Models/Finetune%20models/yiffy-e13.ckpt
+```
+
+## SnackBar-General-V1-E11 [16d5a5c7]
+>This model was trained with waifu diffusion using the top 300k images on e621 with certain tags. Use e621 tags in prompts with underscores. You might get better results if you order them as follows:
+`[safe/questionable/explicit]_content [artist] [copyrights] [characters] [species] [general]`
+>For better results, set 'Stop At last layers of CLIP model' in the webui settings to 2.
+>Sample images:
+> https://media.discordapp.net/attachments/528278867572424710/1036765895797788682/09785-69750433-safe_content_renamon.png
+> https://media.discordapp.net/attachments/528278867572424710/1036765867645603870/09627-1184405578-safe_content_lucario_anthro_male_solo_cute_clothing_adorable.png
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:3e18a1d0b988f66c23a472e556ae15fed150d5cc&dn=snackbar-general-v1-e11-pruned.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.zemoj.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.swateam.org.uk%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.encrypted-data.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce
+```
+
+**Web**
+```text
+https://pixeldrain.com/u/uMb3Bnw6
 ```
 
 ## Furry
@@ -1396,6 +1449,19 @@ Use `sks vi` or `vi` in the prompt.
 **Web**
 ```text
 https://huggingface.co/jinofcoolnes/VImodel/resolve/main/vimod.ckpt
+```
+### hyperass v1
+>Hyper Ass Dreambooth model [NSFW] v1
+>-800 images
+>-10,000 steps
+>-learning rate 5e-6
+>This is the last model of the BBB hyper trio (boobs, butt, belly), and the last one I have planned for now
+
+keyword `hyperass`
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:zor2qaqppnuwsuybievvrq27pqlye3bz&dn=dreambooth-hyper-ass&xl=2133006684&fc=2
 ```
 
 ### hyperbreasts: v3
