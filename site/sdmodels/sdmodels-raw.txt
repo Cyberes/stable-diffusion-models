@@ -10,6 +10,8 @@ plonk#2327
 ## Changelog
 Most recent entries first.
 
+03/11/2022
+>\+ Bump version Dreambooth > Zeipher F222
 02/11/2022
 >\+ Dreambooth > oshinobu-pruned.ckpt
 >\+ Dreambooth >henreader_final_pruned.ckpt [e5803978]
@@ -1510,19 +1512,20 @@ magnet:?xt=urn:btih:836422af364efb784e61a049c1257ea1230509b7&dn=dreambooth-bkdbj
 https://gofile.io/d/aMfZIV
 ```
 
-### Zeipher F111 Female Nude (better anatomy)
+### Zeipher F222 Female Nude (better anatomy)
 From: https://ai.zeipher.com/
 >All of these are still being trained and not final
 Check their website/discord for downloads and potential updates.
 
-**Torrent F111**
+**Torrent F222**
 ```text
-magnet:?xt=urn:btih:402da7b33832b0db84a999909ad8b361eae3c7db&dn=f111
+magnet:?xt=urn:btih:GR3IGMJDPJPW3B4WRT5B7SAN7CEBHWSZ&dn=f222&tr=http%3A%2F%2Ftracker.openbittorrent.com%2Fannounce
 ```
 **Web**
 ```text
 https://redirect.ai.zeipher.com/b1t50kc
 ```
+Previously F111.
 Previously F99.
 
 ### Zeipher BB (Blowjob images)
