@@ -1461,7 +1461,7 @@ keyword `hyperass`
 
 **Torrent**
 ```text
-magnet:?xt=urn:btih:zor2qaqppnuwsuybievvrq27pqlye3bz&dn=dreambooth-hyper-ass&xl=2133006684&fc=2
+magnet:?xt=urn:btih:zor2qaqppnuwsuybievvrq27pqlye3bz&dn=dreambooth-hyper-ass&xl=2133006684&fc=2&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce &tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce &tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce
 ```
 
 ### hyperbreasts: v3
@@ -1474,7 +1474,7 @@ magnet:?xt=urn:btih:zor2qaqppnuwsuybievvrq27pqlye3bz&dn=dreambooth-hyper-ass&xl=
 
 **Torrent**
 ```text
-magnet:?xt=urn:btih:nf5mg3yvhho5rc4euyrxz4s62ejyrp2d&dn=dreambooth-hyper-breasts-v3&xl=2133006880&fc=2
+magnet:?xt=urn:btih:nf5mg3yvhho5rc4euyrxz4s62ejyrp2d&dn=dreambooth-hyper-breasts-v3&xl=2133006880&fc=2&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce &tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce &tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce
 ```
 
 ### hyperpreg: v2 (realism and anime)
@@ -1482,7 +1482,7 @@ magnet:?xt=urn:btih:nf5mg3yvhho5rc4euyrxz4s62ejyrp2d&dn=dreambooth-hyper-breasts
 
 **Torrent**
 ```text
-magnet:?xt=urn:btih:xeaxmzyhmdxooukwdf3ejjdb2yngjgin&dn=dreambooth-hyper-preg-v2&xl=2133006686&fc=2 
+magnet:?xt=urn:btih:xeaxmzyhmdxooukwdf3ejjdb2yngjgin&dn=dreambooth-hyper-preg-v2&xl=2133006686&fc=2&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce &tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce &tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce
 ```
 
 ### hyperpreg: v1 (realism)
