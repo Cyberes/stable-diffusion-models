@@ -10,6 +10,14 @@ plonk#2327
 ## Changelog
 Most recent entries first.
 
+06/11/2022
+>\+ Dreambooth > Pixel Art V1
+>\+ Dreambooth > App Icons Generator V1
+>\+ Dreambooth > MicroWorlds 
+>\+ Dreambooth > Pixel Landscapes V1
+>\+ Dreambooth > Cal Arts Style
+>\+ Dreambooth > Belle Dephine [32cbf6c8]
+>\+ Dreambooth > Latex's Abandoned Style
 04/11/2022
 >\+ SnackBar-General-V1-E11 [16d5a5c7]
 >\+ easter_e5 [da453598]
@@ -1756,4 +1764,87 @@ Trigger Phrase (Identifier + Class): `photo of a sks oshino_shinobu_db`
 **Torrent**
 ```text
 magnet:?xt=urn:btih:ed81724913f0cf899c6eed4a896ff1480b243761&dn=oshino_shinobu_final_pruned.ckpt&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2fpublic.tracker.vraphim.com%3a6969%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ffe.dealclub.de%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce
+```
+
+### Latex's Abandoned Style
+>This style is based on the artist Latex, an artist who used to do latex/latex tf but one day completely changed their art style, scrubbed their old images from most of the internet, and moved away from making latex (but kept the name ironically). Luckily I have a dump of their old art, so finally there is a way to remake one of my favorite styles of latex/goo art. I have attached some quick imperfect gens to check a look at. Im sure you guys will surpass me very very quickly.
+>Phrase in prompt: `latex_artist art`
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:d14d31cbddbd3a1be01d4e89012495fe779fda2e&dn=Latex.zip&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce
+```
+
+**Web**
+```text
+Pixeldrain: https://pixeldrain.com/u/9kNKHCSz
+```
+
+### Belle Dephine [32cbf6c8]
+Dreambooth NSFW
+Keyword `Belle girl_cute_face`
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:29a87b4cfa2c3868b54fe382103ad17881b5f868&dn=Belle%20girl_cute_face%20v2%205k.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.novaopcj.eu.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.encrypted-data.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.altrosky.nl%3a6969%2fannounce
+```
+
+**Web**
+```text
+https://drive.google.com/file/d/1hcv-2kznXDYAnUDwUrQm6gHIrUQ0j9bZ/view?usp=share_link
+```
+
+### Cal Arts Style
+Info & samples https://publicprompts.art/cal-arts-dreambooth-model/
+Trigger phrase: `CALARTS`
+
+**Web**
+```text
+https://huggingface.co/PublicPrompts/CALARTS/resolve/main/CALARTS.ckpt
+```
+
+### Pixel Landscapes V1
+Info & samples https://publicprompts.art/pixel-landscapes-v1-dreambooth-model/
+Trigger phrase: `16-bit-landscape pixel art style`
+
+**Web**
+```text
+https://huggingface.co/PublicPrompts/16-bit-landscape_PublicPrompts/resolve/main/16-bit-landscape_PublicPrompts.ckpt
+```
+
+**Web**
+```text
+https://drive.google.com/file/d/113V4jfwlgCsAKiMLPgpj0hfdZk1sV5cL/view
+```
+
+### MicroWorlds 
+Info & samples https://publicprompts.art/microworlds-dreambooth-model/
+Trigger phrase: `microworld render style`
+
+**Web**
+```text
+https://mega.nz/file/7YJRFbxS#FmTrxB4ayFxUaBz-wiVxHov3YLAUFhObR2JyVwq_p_o
+```
+
+**Web**
+```text
+https://drive.google.com/file/d/1QTUATU3WbYIWX-6ECRypCi1z9TOsXIhG/view?usp=sharing
+```
+
+### App Icons Generator V1
+Info & samples https://publicprompts.art/app-icons-generator-v1-dreambooth-model/
+Trigger phrase: `SKSKS app icon`
+
+**Web**
+```text
+https://drive.google.com/file/d/1TNZTQfk0CNZg7nwy033olwOpQAkcglAN/view?usp=sharing
+```
+
+### Pixel Art V1
+Info & samples https://publicprompts.art/pixel-art-v1-dreambooth-model/
+Trigger phrase: `SKSKS art style`
+
+**Web**
+```text
+https://drive.google.com/file/d/1HwiqDNm3FyxMNEZLqh7FXsMJv9wmy9bc/view?usp=sharing
 ```
