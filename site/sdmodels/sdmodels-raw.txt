@@ -10,6 +10,14 @@ plonk#2327
 ## Changelog
 Most recent entries first.
 
+08/11/2022
+>\+  Anything-V3.0 [38c1ebe3] [1a7df6b8] [6569e224]
+>\+ SXD-v0.8
+>\+ Dreambooth > Gyokai/onono imoko 
+>\+ Merges > MMDv1-18
+>\+ Dreambooth > futacum_r34.ckpt
+>\+ Dreambooth > futanari_v2_e3_s10000.ckpt
+>\+ Dreambooth > Futa_step_3200_10_27.ckpt
 06/11/2022
 >\+ Dreambooth > Pixel Art V1
 >\+ Dreambooth > App Icons Generator V1
@@ -473,6 +481,24 @@ If you don't know what this is, use the pruned version.
 magnet:?xt=urn:btih:f45cecf4e9de86da83a78dd2cccd7f27d5557a52&dn=wd-v1-2-full-ema.ckpt&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fzecircle.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fyahor.ftp.sh%3A6969%2Fannounce&tr=udp%3A%2F%2Fvibe.sleepyinternetfun.xyz%3A1738%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tcp.exchange%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.swateam.org.uk%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce
 ```
 
+## Anything-V3.0 [38c1ebe3] [1a7df6b8] [6569e224]
+Anime model
+Info https://www.bilibili.com/read/cv19603218
+
+**Torrent fp16 [38c1ebe3]**
+```text
+magnet:?xt=urn:btih:45cd353ac4fa87098db5e3a6a349539710a3a1f5&dn=Anything-V3.0-fp16.zip&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.swateam.org.uk%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.encrypted-data.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.altrosky.nl%3a6969%2fannounce
+```
+
+**Torrent fp32 [1a7df6b8]**
+```text
+magnet:?xt=urn:btih:d9db662ab5ace77004b3348c23c9381380c27156&dn=Anything-V3.0-fp32.zip&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.swateam.org.uk%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.encrypted-data.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.altrosky.nl%3a6969%2fannounce
+```
+
+**Torrent Full EMA [6569e224]**
+```text
+magnet:?xt=urn:btih:80460036625fb61dce4bc6e7dab744744309a2a0&dn=Anything-V3.0-fullema.zip&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.swateam.org.uk%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.encrypted-data.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.altrosky.nl%3a6969%2fannounce
+```
 
 ## Trinart
 ### trinart_characters_19.2m_stable_diffusion_v1 [d64dab7f] + VAE
@@ -642,6 +668,14 @@ A test run that was trained on 280 NSFW images (nude solo women) + another 80 SF
 **Torrent**
 ```text
 magnet:?xt=urn:btih:c95e266e15e13cf0e2d69b29338a89a94d736546&dn=gg1342_testrun1_pruned.ckpt&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fzecircle.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fyahor.ftp.sh%3A6969%2Fannounce&tr=udp%3A%2F%2Fvibe.sleepyinternetfun.xyz%3A1738%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tcp.exchange%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.swateam.org.uk%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce
+```
+
+## SXD-v0.8
+>Hardcore sex act model with realistic tentacle porn as a side project. Made with smirkingface's SD repo. Both pruned and full versions available
+
+**Web**
+```text
+https://pixeldrain.com/l/hNc8DomC
 ```
 
 ## Pyro's Blowjob Model v1.0 [9b5251e8]
@@ -1244,7 +1278,24 @@ Small model trained on unknown number of images of Tomoko Kuroki. 20 Epochs, Pru
 ```text
 magnet:?xt=urn:btih:3OFJJ76Y2K4W47RJ7EXFKI3BAZPPVTQM&dn=tomoko-kuroki-ld-v1-e20-ex-ad&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce
 ```
-## 70gg30LD70k.ckpt [402dc090]
+
+## Merges
+
+### MMDv1-18
+A merge of an exorbitant number of models.
+Info https://huggingface.co/ShinCore/MMDv1-18
+
+**Web**
+```text
+https://huggingface.co/ShinCore/MMDv1-18/resolve/main/MMD%20V1-18%20MODEL%20MERGE%20(TONED%20DOWN)%20ALPHA.ckpt
+```
+
+**Web**
+```text
+https://huggingface.co/ShinCore/MMDv1-18/resolve/main/MMD%20V1-18%20MODEL%20MERGE%20ALPHA.ckpt
+```
+
+### 70gg30LD70k.ckpt [402dc090]
 A merge between gg1342_testrun1_pruned.ckpt and LD-70k-1e-pruned.ckpt, 70-30 ratio.
 This list isn't for merges, you can make them yourself with the WebUI.
 This one is here because it is referenced (and asked for) so often.
@@ -1253,7 +1304,7 @@ This one is here because it is referenced (and asked for) so often.
 ```text
 magnet:?xt=urn:btih:5667722f227d1534232182de77730f8aa7ff8212&dn=70gg30LD70k.ckpt&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fzecircle.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fyahor.ftp.sh%3A6969%2Fannounce&tr=udp%3A%2F%2Fvibe.sleepyinternetfun.xyz%3A1738%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tcp.exchange%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.swateam.org.uk%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce
 ```
-## wd1-2_sd1-4_merged.ckpt [2037c511]
+### wd1-2_sd1-4_merged.ckpt [2037c511]
 A merge between Waifu Diffusion v1.2 and Stable Diffusion v1.4 at unknown ratio.
 This list isn't for merges, you can make them yourself with the WebUI.
 This one is here because it is referenced (and asked for) so often.
@@ -1543,6 +1594,44 @@ magnet:?xt=urn:btih:8fb4f0fe0ce052b5d6f0d1221a69f04aa2ea406d&dn=dreambooth_lain_
 **Web**
 ```text
 https://mega.nz/file/VK0U0ALD#YDfGgOu8rquuR5FbFxmzKD5hzxO1iF0YQafN0ipw-Ck
+```
+
+### Gyokai/onono imoko 
+>the best model for coherency is gyokaidreambooth_1000.
+>gyokaidreambooth_2000 starts to ignore prompt words but is very consistent in style.
+>Use term `gyokai` under class `1girl`
+>e.g `illustration of gyokai 1girl`
+>works well with `multicolored hair, colorful, halftone, polka dot`
+>protip: the model works well when paired with gyokai-zen HN at 0.85 strength.
+>gyokai-zen: `https://mega.nz/file/67AUDQ4K#8n4bzcxGGUgaAVy7wLXvVib0jhVjt2wPS-jsoCxcCus `
+
+**Web**
+```text
+https://mega.nz/folder/HzYT1T7L#H9TWVVYowA0cX8Eh6x_H3g
+```
+
+### futacum_r34.ckpt
+>understands 'futa' and 'cumming' ; based on r34_e4, cartoony looking
+
+**Web**
+```text
+https://drive.google.com/file/d/1cbCm5KJQgIeD5Om6tkbwGtqHG6Pa0gBz/view
+```
+
+### futanari_v2_e3_s10000.ckpt
+>understands futanari ; very anime-ish
+
+**Web**
+```text
+https://drive.google.com/file/d/1PhCzlHf-PpxynzYcQPQ3INk5tfBL9Bb1/view?usp=sharing
+```
+
+### Futa_step_3200_10_27.ckpt
+>understands futa ; based on SD1.5, realistic looking
+
+**Web**
+```text
+https://drive.google.com/file/d/1-3xKhdXwlbPIXt8OjBvlamTiQUGza0hn/view
 ```
 
 ### Wayne Barlowe [e0c27550]
