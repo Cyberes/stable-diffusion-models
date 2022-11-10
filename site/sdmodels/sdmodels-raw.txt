@@ -10,6 +10,16 @@ plonk#2327
 ## Changelog
 Most recent entries first.
 
+09/11/2022
+>\+ Dreambooth > JWST Deep Space Diffusion
+>\+ Dreambooth > samdoesarts_style [85b77ff9]
+>\+ Dreambooth > midjourney-v4-diffusion
+>\+ Dreambooth > BloodborneDiffusion
+>\+ Dreambooth > SD_PixelArt_SpriteSheet_Generator
+>\+ Dreambooth > Comic Diffusion
+>\+ Dreambooth > VTT RPG 
+>\+ Merges > BerryMix [19810fe6]
+>\+ Merges > FreckleGuy's mix
 08/11/2022
 >\+  Anything-V3.0 [38c1ebe3] [1a7df6b8] [6569e224]
 >\+ SXD-v0.8
@@ -1281,6 +1291,23 @@ magnet:?xt=urn:btih:3OFJJ76Y2K4W47RJ7EXFKI3BAZPPVTQM&dn=tomoko-kuroki-ld-v1-e20-
 
 ## Merges
 
+### BerryMix [19810fe6]
+If you have already been pickled to satisfaction, perhaps you may try being berried next.
+Info https://rentry.org/berrymix
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:e975132162842e0b3e96948f8bffcb66071ecc97&dn=berry_mix.ckpt&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce
+```
+
+### FreckleGuy's mix
+>A merge with some anime model and trinart with an old version of the automatic1111 ui
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:1968aed673e402127b6abab535059f622f93b989&dn=freckle_mix.ckpt&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce
+```
+
 ### MMDv1-18
 A merge of an exorbitant number of models.
 Info https://huggingface.co/ShinCore/MMDv1-18
@@ -1936,4 +1963,89 @@ Trigger phrase: `SKSKS art style`
 **Web**
 ```text
 https://drive.google.com/file/d/1HwiqDNm3FyxMNEZLqh7FXsMJv9wmy9bc/view?usp=sharing
+```
+
+### VTT RPG 
+A collection of models to do with D&D races and monsters.
+Info & Downloads https://huggingface.co/VTTRPGResources
+
+### Comic Diffusion
+Repo https://huggingface.co/ogkalu/Comic-Diffusion
+Includes 6 comic styles.
+>The tokens for V2 are:
+>`charliebo artstyle`
+>`holliemengert artstyle`
+>`marioalberti artstyle`
+>`pepelarraz artstyle`
+>`andreasrocha artstyle`
+>`jamesdaly artstyle`
+
+**Web**
+```text
+https://huggingface.co/ogkalu/Comic-Diffusion/resolve/main/comic-diffusion-V2.ckpt
+```
+
+### SD_PixelArt_SpriteSheet_Generator
+Allows you to generate pixel art sprite sheets from four different angles.
+Repo https://huggingface.co/Onodofthenorth/SD_PixelArt_SpriteSheet_Generator
+>For the front view use `PixelartFSS`
+>For the right view use `PixelartRSS`
+>For the back view use `PixelartBSS`
+>For the left view use `PixelartLSS`
+
+**Web**
+```text
+https://huggingface.co/Onodofthenorth/SD_PixelArt_SpriteSheet_Generator/resolve/main/PixelartSpritesheet_V.1.ckpt
+```
+
+### midjourney-v4-diffusion
+Stable Diffusion fine tuned on Midjourney v4 images
+Use prompt: `mdjrny-v4 style`
+Repo https://huggingface.co/prompthero/midjourney-v4-diffusion
+
+**Web**
+```text
+https://huggingface.co/prompthero/midjourney-v4-diffusion/resolve/main/mdjrny-v4.ckpt
+```
+
+### BloodborneDiffusion
+>This is a Dreamboothed Stable Diffusion model trained on the Bloodborne series Style.
+>The total dataset is made of 100 pictures, and the training has been done on runawayml 1.5 and the new VAE, with 12k steps (poly LR1e-6).
+>The token `Bloodborne Style` will bring in the new concept.
+>The recommended sampling is k_Euler_a or DPM++ 2M Karras on 20 steps, CFGS 7 .
+Repo https://huggingface.co/Guizmus/BloodborneDiffusion
+
+**Web**
+```text
+https://huggingface.co/Guizmus/BloodborneDiffusion/resolve/main/BloodborneStyle-v1.ckpt
+```
+
+### samdoesarts_style [85b77ff9]
+>This is a dreambooth model trained on the works of Sam Yang(samdoesarts).
+>trained with automatic1111 dreambooth extension
+>13000 steps 128 training images (256 flipped) 1500 class images 1e-6 learning rate
+>token for this model is `samdoesarts style`
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:7999b19ee45d505354e50c25041f405ca8932a38&dn=samdoesarts_style.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.altrosky.nl%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2ffe.dealclub.de%3a6969%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fbt1.archive.org%3a6969%2fannounce&tr=udp%3a%2f%2f6ahddutb1ucc3cp.ru%3a6969%2fannounce&tr=https%3a%2f%2ftracker.nanoha.org%3a443%2fannounce
+```
+
+**Web**
+```text
+https://anonfiles.com/JbocEcG4yd/samdoesarts_style_ckpt
+```
+
+**Web**
+```text
+https://pixeldrain.com/u/4s3ntWvR
+```
+
+### JWST Deep Space Diffusion
+>This is a fine-tuned Stable Diffusion model (based on v1.5) trained on images taken by the James Webb Space Telescope, as well as Judy Schmidt. Use the token JWST in your prompts to use the style (e.g., "jwst, green spiral galaxy").
+Repo https://huggingface.co/dallinmackay/JWST-Deep-Space-diffusion
+
+**Web**
+```text
+https://huggingface.co/dallinmackay/JWST-Deep-Space-diffusion/resolve/main/JWST-Deep-Space.ckpt
 ```
