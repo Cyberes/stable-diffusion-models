@@ -10,6 +10,14 @@ plonk#2327
 ## Changelog
 Most recent entries first.
 
+10/11/2022
+>\+ Dreambooth > copeseethemaldchinai_10000.ckpt (samdoesart) [32186669] 
+>\+ Cafe Unofficial Instagram TEST Model [50b987ae]
+>\+ Dreambooth > Black Souls bs_1500.ckpt [37ec0dc9]
+>\+ Dreambooth > CopeSeetheMald-berry200_20400.ckpt (samdoesart) [fa49a214]
+>\+ Dreambooth > CopeSeetheMald-200_20400.ckpt (samdoesart) [95f071f9]
+>\+ Merges > samdoartsultmerge.ckpt [8687d7a5]
+>\+ Dreambooth > irlhyperbreasts_9k.ckpt [5ce8b6ec]
 09/11/2022
 >\+ Dreambooth > JWST Deep Space Diffusion
 >\+ Dreambooth > samdoesarts_style [85b77ff9]
@@ -508,6 +516,15 @@ magnet:?xt=urn:btih:d9db662ab5ace77004b3348c23c9381380c27156&dn=Anything-V3.0-fp
 **Torrent Full EMA [6569e224]**
 ```text
 magnet:?xt=urn:btih:80460036625fb61dce4bc6e7dab744744309a2a0&dn=Anything-V3.0-fullema.zip&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.swateam.org.uk%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.encrypted-data.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.army%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.altrosky.nl%3a6969%2fannounce
+```
+
+## Cafe Unofficial Instagram TEST Model [50b987ae]
+>Trained on ~140k Instagram images made up of primarily Japanese accounts (mix of cosplay, model, and personal accounts) 
+>While the model can create some realistic Instagram-esque images on its own, for full potential, it is recommended that it be merged with another model (such as berry or anything) 
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:eb085b3e22310a338e6ea00172cb887c10c54cbc&dn=cafe-instagram-unofficial-test-epoch-9-140k-images-fp32.ckpt&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopentor.org%3A2710&tr=udp%3A%2F%2Ftracker.ccc.de%3A80&tr=udp%3A%2F%2Ftracker.blackunicorn.xyz%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969
 ```
 
 ## Trinart
@@ -1322,6 +1339,22 @@ https://huggingface.co/ShinCore/MMDv1-18/resolve/main/MMD%20V1-18%20MODEL%20MERG
 https://huggingface.co/ShinCore/MMDv1-18/resolve/main/MMD%20V1-18%20MODEL%20MERGE%20ALPHA.ckpt
 ```
 
+ ### samdoartsultmerge.ckpt [8687d7a5]
+>Here's a merged model using the original, chewtoy's model, and Chris(orginalcode)'s model 
+Use `samdoesarts style` in the prompt.
+Repo https://huggingface.co/jinofcoolnes/sammod/tree/main
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:7357defc010aa7e05e60f29149ad20b09aec78ad&dn=samdoartsultmerge.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.altrosky.nl%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2ffe.dealclub.de%3a6969%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fbt1.archive.org%3a6969%2fannounce&tr=udp%3a%2f%2f6ahddutb1ucc3cp.ru%3a6969%2fannounce&tr=https%3a%2f%2ftracker.nanoha.org%3a443%2fannounce
+```
+
+**Web**
+```text
+https://huggingface.co/jinofcoolnes/sammod/resolve/main/samdoartsultmerge.ckpt
+```
+
+
 ### 70gg30LD70k.ckpt [402dc090]
 A merge between gg1342_testrun1_pruned.ckpt and LD-70k-1e-pruned.ckpt, 70-30 ratio.
 This list isn't for merges, you can make them yourself with the WebUI.
@@ -1536,6 +1569,20 @@ Use `sks vi` or `vi` in the prompt.
 ```text
 https://huggingface.co/jinofcoolnes/VImodel/resolve/main/vimod.ckpt
 ```
+
+### irlhyperbreasts_9k.ckpt [5ce8b6ec]
+Preview https://i.imgur.com/GIsZKH4.jpg
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:350e93a86f6d08724a03e8175e1947fc7e123e4c&dn=irlhyperbreasts_9k.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.altrosky.nl%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2ffe.dealclub.de%3a6969%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fbt1.archive.org%3a6969%2fannounce&tr=udp%3a%2f%2f6ahddutb1ucc3cp.ru%3a6969%2fannounce&tr=https%3a%2f%2ftracker.nanoha.org%3a443%2fannounce
+```
+
+**Web**
+```text
+https://drive.google.com/drive/folders/1ghNQ5kEXlnuuRTGMobfyr81W7N6bURMi
+```
+
 ### hyperass v1
 >Hyper Ass Dreambooth model [NSFW] v1
 >-800 images
@@ -2042,10 +2089,82 @@ https://pixeldrain.com/u/4s3ntWvR
 ```
 
 ### JWST Deep Space Diffusion
->This is a fine-tuned Stable Diffusion model (based on v1.5) trained on images taken by the James Webb Space Telescope, as well as Judy Schmidt. Use the token JWST in your prompts to use the style (e.g., "jwst, green spiral galaxy").
+>This is a fine-tuned Stable Diffusion model (based on v1.5) trained on images taken by the James Webb Space Telescope, as well as Judy Schmidt. Use the token JWST in your prompts to use the style (e.g., `jwst, green spiral galaxy`).
 Repo https://huggingface.co/dallinmackay/JWST-Deep-Space-diffusion
 
 **Web**
 ```text
 https://huggingface.co/dallinmackay/JWST-Deep-Space-diffusion/resolve/main/JWST-Deep-Space.ckpt
+```
+
+### copeseethemaldchinai_10000.ckpt (samdoesart) [32186669] 
+Yet another samdoesart dreambooth model.
+>100 images
+>No class images.
+>1e-6 learning rate.
+>Sample guidance scale set to 9.5
+>based on "chinai (anything)"
+Use `copeseethemald style` in prompt
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:4f1365b3dd30541d2c1becfd5d54160928916ba4&dn=copeseethemaldchinai_10000.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.altrosky.nl%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2ffe.dealclub.de%3a6969%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fbt1.archive.org%3a6969%2fannounce&tr=udp%3a%2f%2f6ahddutb1ucc3cp.ru%3a6969%2fannounce&tr=https%3a%2f%2ftracker.nanoha.org%3a443%2fannounce
+```
+
+**Web**
+```text
+https://mega.nz/file/xT9jVToK#Sj1S76kl-PC-zCRwJ2FWen6DS0NHY0IXFFAkXhm03eo
+```
+
+
+### CopeSeetheMald-berry200_20400.ckpt (samdoesart) [fa49a214]
+Another samdoesart dreambooth model.
+>204 images @ 20.4k steps
+>1e-6 learning rate
+>based on "berry mix"
+Use `copeseethemald style` in prompt
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:e4f1f4b9d7d6cf8570914fe22318b44c18d6d602&dn=CopeSeetheMald-berry200_20400.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.altrosky.nl%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2ffe.dealclub.de%3a6969%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fbt1.archive.org%3a6969%2fannounce&tr=udp%3a%2f%2f6ahddutb1ucc3cp.ru%3a6969%2fannounce&tr=https%3a%2f%2ftracker.nanoha.org%3a443%2fannounce
+```
+
+**Web**
+```text
+https://mega.nz/folder/1a1xkQQK#4atlB1cJqI35InXxlxyA7A
+```
+
+
+
+### CopeSeetheMald-200_20400.ckpt (samdoesart) [95f071f9]
+Another samdoesart dreambooth model.
+>204 images @ 20.4k steps
+>1e-6 learning rate
+>based on "blossom mix"
+Use `copeseethemald style` in prompt
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:9b92aeea5d136ddae25c0d6165405e6e4d144ff1&dn=CopeSeetheMald-200_20400.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.altrosky.nl%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2ffe.dealclub.de%3a6969%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fbt1.archive.org%3a6969%2fannounce&tr=udp%3a%2f%2f6ahddutb1ucc3cp.ru%3a6969%2fannounce&tr=https%3a%2f%2ftracker.nanoha.org%3a443%2fannounce
+```
+
+**Web**
+```text
+https://mega.nz/folder/ZG0UnRBJ#jykESWBUCr7hjOoNVTXwLw
+```
+
+### Black Souls bs_1500.ckpt [37ec0dc9]
+>A dreambooth trained on game cg from a game called black souls
+>call for`bs` in the prompt
+>have vae off, ensure clip skip is set to 1, and set cfg to a low number (like 6)
+Preview https://cdn.discordapp.com/attachments/1038283286046322819/1040125269761081444/grid-0000.png
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:63e9c043838f7bca078fb9607873957d11a88e24&dn=bs_1500.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.altrosky.nl%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2ffe.dealclub.de%3a6969%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fbt1.archive.org%3a6969%2fannounce&tr=udp%3a%2f%2f6ahddutb1ucc3cp.ru%3a6969%2fannounce&tr=https%3a%2f%2ftracker.nanoha.org%3a443%2fannounce
+```
+
+**Web**
+```text
+https://mega.nz/file/KkIgRY7a#VrKp_JwspTF4e05ApSy4hkJgGUcMKaXSbyB_COZ-o6k
 ```
