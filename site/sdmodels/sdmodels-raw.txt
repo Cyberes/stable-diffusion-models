@@ -10,6 +10,10 @@ plonk#2327
 ## Changelog
 Most recent entries first.
 
+11/11/2022
+>\+ Dreambooth > Pepestyle
+>\+ Dreambooth > jaggy92500.ckpt [93423a00]
+>\+ Dreambooth > CSRmodel (cutesexyrobutts) [b77538cc]
 10/11/2022
 >\+ Dreambooth > copeseethemaldchinai_10000.ckpt (samdoesart) [32186669] 
 >\+ Cafe Unofficial Instagram TEST Model [50b987ae]
@@ -2167,4 +2171,45 @@ magnet:?xt=urn:btih:63e9c043838f7bca078fb9607873957d11a88e24&dn=bs_1500.ckpt&tr=
 **Web**
 ```text
 https://mega.nz/file/KkIgRY7a#VrKp_JwspTF4e05ApSy4hkJgGUcMKaXSbyB_COZ-o6k
+```
+
+### jaggy92500.ckpt [93423a00]
+Game screenshots.
+>Here are the terms to call: jaggy, then ps_game_screenshot, pc_game_screenshot, gamecube_game_screenshot, blood_and_gore, intense_violence, zotov_game_screenshot, eroge_game_screenshot, life_sim_game_screenshot, and/or alter_echo. This is in descending order of influence. There are a few others which are not effective enough to name, but can have strong effects at times. I won't mention them. You should put (cartoon) and maybe (menu) in the negative prompt.
+Preview images: https://imgur.com/a/J4i1DiN
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:71847b56518e6d7d92dfe24e95f2ee474807b197&dn=jaggy92500.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=https%3a%2f%2ftracker.nanoha.org%3a443%2fannounce&tr=https%3a%2f%2ftracker.lilithraws.org%3a443%2fannounce&tr=https%3a%2f%2ftracker.cyber-hub.net%3a443%2fannounce
+```
+
+**Web**
+```text
+https://mega.nz/file/0SER2YpC#_MRc6p_sG9cSWqihpt33jpOWyMR8bCZrUaVkh4z5kGE
+```
+
+### CSRmodel (cutesexyrobutts) [b77538cc]
+Dreambooth model based on cutesexyrobutts art style.
+Preview https://i.imgur.com/VPNUae8.png
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:46c46d2630043f9e47b0107b9680b5bd270263d7&dn=Systemy-CSRmodel.rar&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=https%3a%2f%2ftracker.nanoha.org%3a443%2fannounce&tr=https%3a%2f%2ftracker.lilithraws.org%3a443%2fannounce&tr=https%3a%2f%2ftracker.cyber-hub.net%3a443%2fannounce
+```
+
+**Web**
+```text
+https://gofile.io/d/D1L69E
+```
+
+### Pepestyle
+>A Dreambooth model created with the sole purpose of generating the rarest and dankest pepes.
+>StableDiffusion 1.5 was used as a base for this model.
+>22 instance images, 400 class images, 2.2k steps at a 1.3e-6 learning rate.
+>Use the phrase `pepestyle person`
+Repo https://huggingface.co/SpiteAnon/Pepestyle
+
+**Web**
+```
+https://huggingface.co/SpiteAnon/Pepestyle/resolve/main/pepestylev2_2200.ckpt
 ```
