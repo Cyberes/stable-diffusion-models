@@ -10,6 +10,12 @@ plonk#2327
 ## Changelog
 Most recent entries first.
 
+12/11/2022
+>\+ Dreambooth > gigachad-diffusion
+>\+ Dreambooth > dbmai [e02601f3]
+>\+ Merges > HassansBlend
+>\+ Dreambooth > ykgl.ckpt (y2k cgi girls)
+>\+ Pyro's POV Cowgirl Model
 11/11/2022
 >\+ Dreambooth > Pepestyle
 >\+ Dreambooth > jaggy92500.ckpt [93423a00]
@@ -709,7 +715,9 @@ magnet:?xt=urn:btih:c95e266e15e13cf0e2d69b29338a89a94d736546&dn=gg1342_testrun1_
 https://pixeldrain.com/l/hNc8DomC
 ```
 
-## Pyro's Blowjob Model v1.0 [9b5251e8]
+## Pyro's
+
+### Pyro's Blowjob Model v1.0 [9b5251e8]
 Photorealistic
 >Current dreambooth based blowjob models suck dick (heh), so I decided to do a "real" take on this and fine-tune it the native way (like eg. WaifuDiffusion did with their model)
 >Base model: SD 1.5
@@ -732,6 +740,10 @@ https://anonfiles.com/6123m6F6y9/pyros-bj-v1-0_ckpt
 ```text
 https://mega.nz/file/lLtjCLwb#KgXPDzbTotcb0_quzzBMm6DaDCuSFIaF8CXxw1WsEs8
 ```
+
+### Pyro's POV Cowgirl Model
+Preview images: https://imgur.com/a/vgO86ZC
+Info and downloads: https://rentry.org/pyros-pov-model
 
 ## Easter
 ### easter_e5 [da453598]
@@ -1329,6 +1341,18 @@ magnet:?xt=urn:btih:e975132162842e0b3e96948f8bffcb66071ecc97&dn=berry_mix.ckpt&t
 magnet:?xt=urn:btih:1968aed673e402127b6abab535059f622f93b989&dn=freckle_mix.ckpt&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce
 ```
 
+### HassansBlend
+>Still has a focus on being photorealistic but allows for some additional poses, sex scenes etc. Samples included on the page along with the images with metadata to copy. 
+>https://rentry.org/sdhassan
+
+>View sample albums from this model
+>Other: https://imgur.com/a/c8VEbGJ
+>Tentacles: https://imgur.com/a/l5hg69w
+>Retro realistic: https://imgur.com/a/N5W5Rtn
+>Normal nudes: https://imgur.com/a/14jAPBN
+>Hardcore: https://imgur.com/a/WZJSvha 
+
+
 ### MMDv1-18
 A merge of an exorbitant number of models.
 Info https://huggingface.co/ShinCore/MMDv1-18
@@ -1818,7 +1842,7 @@ Check the repo for potential newer versions.
 
 **Web**
 ```text
-https://huggingface.co/nitrosocke/elden-ring-diffusion/resolve/main/eldenring-v2-pruned.ckpt
+https://huggingface.co/nitrosocke/elden-ring-diffusion/resolve/main/eldenRing-v3-pruned.ckpt
 ```
 
 ### modern-disney-diffusion [ccf3615f]
@@ -2188,6 +2212,16 @@ magnet:?xt=urn:btih:71847b56518e6d7d92dfe24e95f2ee474807b197&dn=jaggy92500.ckpt&
 https://mega.nz/file/0SER2YpC#_MRc6p_sG9cSWqihpt33jpOWyMR8bCZrUaVkh4z5kGE
 ```
 
+### ykgl.ckpt (y2k cgi girls)
+>It does cgi girls from the y2k era. Trained for 40k steps.
+>You call on them with `(ykgl cgi_girl)`, or `(ykgl cgi_girls)`, or just `(ykgl girl)`, and then maybe with , `cgi_artstyle`.
+Preview images https://imgur.com/a/r2aIcxo
+
+**Web**
+```text
+https://mega.nz/file/hT0mgTqR#d8g133APl30UtDwsNmzV73_ZESi_kTa5pmQgJoxomn0
+```
+
 ### CSRmodel (cutesexyrobutts) [b77538cc]
 Dreambooth model based on cutesexyrobutts art style.
 Preview https://i.imgur.com/VPNUae8.png
@@ -2210,6 +2244,31 @@ https://gofile.io/d/D1L69E
 Repo https://huggingface.co/SpiteAnon/Pepestyle
 
 **Web**
-```
+```text
 https://huggingface.co/SpiteAnon/Pepestyle/resolve/main/pepestylev2_2200.ckpt
+```
+
+### dbmai [e02601f3]
+A dreambooth model from China.
+Preview images https://imgur.com/a/fTDgBST
+Info https://tieba.baidu.com/p/8136937175
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:89ede059b4f90887b1f1ce10ba7a37e1d8a0c4b5&dn=dbmai.ckpt&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=https%3a%2f%2ftracker.nanoha.org%3a443%2fannounce&tr=https%3a%2f%2ftracker.lilithraws.org%3a443%2fannounce&tr=https%3a%2f%2ftracker.cyber-hub.net%3a443%2fannounce&tr=https%3a%2f%2ftr.burnabyhighstar.com%3a443%2fannounce
+```
+
+**Web**
+```text
+https://drive.google.com/drive/folders/1MUtM5MTXM35fid5TE3tUSKXAqPP7oysz
+```
+
+### gigachad-diffusion
+>StableDiffusion v1.5 used. 20 instance images, 400 class images, 2.2k steps at a 1e-6 learning rate.
+>Token `gigachad`
+Info & preview images: https://huggingface.co/SpiteAnon/gigachad-diffusion
+
+**Web**
+```text
+https://huggingface.co/SpiteAnon/gigachad-diffusion/blob/main/gigachad_2000.ckpt
 ```
