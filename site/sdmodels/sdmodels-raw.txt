@@ -10,6 +10,8 @@ plonk#2327
 ## Changelog
 Most recent entries first.
 
+13/11/2022
+>\+ Dreambooth > Complex-Lineart
 12/11/2022
 >\+ Dreambooth > gigachad-diffusion
 >\+ Dreambooth > dbmai [e02601f3]
@@ -2271,4 +2273,15 @@ Info & preview images: https://huggingface.co/SpiteAnon/gigachad-diffusion
 **Web**
 ```text
 https://huggingface.co/SpiteAnon/gigachad-diffusion/blob/main/gigachad_2000.ckpt
+```
+
+### Complex-Lineart
+>Trained on around 100 images at 768x768 resolution.
+>Use prompt: `ComplexLA style`
+>Use resolution near 768x768, lower resolution works but quality will not be as good.
+Repo & preview images: https://huggingface.co/Conflictx/Complex-Lineart
+
+**Web**
+```text
+https://huggingface.co/Conflictx/Complex-Lineart/resolve/main/ComplexLA%20Style.ckpt
 ```
