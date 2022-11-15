@@ -10,6 +10,8 @@ plonk#2327
 ## Changelog
 Most recent entries first.
 
+15/11/2022
+>\+ easter_e9 [b56f765a]
 14/11/2022
 >\+ SmirkingFace > EBL 1.1 [967237c9]
 >\+ Dreambooth > hyperpreg: v1.1 (realism)
@@ -776,6 +778,23 @@ Preview images: https://imgur.com/a/vgO86ZC
 Info and downloads: https://rentry.org/pyros-pov-model
 
 ## Easter
+### easter_e9 [b56f765a]
+Preview https://i.imgur.com/k4HdjgM.png
+>anime-furry-assorted model
+>Trained on 240k images off gelbooru and e621.
+>Suggested positive prompts: an artist or artstyle helps a lot
+>Suggested negative prompts: `letterbox, censored`
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:cea7216792392a6480caa61fab87257fac50f6cf&dn=easter%20epoch%209%20%5bb56f765a%5d.zip&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.altrosky.nl%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2ffe.dealclub.de%3a6969%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fbt2.archive.org%3a6969%2fannounce&tr=udp%3a%2f%2fbt1.archive.org%3a6969%2fannounce
+```
+
+**Web**
+```text
+https://mega.nz/file/ZnhjHCza#NBk6JiSja07DL0yliVwH4dVvtmtKF3pIujueg2QPbLk
+```
+
 ### easter_e5 [da453598]
 >General lewd model, "Easter.ckpt"! Trained on about 180k images from gelbooru and e621.
 >NSFW and niche content is included. I take no responsibility for the model's outputs!
