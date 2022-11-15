@@ -10,6 +10,9 @@ plonk#2327
 ## Changelog
 Most recent entries first.
 
+14/11/2022
+>\+ SmirkingFace > EBL 1.1 [967237c9]
+>\+ Dreambooth > hyperpreg: v1.1 (realism)
 13/11/2022
 >\+ Dreambooth > Complex-Lineart
 12/11/2022
@@ -664,6 +667,31 @@ magnet:?xt=urn:btih:875cb7ced0127c67f466a08de8945b5f936fc020&dn=SF_EB_1.0_pruned
 **Web**
 ```text
 https://anonfiles.com/icT4e1Eeyf/SF_EB_1.0_pruned_vae_zip
+```
+
+**Web**
+```text
+https://gofile.io/d/MYOKl8
+```
+
+### EBL 1.1 [967237c9]
+Model using an extended architecture (1.8B parameters), resumed from EB 1.0. Trained on a wide variety of erotic photos with a large variety in poses.
+Won't work out of the box with webui (currently, at least). 
+Code https://github.com/smirkingface/stable-diffusion
+Info & previews https://www.patreon.com/posts/ebl-1-1-released-74653550
+Running with auto's webui https://www.patreon.com/posts/running-extended-73768212
+
+!!! note
+	SF_EBL_1.1_vae.ckpt **SHA256** 1276a1920b29b773b8c61944c9bbcce7de47e71f097633d00ba27a7013477336  
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:d145e9c1de7e43972ac15e360baa838ed3921bfa&dn=SF_EBL_1.1_vae.zip&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=https%3a%2f%2fopentracker.i2p.rocks%3a443%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=https%3a%2f%2ftracker.nanoha.org%3a443%2fannounce&tr=https%3a%2f%2ftracker.lilithraws.org%3a443%2fannounce&tr=https%3a%2f%2ftracker.jiesen.life%3a8443%2fannounce&tr=https%3a%2f%2ftracker.cyber-hub.net%3a443%2fannounce&tr=https%3a%2f%2ftr.burnabyhighstar.com%3a443%2fannounce&tr=http%3a%2f%2ftracker.mywaifu.best%3a6969%2fannounce
+```
+
+**Web**
+```text
+https://anonfiles.com/c0bat6Hay5/SF_EBL_1.1_vae_zip
 ```
 
 **Web**
@@ -1602,6 +1630,7 @@ https://huggingface.co/jinofcoolnes/VImodel/resolve/main/vimod.ckpt
 
 ### irlhyperbreasts_9k.ckpt [5ce8b6ec]
 Preview https://i.imgur.com/GIsZKH4.jpg
+Keyword `hyperbreasts`
 
 **Torrent**
 ```text
@@ -1624,7 +1653,7 @@ keyword `hyperass`
 
 **Torrent**
 ```text
-magnet:?xt=urn:btih:zor2qaqppnuwsuybievvrq27pqlye3bz&dn=dreambooth-hyper-ass&xl=2133006684&fc=2&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce &tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce &tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce
+magnet:?xt=urn:btih:cba3a8020f7b69695301412b58c35f7c17826c39&dn=dreambooth-hyper-ass&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce%20&tr=http%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce%20&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce
 ```
 
 ### hyperbreasts: v3
@@ -1637,7 +1666,7 @@ magnet:?xt=urn:btih:zor2qaqppnuwsuybievvrq27pqlye3bz&dn=dreambooth-hyper-ass&xl=
 
 **Torrent**
 ```text
-magnet:?xt=urn:btih:nf5mg3yvhho5rc4euyrxz4s62ejyrp2d&dn=dreambooth-hyper-breasts-v3&xl=2133006880&fc=2&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce &tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce &tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce
+magnet:?xt=urn:btih:697ac36f1539ddd88b84a6237cf25ed11388bf43&dn=dreambooth-hyper-breasts-v3&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=http%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce%20&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce
 ```
 
 ### hyperpreg: v2 (realism and anime)
@@ -1645,7 +1674,20 @@ magnet:?xt=urn:btih:nf5mg3yvhho5rc4euyrxz4s62ejyrp2d&dn=dreambooth-hyper-breasts
 
 **Torrent**
 ```text
-magnet:?xt=urn:btih:xeaxmzyhmdxooukwdf3ejjdb2yngjgin&dn=dreambooth-hyper-preg-v2&xl=2133006686&fc=2&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce &tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce &tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce
+magnet:?xt=urn:btih:b90176670760eee75156197644a461d61a64990d&dn=dreambooth-hyper-preg-v2&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=http%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce%20&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce
+```
+
+### hyperpreg: v1.1 (realism)
+>The difference between v1 and v1.1 is that v1.1 focuses on even larger belly sizes, with a smaller more refined dataset
+>1k images
+>50,000 steps
+>learning rate 1e-6 cosine
+>base model sd-v1-5
+>keyword: `hyperpreg`
+
+**Torrent**
+```text
+magnet:?xt=urn:btih:ee0959baa76604ebe17dd88b58bff32145cd9fb6&dn=dreambooth-hyper-preg-v1.1&tr=udp%3a%2f%2f93.158.213.92%3a1337%2fannounce%20&tr=udp%3a%2f%2f151.80.120.113%3a2810%2fannounce%20&tr=udp%3a%2f%2f91.216.110.53%3a451%2fannounce
 ```
 
 ### hyperpreg: v1 (realism)
