@@ -10,6 +10,8 @@ plonk#2327
 ## Changelog
 Most recent entries first.
 
+26/11/2022
+>\+ Stable Diffusion v2.0
 15/11/2022
 >\+ easter_e9 [b56f765a]
 14/11/2022
@@ -169,6 +171,22 @@ Most recent entries first.
 >\+ Waifu Diffusion v1.3 beta epoch07 [3ad68e9a] [e4150f29] [39312118]
 
 ## Stable Diffusion
+### Stable Diffusion v2.0
+Stable Diffusion 2.0 code
+https://github.com/Stability-AI/stablediffusion
+
+768x768 model
+https://huggingface.co/stabilityai/stable-diffusion-2
+
+512x512 base model
+https://huggingface.co/stabilityai/stable-diffusion-2-base
+
+Depth model
+https://huggingface.co/stabilityai/stable-diffusion-2-depth
+
+4x upscaler
+https://huggingface.co/stabilityai/stable-diffusion-x4-upscaler
+
 ### Stable Diffusion v1.5 [81761151] [a9263745]
 >The Stable-Diffusion-v1-5 checkpoint was initialized with the weights of the Stable-Diffusion-v1-2 checkpoint and subsequently fine-tuned on 595k steps at resolution 512x512 on "laion-aesthetics v2 5+" and 10% dropping of the text-conditioning to improve classifier-free guidance sampling.
 Repo https://huggingface.co/runwayml/stable-diffusion-v1-5
