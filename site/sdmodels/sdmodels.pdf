@@ -1,8 +1,8 @@
 %PDF-1.3
 %‚„œ”
 1 0 obj
-<</CreationDate (D:20240725004344Z) /Creator (rentry.co) /ModDate
-  (D:20240725004344Z) /Producer <> /Title ()>>
+<</CreationDate (D:20240725121728Z) /Creator (rentry.co) /ModDate
+  (D:20240725121728Z) /Producer <> /Title ()>>
 endobj
 2 0 obj
 <</Pages 3 0 R /Type /Catalog>>
@@ -287,7 +287,7 @@ endobj
 <</Ascent 928.222656 /CIDSet 56 0 R /CapHeight 928.222656 /Descent
   -235.839843 /Flags 4 /FontBBox
   [-1020.50781 -462.890625 1793.45703 1232.42187] /FontFile2 57 0 R
-  /FontName /QRSAAA+DejaVuSans /ItalicAngle 0 /StemV 43.9453125 /Type
+  /FontName /QFSAAA+DejaVuSans /ItalicAngle 0 /StemV 43.9453125 /Type
   /FontDescriptor>>
 endobj
 56 0 obj
@@ -476,7 +476,7 @@ endobj
 <</Ascent 928.222656 /CIDSet 68 0 R /CapHeight 928.222656 /Descent
   -235.839843 /Flags 4 /FontBBox
   [-1069.33593 -415.039062 1975.09765 1175.29296] /FontFile2 69 0 R
-  /FontName /QFSAAA+DejaVuSans-Bold /ItalicAngle 0 /StemV 43.9453125
+  /FontName /QLSAAA+DejaVuSans-Bold /ItalicAngle 0 /StemV 43.9453125
   /Type /FontDescriptor>>
 endobj
 68 0 obj
@@ -3704,7 +3704,7 @@ endobj
 <</Ascent 928.222656 /CIDSet 427 0 R /CapHeight 928.222656 /Descent
   -235.839843 /Flags 4 /FontBBox
   [-446.777343 -394.042968 731.933593 1041.01562] /FontFile2 428 0 R
-  /FontName /QLSAAA+DejaVuSansMono-Bold /ItalicAngle 0 /StemV 43.9453125
+  /FontName /QRSAAA+DejaVuSansMono-Bold /ItalicAngle 0 /StemV 43.9453125
   /Type /FontDescriptor>>
 endobj
 427 0 obj
